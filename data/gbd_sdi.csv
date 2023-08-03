@@ -1,0 +1,5671 @@
+country,country.code,year,sdi
+Kyrgyz Republic,KGZ,1950,0.404
+Kyrgyz Republic,KGZ,1951,0.407
+Kyrgyz Republic,KGZ,1952,0.41
+Kyrgyz Republic,KGZ,1953,0.413
+Kyrgyz Republic,KGZ,1954,0.416
+Kyrgyz Republic,KGZ,1955,0.419
+Kyrgyz Republic,KGZ,1956,0.423
+Kyrgyz Republic,KGZ,1957,0.426
+Kyrgyz Republic,KGZ,1958,0.429
+Kyrgyz Republic,KGZ,1959,0.431
+Kyrgyz Republic,KGZ,1960,0.434
+Kyrgyz Republic,KGZ,1961,0.437
+Kyrgyz Republic,KGZ,1962,0.441
+Kyrgyz Republic,KGZ,1963,0.444
+Kyrgyz Republic,KGZ,1964,0.448
+Kyrgyz Republic,KGZ,1965,0.452
+Kyrgyz Republic,KGZ,1966,0.455
+Kyrgyz Republic,KGZ,1967,0.458
+Kyrgyz Republic,KGZ,1968,0.46
+Kyrgyz Republic,KGZ,1969,0.461
+Kyrgyz Republic,KGZ,1970,0.462
+Kyrgyz Republic,KGZ,1971,0.463
+Kyrgyz Republic,KGZ,1972,0.464
+Kyrgyz Republic,KGZ,1973,0.466
+Kyrgyz Republic,KGZ,1974,0.468
+Kyrgyz Republic,KGZ,1975,0.471
+Kyrgyz Republic,KGZ,1976,0.474
+Kyrgyz Republic,KGZ,1977,0.477
+Kyrgyz Republic,KGZ,1978,0.481
+Kyrgyz Republic,KGZ,1979,0.484
+Kyrgyz Republic,KGZ,1980,0.488
+Kyrgyz Republic,KGZ,1981,0.491
+Kyrgyz Republic,KGZ,1982,0.495
+Kyrgyz Republic,KGZ,1983,0.499
+Kyrgyz Republic,KGZ,1984,0.504
+Kyrgyz Republic,KGZ,1985,0.508
+Kyrgyz Republic,KGZ,1986,0.513
+Kyrgyz Republic,KGZ,1987,0.517
+Kyrgyz Republic,KGZ,1988,0.522
+Kyrgyz Republic,KGZ,1989,0.527
+Kyrgyz Republic,KGZ,1990,0.532
+Kyrgyz Republic,KGZ,1991,0.537
+Kyrgyz Republic,KGZ,1992,0.541
+Kyrgyz Republic,KGZ,1993,0.543
+Kyrgyz Republic,KGZ,1994,0.542
+Kyrgyz Republic,KGZ,1995,0.541
+Kyrgyz Republic,KGZ,1996,0.539
+Kyrgyz Republic,KGZ,1997,0.537
+Kyrgyz Republic,KGZ,1998,0.536
+Kyrgyz Republic,KGZ,1999,0.534
+Kyrgyz Republic,KGZ,2000,0.534
+Kyrgyz Republic,KGZ,2001,0.535
+Kyrgyz Republic,KGZ,2002,0.537
+Kyrgyz Republic,KGZ,2003,0.54
+Kyrgyz Republic,KGZ,2004,0.544
+Kyrgyz Republic,KGZ,2005,0.546
+Kyrgyz Republic,KGZ,2006,0.549
+Kyrgyz Republic,KGZ,2007,0.552
+Kyrgyz Republic,KGZ,2008,0.555
+Kyrgyz Republic,KGZ,2009,0.558
+Kyrgyz Republic,KGZ,2010,0.56
+Kyrgyz Republic,KGZ,2011,0.563
+Kyrgyz Republic,KGZ,2012,0.565
+Kyrgyz Republic,KGZ,2013,0.569
+Kyrgyz Republic,KGZ,2014,0.574
+Kyrgyz Republic,KGZ,2015,0.578
+Kyrgyz Republic,KGZ,2016,0.583
+Kyrgyz Republic,KGZ,2017,0.588
+Kyrgyz Republic,KGZ,2018,0.592
+Kyrgyz Republic,KGZ,2019,0.596
+Mongolia,MNG,1950,0.303
+Mongolia,MNG,1951,0.306
+Mongolia,MNG,1952,0.309
+Mongolia,MNG,1953,0.312
+Mongolia,MNG,1954,0.315
+Mongolia,MNG,1955,0.317
+Mongolia,MNG,1956,0.32
+Mongolia,MNG,1957,0.322
+Mongolia,MNG,1958,0.324
+Mongolia,MNG,1959,0.326
+Mongolia,MNG,1960,0.327
+Mongolia,MNG,1961,0.329
+Mongolia,MNG,1962,0.33
+Mongolia,MNG,1963,0.332
+Mongolia,MNG,1964,0.333
+Mongolia,MNG,1965,0.334
+Mongolia,MNG,1966,0.336
+Mongolia,MNG,1967,0.338
+Mongolia,MNG,1968,0.34
+Mongolia,MNG,1969,0.342
+Mongolia,MNG,1970,0.345
+Mongolia,MNG,1971,0.349
+Mongolia,MNG,1972,0.352
+Mongolia,MNG,1973,0.356
+Mongolia,MNG,1974,0.36
+Mongolia,MNG,1975,0.365
+Mongolia,MNG,1976,0.369
+Mongolia,MNG,1977,0.375
+Mongolia,MNG,1978,0.38
+Mongolia,MNG,1979,0.386
+Mongolia,MNG,1980,0.393
+Mongolia,MNG,1981,0.399
+Mongolia,MNG,1982,0.407
+Mongolia,MNG,1983,0.414
+Mongolia,MNG,1984,0.421
+Mongolia,MNG,1985,0.429
+Mongolia,MNG,1986,0.436
+Mongolia,MNG,1987,0.443
+Mongolia,MNG,1988,0.45
+Mongolia,MNG,1989,0.457
+Mongolia,MNG,1990,0.465
+Mongolia,MNG,1991,0.47
+Mongolia,MNG,1992,0.475
+Mongolia,MNG,1993,0.48
+Mongolia,MNG,1994,0.484
+Mongolia,MNG,1995,0.49
+Mongolia,MNG,1996,0.495
+Mongolia,MNG,1997,0.501
+Mongolia,MNG,1998,0.506
+Mongolia,MNG,1999,0.512
+Mongolia,MNG,2000,0.517
+Mongolia,MNG,2001,0.523
+Mongolia,MNG,2002,0.528
+Mongolia,MNG,2003,0.534
+Mongolia,MNG,2004,0.539
+Mongolia,MNG,2005,0.545
+Mongolia,MNG,2006,0.55
+Mongolia,MNG,2007,0.555
+Mongolia,MNG,2008,0.56
+Mongolia,MNG,2009,0.563
+Mongolia,MNG,2010,0.566
+Mongolia,MNG,2011,0.57
+Mongolia,MNG,2012,0.575
+Mongolia,MNG,2013,0.579
+Mongolia,MNG,2014,0.584
+Mongolia,MNG,2015,0.588
+Mongolia,MNG,2016,0.592
+Mongolia,MNG,2017,0.597
+Mongolia,MNG,2018,0.601
+Mongolia,MNG,2019,0.606
+Tajikistan,TJK,1950,0.276
+Tajikistan,TJK,1951,0.276
+Tajikistan,TJK,1952,0.278
+Tajikistan,TJK,1953,0.28
+Tajikistan,TJK,1954,0.283
+Tajikistan,TJK,1955,0.285
+Tajikistan,TJK,1956,0.289
+Tajikistan,TJK,1957,0.291
+Tajikistan,TJK,1958,0.295
+Tajikistan,TJK,1959,0.297
+Tajikistan,TJK,1960,0.301
+Tajikistan,TJK,1961,0.304
+Tajikistan,TJK,1962,0.307
+Tajikistan,TJK,1963,0.31
+Tajikistan,TJK,1964,0.314
+Tajikistan,TJK,1965,0.318
+Tajikistan,TJK,1966,0.322
+Tajikistan,TJK,1967,0.326
+Tajikistan,TJK,1968,0.33
+Tajikistan,TJK,1969,0.334
+Tajikistan,TJK,1970,0.339
+Tajikistan,TJK,1971,0.343
+Tajikistan,TJK,1972,0.348
+Tajikistan,TJK,1973,0.354
+Tajikistan,TJK,1974,0.36
+Tajikistan,TJK,1975,0.365
+Tajikistan,TJK,1976,0.371
+Tajikistan,TJK,1977,0.378
+Tajikistan,TJK,1978,0.385
+Tajikistan,TJK,1979,0.392
+Tajikistan,TJK,1980,0.398
+Tajikistan,TJK,1981,0.405
+Tajikistan,TJK,1982,0.412
+Tajikistan,TJK,1983,0.419
+Tajikistan,TJK,1984,0.427
+Tajikistan,TJK,1985,0.434
+Tajikistan,TJK,1986,0.442
+Tajikistan,TJK,1987,0.448
+Tajikistan,TJK,1988,0.456
+Tajikistan,TJK,1989,0.462
+Tajikistan,TJK,1990,0.468
+Tajikistan,TJK,1991,0.473
+Tajikistan,TJK,1992,0.474
+Tajikistan,TJK,1993,0.474
+Tajikistan,TJK,1994,0.472
+Tajikistan,TJK,1995,0.468
+Tajikistan,TJK,1996,0.462
+Tajikistan,TJK,1997,0.457
+Tajikistan,TJK,1998,0.451
+Tajikistan,TJK,1999,0.445
+Tajikistan,TJK,2000,0.441
+Tajikistan,TJK,2001,0.44
+Tajikistan,TJK,2002,0.443
+Tajikistan,TJK,2003,0.448
+Tajikistan,TJK,2004,0.456
+Tajikistan,TJK,2005,0.463
+Tajikistan,TJK,2006,0.47
+Tajikistan,TJK,2007,0.477
+Tajikistan,TJK,2008,0.483
+Tajikistan,TJK,2009,0.489
+Tajikistan,TJK,2010,0.495
+Tajikistan,TJK,2011,0.5
+Tajikistan,TJK,2012,0.505
+Tajikistan,TJK,2013,0.511
+Tajikistan,TJK,2014,0.516
+Tajikistan,TJK,2015,0.521
+Tajikistan,TJK,2016,0.526
+Tajikistan,TJK,2017,0.531
+Tajikistan,TJK,2018,0.535
+Tajikistan,TJK,2019,0.539
+Uzbekistan,UZB,1950,0.324
+Uzbekistan,UZB,1951,0.325
+Uzbekistan,UZB,1952,0.328
+Uzbekistan,UZB,1953,0.332
+Uzbekistan,UZB,1954,0.335
+Uzbekistan,UZB,1955,0.339
+Uzbekistan,UZB,1956,0.343
+Uzbekistan,UZB,1957,0.347
+Uzbekistan,UZB,1958,0.352
+Uzbekistan,UZB,1959,0.356
+Uzbekistan,UZB,1960,0.36
+Uzbekistan,UZB,1961,0.365
+Uzbekistan,UZB,1962,0.369
+Uzbekistan,UZB,1963,0.373
+Uzbekistan,UZB,1964,0.378
+Uzbekistan,UZB,1965,0.382
+Uzbekistan,UZB,1966,0.387
+Uzbekistan,UZB,1967,0.392
+Uzbekistan,UZB,1968,0.396
+Uzbekistan,UZB,1969,0.401
+Uzbekistan,UZB,1970,0.405
+Uzbekistan,UZB,1971,0.41
+Uzbekistan,UZB,1972,0.414
+Uzbekistan,UZB,1973,0.419
+Uzbekistan,UZB,1974,0.424
+Uzbekistan,UZB,1975,0.428
+Uzbekistan,UZB,1976,0.434
+Uzbekistan,UZB,1977,0.439
+Uzbekistan,UZB,1978,0.445
+Uzbekistan,UZB,1979,0.45
+Uzbekistan,UZB,1980,0.455
+Uzbekistan,UZB,1981,0.459
+Uzbekistan,UZB,1982,0.463
+Uzbekistan,UZB,1983,0.467
+Uzbekistan,UZB,1984,0.471
+Uzbekistan,UZB,1985,0.475
+Uzbekistan,UZB,1986,0.478
+Uzbekistan,UZB,1987,0.481
+Uzbekistan,UZB,1988,0.484
+Uzbekistan,UZB,1989,0.487
+Uzbekistan,UZB,1990,0.49
+Uzbekistan,UZB,1991,0.492
+Uzbekistan,UZB,1992,0.494
+Uzbekistan,UZB,1993,0.496
+Uzbekistan,UZB,1994,0.498
+Uzbekistan,UZB,1995,0.501
+Uzbekistan,UZB,1996,0.505
+Uzbekistan,UZB,1997,0.51
+Uzbekistan,UZB,1998,0.515
+Uzbekistan,UZB,1999,0.52
+Uzbekistan,UZB,2000,0.525
+Uzbekistan,UZB,2001,0.531
+Uzbekistan,UZB,2002,0.536
+Uzbekistan,UZB,2003,0.541
+Uzbekistan,UZB,2004,0.546
+Uzbekistan,UZB,2005,0.551
+Uzbekistan,UZB,2006,0.556
+Uzbekistan,UZB,2007,0.561
+Uzbekistan,UZB,2008,0.567
+Uzbekistan,UZB,2009,0.572
+Uzbekistan,UZB,2010,0.578
+Uzbekistan,UZB,2011,0.584
+Uzbekistan,UZB,2012,0.59
+Uzbekistan,UZB,2013,0.597
+Uzbekistan,UZB,2014,0.603
+Uzbekistan,UZB,2015,0.609
+Uzbekistan,UZB,2016,0.616
+Uzbekistan,UZB,2017,0.622
+Uzbekistan,UZB,2018,0.627
+Uzbekistan,UZB,2019,0.631
+Ukraine,UKR,1950,0.525
+Ukraine,UKR,1951,0.529
+Ukraine,UKR,1952,0.534
+Ukraine,UKR,1953,0.538
+Ukraine,UKR,1954,0.542
+Ukraine,UKR,1955,0.546
+Ukraine,UKR,1956,0.549
+Ukraine,UKR,1957,0.551
+Ukraine,UKR,1958,0.554
+Ukraine,UKR,1959,0.556
+Ukraine,UKR,1960,0.56
+Ukraine,UKR,1961,0.565
+Ukraine,UKR,1962,0.57
+Ukraine,UKR,1963,0.576
+Ukraine,UKR,1964,0.581
+Ukraine,UKR,1965,0.586
+Ukraine,UKR,1966,0.59
+Ukraine,UKR,1967,0.592
+Ukraine,UKR,1968,0.594
+Ukraine,UKR,1969,0.596
+Ukraine,UKR,1970,0.597
+Ukraine,UKR,1971,0.599
+Ukraine,UKR,1972,0.602
+Ukraine,UKR,1973,0.605
+Ukraine,UKR,1974,0.608
+Ukraine,UKR,1975,0.612
+Ukraine,UKR,1976,0.615
+Ukraine,UKR,1977,0.618
+Ukraine,UKR,1978,0.621
+Ukraine,UKR,1979,0.623
+Ukraine,UKR,1980,0.625
+Ukraine,UKR,1981,0.627
+Ukraine,UKR,1982,0.629
+Ukraine,UKR,1983,0.631
+Ukraine,UKR,1984,0.633
+Ukraine,UKR,1985,0.635
+Ukraine,UKR,1986,0.638
+Ukraine,UKR,1987,0.641
+Ukraine,UKR,1988,0.644
+Ukraine,UKR,1989,0.649
+Ukraine,UKR,1990,0.653
+Ukraine,UKR,1991,0.657
+Ukraine,UKR,1992,0.661
+Ukraine,UKR,1993,0.665
+Ukraine,UKR,1994,0.666
+Ukraine,UKR,1995,0.667
+Ukraine,UKR,1996,0.667
+Ukraine,UKR,1997,0.667
+Ukraine,UKR,1998,0.666
+Ukraine,UKR,1999,0.665
+Ukraine,UKR,2000,0.664
+Ukraine,UKR,2001,0.665
+Ukraine,UKR,2002,0.668
+Ukraine,UKR,2003,0.672
+Ukraine,UKR,2004,0.679
+Ukraine,UKR,2005,0.685
+Ukraine,UKR,2006,0.692
+Ukraine,UKR,2007,0.699
+Ukraine,UKR,2008,0.706
+Ukraine,UKR,2009,0.71
+Ukraine,UKR,2010,0.713
+Ukraine,UKR,2011,0.718
+Ukraine,UKR,2012,0.721
+Ukraine,UKR,2013,0.725
+Ukraine,UKR,2014,0.727
+Ukraine,UKR,2015,0.729
+Ukraine,UKR,2016,0.73
+Ukraine,UKR,2017,0.732
+Ukraine,UKR,2018,0.734
+Ukraine,UKR,2019,0.736
+Bolivia,BOL,1950,0.234
+Bolivia,BOL,1951,0.239
+Bolivia,BOL,1952,0.244
+Bolivia,BOL,1953,0.248
+Bolivia,BOL,1954,0.252
+Bolivia,BOL,1955,0.257
+Bolivia,BOL,1956,0.261
+Bolivia,BOL,1957,0.264
+Bolivia,BOL,1958,0.266
+Bolivia,BOL,1959,0.269
+Bolivia,BOL,1960,0.271
+Bolivia,BOL,1961,0.274
+Bolivia,BOL,1962,0.278
+Bolivia,BOL,1963,0.282
+Bolivia,BOL,1964,0.288
+Bolivia,BOL,1965,0.293
+Bolivia,BOL,1966,0.3
+Bolivia,BOL,1967,0.307
+Bolivia,BOL,1968,0.313
+Bolivia,BOL,1969,0.32
+Bolivia,BOL,1970,0.326
+Bolivia,BOL,1971,0.332
+Bolivia,BOL,1972,0.338
+Bolivia,BOL,1973,0.343
+Bolivia,BOL,1974,0.346
+Bolivia,BOL,1975,0.348
+Bolivia,BOL,1976,0.35
+Bolivia,BOL,1977,0.352
+Bolivia,BOL,1978,0.356
+Bolivia,BOL,1979,0.36
+Bolivia,BOL,1980,0.365
+Bolivia,BOL,1981,0.37
+Bolivia,BOL,1982,0.377
+Bolivia,BOL,1983,0.382
+Bolivia,BOL,1984,0.387
+Bolivia,BOL,1985,0.391
+Bolivia,BOL,1986,0.395
+Bolivia,BOL,1987,0.399
+Bolivia,BOL,1988,0.403
+Bolivia,BOL,1989,0.407
+Bolivia,BOL,1990,0.412
+Bolivia,BOL,1991,0.417
+Bolivia,BOL,1992,0.422
+Bolivia,BOL,1993,0.428
+Bolivia,BOL,1994,0.434
+Bolivia,BOL,1995,0.441
+Bolivia,BOL,1996,0.448
+Bolivia,BOL,1997,0.455
+Bolivia,BOL,1998,0.462
+Bolivia,BOL,1999,0.469
+Bolivia,BOL,2000,0.474
+Bolivia,BOL,2001,0.48
+Bolivia,BOL,2002,0.485
+Bolivia,BOL,2003,0.491
+Bolivia,BOL,2004,0.496
+Bolivia,BOL,2005,0.501
+Bolivia,BOL,2006,0.506
+Bolivia,BOL,2007,0.51
+Bolivia,BOL,2008,0.514
+Bolivia,BOL,2009,0.518
+Bolivia,BOL,2010,0.521
+Bolivia,BOL,2011,0.525
+Bolivia,BOL,2012,0.528
+Bolivia,BOL,2013,0.533
+Bolivia,BOL,2014,0.538
+Bolivia,BOL,2015,0.544
+Bolivia,BOL,2016,0.55
+Bolivia,BOL,2017,0.556
+Bolivia,BOL,2018,0.562
+Bolivia,BOL,2019,0.566
+Haiti,HTI,1950,0.198
+Haiti,HTI,1951,0.2
+Haiti,HTI,1952,0.203
+Haiti,HTI,1953,0.205
+Haiti,HTI,1954,0.208
+Haiti,HTI,1955,0.21
+Haiti,HTI,1956,0.213
+Haiti,HTI,1957,0.215
+Haiti,HTI,1958,0.218
+Haiti,HTI,1959,0.221
+Haiti,HTI,1960,0.224
+Haiti,HTI,1961,0.226
+Haiti,HTI,1962,0.229
+Haiti,HTI,1963,0.232
+Haiti,HTI,1964,0.234
+Haiti,HTI,1965,0.237
+Haiti,HTI,1966,0.24
+Haiti,HTI,1967,0.243
+Haiti,HTI,1968,0.246
+Haiti,HTI,1969,0.248
+Haiti,HTI,1970,0.251
+Haiti,HTI,1971,0.255
+Haiti,HTI,1972,0.257
+Haiti,HTI,1973,0.26
+Haiti,HTI,1974,0.264
+Haiti,HTI,1975,0.267
+Haiti,HTI,1976,0.27
+Haiti,HTI,1977,0.273
+Haiti,HTI,1978,0.276
+Haiti,HTI,1979,0.279
+Haiti,HTI,1980,0.282
+Haiti,HTI,1981,0.284
+Haiti,HTI,1982,0.287
+Haiti,HTI,1983,0.289
+Haiti,HTI,1984,0.291
+Haiti,HTI,1985,0.293
+Haiti,HTI,1986,0.296
+Haiti,HTI,1987,0.298
+Haiti,HTI,1988,0.301
+Haiti,HTI,1989,0.304
+Haiti,HTI,1990,0.307
+Haiti,HTI,1991,0.311
+Haiti,HTI,1992,0.314
+Haiti,HTI,1993,0.317
+Haiti,HTI,1994,0.32
+Haiti,HTI,1995,0.323
+Haiti,HTI,1996,0.328
+Haiti,HTI,1997,0.333
+Haiti,HTI,1998,0.338
+Haiti,HTI,1999,0.344
+Haiti,HTI,2000,0.35
+Haiti,HTI,2001,0.356
+Haiti,HTI,2002,0.361
+Haiti,HTI,2003,0.366
+Haiti,HTI,2004,0.371
+Haiti,HTI,2005,0.375
+Haiti,HTI,2006,0.379
+Haiti,HTI,2007,0.383
+Haiti,HTI,2008,0.387
+Haiti,HTI,2009,0.392
+Haiti,HTI,2010,0.395
+Haiti,HTI,2011,0.399
+Haiti,HTI,2012,0.403
+Haiti,HTI,2013,0.407
+Haiti,HTI,2014,0.412
+Haiti,HTI,2015,0.416
+Haiti,HTI,2016,0.42
+Haiti,HTI,2017,0.424
+Haiti,HTI,2018,0.428
+Haiti,HTI,2019,0.432
+El Salvador,SLV,1950,0.206
+El Salvador,SLV,1951,0.208
+El Salvador,SLV,1952,0.21
+El Salvador,SLV,1953,0.212
+El Salvador,SLV,1954,0.214
+El Salvador,SLV,1955,0.217
+El Salvador,SLV,1956,0.219
+El Salvador,SLV,1957,0.222
+El Salvador,SLV,1958,0.225
+El Salvador,SLV,1959,0.228
+El Salvador,SLV,1960,0.231
+El Salvador,SLV,1961,0.234
+El Salvador,SLV,1962,0.238
+El Salvador,SLV,1963,0.242
+El Salvador,SLV,1964,0.247
+El Salvador,SLV,1965,0.252
+El Salvador,SLV,1966,0.258
+El Salvador,SLV,1967,0.263
+El Salvador,SLV,1968,0.269
+El Salvador,SLV,1969,0.274
+El Salvador,SLV,1970,0.279
+El Salvador,SLV,1971,0.284
+El Salvador,SLV,1972,0.288
+El Salvador,SLV,1973,0.293
+El Salvador,SLV,1974,0.298
+El Salvador,SLV,1975,0.303
+El Salvador,SLV,1976,0.309
+El Salvador,SLV,1977,0.317
+El Salvador,SLV,1978,0.325
+El Salvador,SLV,1979,0.335
+El Salvador,SLV,1980,0.343
+El Salvador,SLV,1981,0.352
+El Salvador,SLV,1982,0.359
+El Salvador,SLV,1983,0.366
+El Salvador,SLV,1984,0.371
+El Salvador,SLV,1985,0.376
+El Salvador,SLV,1986,0.38
+El Salvador,SLV,1987,0.383
+El Salvador,SLV,1988,0.385
+El Salvador,SLV,1989,0.388
+El Salvador,SLV,1990,0.39
+El Salvador,SLV,1991,0.393
+El Salvador,SLV,1992,0.397
+El Salvador,SLV,1993,0.402
+El Salvador,SLV,1994,0.408
+El Salvador,SLV,1995,0.415
+El Salvador,SLV,1996,0.423
+El Salvador,SLV,1997,0.431
+El Salvador,SLV,1998,0.441
+El Salvador,SLV,1999,0.45
+El Salvador,SLV,2000,0.46
+El Salvador,SLV,2001,0.469
+El Salvador,SLV,2002,0.478
+El Salvador,SLV,2003,0.486
+El Salvador,SLV,2004,0.493
+El Salvador,SLV,2005,0.499
+El Salvador,SLV,2006,0.505
+El Salvador,SLV,2007,0.511
+El Salvador,SLV,2008,0.517
+El Salvador,SLV,2009,0.521
+El Salvador,SLV,2010,0.526
+El Salvador,SLV,2011,0.531
+El Salvador,SLV,2012,0.536
+El Salvador,SLV,2013,0.542
+El Salvador,SLV,2014,0.547
+El Salvador,SLV,2015,0.552
+El Salvador,SLV,2016,0.558
+El Salvador,SLV,2017,0.563
+El Salvador,SLV,2018,0.568
+El Salvador,SLV,2019,0.573
+Honduras,HND,1950,0.181
+Honduras,HND,1951,0.184
+Honduras,HND,1952,0.186
+Honduras,HND,1953,0.189
+Honduras,HND,1954,0.191
+Honduras,HND,1955,0.193
+Honduras,HND,1956,0.196
+Honduras,HND,1957,0.199
+Honduras,HND,1958,0.202
+Honduras,HND,1959,0.204
+Honduras,HND,1960,0.207
+Honduras,HND,1961,0.21
+Honduras,HND,1962,0.212
+Honduras,HND,1963,0.215
+Honduras,HND,1964,0.218
+Honduras,HND,1965,0.222
+Honduras,HND,1966,0.225
+Honduras,HND,1967,0.229
+Honduras,HND,1968,0.232
+Honduras,HND,1969,0.236
+Honduras,HND,1970,0.24
+Honduras,HND,1971,0.243
+Honduras,HND,1972,0.247
+Honduras,HND,1973,0.25
+Honduras,HND,1974,0.254
+Honduras,HND,1975,0.258
+Honduras,HND,1976,0.262
+Honduras,HND,1977,0.267
+Honduras,HND,1978,0.273
+Honduras,HND,1979,0.279
+Honduras,HND,1980,0.284
+Honduras,HND,1981,0.29
+Honduras,HND,1982,0.295
+Honduras,HND,1983,0.3
+Honduras,HND,1984,0.305
+Honduras,HND,1985,0.309
+Honduras,HND,1986,0.313
+Honduras,HND,1987,0.317
+Honduras,HND,1988,0.322
+Honduras,HND,1989,0.326
+Honduras,HND,1990,0.33
+Honduras,HND,1991,0.335
+Honduras,HND,1992,0.34
+Honduras,HND,1993,0.345
+Honduras,HND,1994,0.351
+Honduras,HND,1995,0.357
+Honduras,HND,1996,0.363
+Honduras,HND,1997,0.37
+Honduras,HND,1998,0.377
+Honduras,HND,1999,0.384
+Honduras,HND,2000,0.391
+Honduras,HND,2001,0.397
+Honduras,HND,2002,0.404
+Honduras,HND,2003,0.411
+Honduras,HND,2004,0.417
+Honduras,HND,2005,0.424
+Honduras,HND,2006,0.43
+Honduras,HND,2007,0.437
+Honduras,HND,2008,0.443
+Honduras,HND,2009,0.448
+Honduras,HND,2010,0.454
+Honduras,HND,2011,0.459
+Honduras,HND,2012,0.464
+Honduras,HND,2013,0.469
+Honduras,HND,2014,0.473
+Honduras,HND,2015,0.478
+Honduras,HND,2016,0.482
+Honduras,HND,2017,0.487
+Honduras,HND,2018,0.492
+Honduras,HND,2019,0.496
+Nicaragua,NIC,1950,0.119
+Nicaragua,NIC,1951,0.122
+Nicaragua,NIC,1952,0.126
+Nicaragua,NIC,1953,0.129
+Nicaragua,NIC,1954,0.133
+Nicaragua,NIC,1955,0.136
+Nicaragua,NIC,1956,0.14
+Nicaragua,NIC,1957,0.144
+Nicaragua,NIC,1958,0.148
+Nicaragua,NIC,1959,0.152
+Nicaragua,NIC,1960,0.156
+Nicaragua,NIC,1961,0.161
+Nicaragua,NIC,1962,0.166
+Nicaragua,NIC,1963,0.171
+Nicaragua,NIC,1964,0.177
+Nicaragua,NIC,1965,0.183
+Nicaragua,NIC,1966,0.188
+Nicaragua,NIC,1967,0.194
+Nicaragua,NIC,1968,0.2
+Nicaragua,NIC,1969,0.205
+Nicaragua,NIC,1970,0.211
+Nicaragua,NIC,1971,0.216
+Nicaragua,NIC,1972,0.221
+Nicaragua,NIC,1973,0.225
+Nicaragua,NIC,1974,0.23
+Nicaragua,NIC,1975,0.234
+Nicaragua,NIC,1976,0.238
+Nicaragua,NIC,1977,0.243
+Nicaragua,NIC,1978,0.248
+Nicaragua,NIC,1979,0.253
+Nicaragua,NIC,1980,0.258
+Nicaragua,NIC,1981,0.265
+Nicaragua,NIC,1982,0.272
+Nicaragua,NIC,1983,0.28
+Nicaragua,NIC,1984,0.288
+Nicaragua,NIC,1985,0.297
+Nicaragua,NIC,1986,0.305
+Nicaragua,NIC,1987,0.314
+Nicaragua,NIC,1988,0.322
+Nicaragua,NIC,1989,0.33
+Nicaragua,NIC,1990,0.338
+Nicaragua,NIC,1991,0.345
+Nicaragua,NIC,1992,0.353
+Nicaragua,NIC,1993,0.36
+Nicaragua,NIC,1994,0.368
+Nicaragua,NIC,1995,0.376
+Nicaragua,NIC,1996,0.385
+Nicaragua,NIC,1997,0.393
+Nicaragua,NIC,1998,0.402
+Nicaragua,NIC,1999,0.411
+Nicaragua,NIC,2000,0.419
+Nicaragua,NIC,2001,0.426
+Nicaragua,NIC,2002,0.433
+Nicaragua,NIC,2003,0.438
+Nicaragua,NIC,2004,0.444
+Nicaragua,NIC,2005,0.449
+Nicaragua,NIC,2006,0.453
+Nicaragua,NIC,2007,0.458
+Nicaragua,NIC,2008,0.462
+Nicaragua,NIC,2009,0.466
+Nicaragua,NIC,2010,0.47
+Nicaragua,NIC,2011,0.474
+Nicaragua,NIC,2012,0.479
+Nicaragua,NIC,2013,0.484
+Nicaragua,NIC,2014,0.489
+Nicaragua,NIC,2015,0.495
+Nicaragua,NIC,2016,0.5
+Nicaragua,NIC,2017,0.506
+Nicaragua,NIC,2018,0.512
+Nicaragua,NIC,2019,0.517
+Afghanistan,AFG,1950,0.0947
+Afghanistan,AFG,1951,0.0966
+Afghanistan,AFG,1952,0.0986
+Afghanistan,AFG,1953,0.101
+Afghanistan,AFG,1954,0.103
+Afghanistan,AFG,1955,0.105
+Afghanistan,AFG,1956,0.107
+Afghanistan,AFG,1957,0.109
+Afghanistan,AFG,1958,0.112
+Afghanistan,AFG,1959,0.114
+Afghanistan,AFG,1960,0.117
+Afghanistan,AFG,1961,0.119
+Afghanistan,AFG,1962,0.121
+Afghanistan,AFG,1963,0.124
+Afghanistan,AFG,1964,0.126
+Afghanistan,AFG,1965,0.128
+Afghanistan,AFG,1966,0.131
+Afghanistan,AFG,1967,0.134
+Afghanistan,AFG,1968,0.136
+Afghanistan,AFG,1969,0.139
+Afghanistan,AFG,1970,0.142
+Afghanistan,AFG,1971,0.145
+Afghanistan,AFG,1972,0.147
+Afghanistan,AFG,1973,0.149
+Afghanistan,AFG,1974,0.152
+Afghanistan,AFG,1975,0.154
+Afghanistan,AFG,1976,0.157
+Afghanistan,AFG,1977,0.159
+Afghanistan,AFG,1978,0.161
+Afghanistan,AFG,1979,0.161
+Afghanistan,AFG,1980,0.16
+Afghanistan,AFG,1981,0.16
+Afghanistan,AFG,1982,0.164
+Afghanistan,AFG,1983,0.168
+Afghanistan,AFG,1984,0.172
+Afghanistan,AFG,1985,0.175
+Afghanistan,AFG,1986,0.178
+Afghanistan,AFG,1987,0.181
+Afghanistan,AFG,1988,0.183
+Afghanistan,AFG,1989,0.185
+Afghanistan,AFG,1990,0.187
+Afghanistan,AFG,1991,0.191
+Afghanistan,AFG,1992,0.195
+Afghanistan,AFG,1993,0.196
+Afghanistan,AFG,1994,0.194
+Afghanistan,AFG,1995,0.194
+Afghanistan,AFG,1996,0.193
+Afghanistan,AFG,1997,0.192
+Afghanistan,AFG,1998,0.19
+Afghanistan,AFG,1999,0.189
+Afghanistan,AFG,2000,0.188
+Afghanistan,AFG,2001,0.188
+Afghanistan,AFG,2002,0.194
+Afghanistan,AFG,2003,0.202
+Afghanistan,AFG,2004,0.209
+Afghanistan,AFG,2005,0.216
+Afghanistan,AFG,2006,0.224
+Afghanistan,AFG,2007,0.234
+Afghanistan,AFG,2008,0.243
+Afghanistan,AFG,2009,0.253
+Afghanistan,AFG,2010,0.264
+Afghanistan,AFG,2011,0.274
+Afghanistan,AFG,2012,0.285
+Afghanistan,AFG,2013,0.295
+Afghanistan,AFG,2014,0.304
+Afghanistan,AFG,2015,0.313
+Afghanistan,AFG,2016,0.321
+Afghanistan,AFG,2017,0.329
+Afghanistan,AFG,2018,0.337
+Afghanistan,AFG,2019,0.343
+Algeria,DZA,1950,0.162
+Algeria,DZA,1951,0.165
+Algeria,DZA,1952,0.168
+Algeria,DZA,1953,0.172
+Algeria,DZA,1954,0.175
+Algeria,DZA,1955,0.178
+Algeria,DZA,1956,0.182
+Algeria,DZA,1957,0.185
+Algeria,DZA,1958,0.189
+Algeria,DZA,1959,0.192
+Algeria,DZA,1960,0.196
+Algeria,DZA,1961,0.199
+Algeria,DZA,1962,0.202
+Algeria,DZA,1963,0.206
+Algeria,DZA,1964,0.21
+Algeria,DZA,1965,0.215
+Algeria,DZA,1966,0.219
+Algeria,DZA,1967,0.224
+Algeria,DZA,1968,0.229
+Algeria,DZA,1969,0.235
+Algeria,DZA,1970,0.241
+Algeria,DZA,1971,0.247
+Algeria,DZA,1972,0.254
+Algeria,DZA,1973,0.261
+Algeria,DZA,1974,0.269
+Algeria,DZA,1975,0.277
+Algeria,DZA,1976,0.286
+Algeria,DZA,1977,0.295
+Algeria,DZA,1978,0.305
+Algeria,DZA,1979,0.315
+Algeria,DZA,1980,0.326
+Algeria,DZA,1981,0.337
+Algeria,DZA,1982,0.348
+Algeria,DZA,1983,0.36
+Algeria,DZA,1984,0.371
+Algeria,DZA,1985,0.383
+Algeria,DZA,1986,0.395
+Algeria,DZA,1987,0.405
+Algeria,DZA,1988,0.416
+Algeria,DZA,1989,0.426
+Algeria,DZA,1990,0.436
+Algeria,DZA,1991,0.446
+Algeria,DZA,1992,0.456
+Algeria,DZA,1993,0.465
+Algeria,DZA,1994,0.474
+Algeria,DZA,1995,0.483
+Algeria,DZA,1996,0.492
+Algeria,DZA,1997,0.5
+Algeria,DZA,1998,0.509
+Algeria,DZA,1999,0.518
+Algeria,DZA,2000,0.526
+Algeria,DZA,2001,0.534
+Algeria,DZA,2002,0.542
+Algeria,DZA,2003,0.55
+Algeria,DZA,2004,0.558
+Algeria,DZA,2005,0.566
+Algeria,DZA,2006,0.573
+Algeria,DZA,2007,0.58
+Algeria,DZA,2008,0.587
+Algeria,DZA,2009,0.593
+Algeria,DZA,2010,0.599
+Algeria,DZA,2011,0.605
+Algeria,DZA,2012,0.611
+Algeria,DZA,2013,0.617
+Algeria,DZA,2014,0.623
+Algeria,DZA,2015,0.628
+Algeria,DZA,2016,0.634
+Algeria,DZA,2017,0.64
+Algeria,DZA,2018,0.646
+Algeria,DZA,2019,0.652
+"Egypt, Arab Rep.",EGY,1950,0.164
+"Egypt, Arab Rep.",EGY,1951,0.166
+"Egypt, Arab Rep.",EGY,1952,0.168
+"Egypt, Arab Rep.",EGY,1953,0.171
+"Egypt, Arab Rep.",EGY,1954,0.175
+"Egypt, Arab Rep.",EGY,1955,0.178
+"Egypt, Arab Rep.",EGY,1956,0.182
+"Egypt, Arab Rep.",EGY,1957,0.185
+"Egypt, Arab Rep.",EGY,1958,0.189
+"Egypt, Arab Rep.",EGY,1959,0.193
+"Egypt, Arab Rep.",EGY,1960,0.197
+"Egypt, Arab Rep.",EGY,1961,0.202
+"Egypt, Arab Rep.",EGY,1962,0.206
+"Egypt, Arab Rep.",EGY,1963,0.211
+"Egypt, Arab Rep.",EGY,1964,0.216
+"Egypt, Arab Rep.",EGY,1965,0.221
+"Egypt, Arab Rep.",EGY,1966,0.226
+"Egypt, Arab Rep.",EGY,1967,0.232
+"Egypt, Arab Rep.",EGY,1968,0.237
+"Egypt, Arab Rep.",EGY,1969,0.243
+"Egypt, Arab Rep.",EGY,1970,0.249
+"Egypt, Arab Rep.",EGY,1971,0.254
+"Egypt, Arab Rep.",EGY,1972,0.259
+"Egypt, Arab Rep.",EGY,1973,0.263
+"Egypt, Arab Rep.",EGY,1974,0.267
+"Egypt, Arab Rep.",EGY,1975,0.271
+"Egypt, Arab Rep.",EGY,1976,0.277
+"Egypt, Arab Rep.",EGY,1977,0.283
+"Egypt, Arab Rep.",EGY,1978,0.289
+"Egypt, Arab Rep.",EGY,1979,0.295
+"Egypt, Arab Rep.",EGY,1980,0.302
+"Egypt, Arab Rep.",EGY,1981,0.31
+"Egypt, Arab Rep.",EGY,1982,0.318
+"Egypt, Arab Rep.",EGY,1983,0.326
+"Egypt, Arab Rep.",EGY,1984,0.335
+"Egypt, Arab Rep.",EGY,1985,0.345
+"Egypt, Arab Rep.",EGY,1986,0.355
+"Egypt, Arab Rep.",EGY,1987,0.367
+"Egypt, Arab Rep.",EGY,1988,0.379
+"Egypt, Arab Rep.",EGY,1989,0.391
+"Egypt, Arab Rep.",EGY,1990,0.403
+"Egypt, Arab Rep.",EGY,1991,0.415
+"Egypt, Arab Rep.",EGY,1992,0.426
+"Egypt, Arab Rep.",EGY,1993,0.437
+"Egypt, Arab Rep.",EGY,1994,0.448
+"Egypt, Arab Rep.",EGY,1995,0.459
+"Egypt, Arab Rep.",EGY,1996,0.469
+"Egypt, Arab Rep.",EGY,1997,0.478
+"Egypt, Arab Rep.",EGY,1998,0.487
+"Egypt, Arab Rep.",EGY,1999,0.496
+"Egypt, Arab Rep.",EGY,2000,0.504
+"Egypt, Arab Rep.",EGY,2001,0.512
+"Egypt, Arab Rep.",EGY,2002,0.52
+"Egypt, Arab Rep.",EGY,2003,0.527
+"Egypt, Arab Rep.",EGY,2004,0.535
+"Egypt, Arab Rep.",EGY,2005,0.542
+"Egypt, Arab Rep.",EGY,2006,0.549
+"Egypt, Arab Rep.",EGY,2007,0.557
+"Egypt, Arab Rep.",EGY,2008,0.565
+"Egypt, Arab Rep.",EGY,2009,0.573
+"Egypt, Arab Rep.",EGY,2010,0.582
+"Egypt, Arab Rep.",EGY,2011,0.591
+"Egypt, Arab Rep.",EGY,2012,0.6
+"Egypt, Arab Rep.",EGY,2013,0.609
+"Egypt, Arab Rep.",EGY,2014,0.617
+"Egypt, Arab Rep.",EGY,2015,0.626
+"Egypt, Arab Rep.",EGY,2016,0.635
+"Egypt, Arab Rep.",EGY,2017,0.643
+"Egypt, Arab Rep.",EGY,2018,0.651
+"Egypt, Arab Rep.",EGY,2019,0.658
+"Iran, Islamic Rep.",IRN,1950,0.153
+"Iran, Islamic Rep.",IRN,1951,0.156
+"Iran, Islamic Rep.",IRN,1952,0.159
+"Iran, Islamic Rep.",IRN,1953,0.163
+"Iran, Islamic Rep.",IRN,1954,0.167
+"Iran, Islamic Rep.",IRN,1955,0.171
+"Iran, Islamic Rep.",IRN,1956,0.175
+"Iran, Islamic Rep.",IRN,1957,0.178
+"Iran, Islamic Rep.",IRN,1958,0.181
+"Iran, Islamic Rep.",IRN,1959,0.185
+"Iran, Islamic Rep.",IRN,1960,0.19
+"Iran, Islamic Rep.",IRN,1961,0.196
+"Iran, Islamic Rep.",IRN,1962,0.202
+"Iran, Islamic Rep.",IRN,1963,0.208
+"Iran, Islamic Rep.",IRN,1964,0.213
+"Iran, Islamic Rep.",IRN,1965,0.22
+"Iran, Islamic Rep.",IRN,1966,0.227
+"Iran, Islamic Rep.",IRN,1967,0.233
+"Iran, Islamic Rep.",IRN,1968,0.24
+"Iran, Islamic Rep.",IRN,1969,0.246
+"Iran, Islamic Rep.",IRN,1970,0.252
+"Iran, Islamic Rep.",IRN,1971,0.258
+"Iran, Islamic Rep.",IRN,1972,0.263
+"Iran, Islamic Rep.",IRN,1973,0.268
+"Iran, Islamic Rep.",IRN,1974,0.272
+"Iran, Islamic Rep.",IRN,1975,0.273
+"Iran, Islamic Rep.",IRN,1976,0.273
+"Iran, Islamic Rep.",IRN,1977,0.268
+"Iran, Islamic Rep.",IRN,1978,0.263
+"Iran, Islamic Rep.",IRN,1979,0.259
+"Iran, Islamic Rep.",IRN,1980,0.26
+"Iran, Islamic Rep.",IRN,1981,0.265
+"Iran, Islamic Rep.",IRN,1982,0.275
+"Iran, Islamic Rep.",IRN,1983,0.29
+"Iran, Islamic Rep.",IRN,1984,0.309
+"Iran, Islamic Rep.",IRN,1985,0.328
+"Iran, Islamic Rep.",IRN,1986,0.345
+"Iran, Islamic Rep.",IRN,1987,0.36
+"Iran, Islamic Rep.",IRN,1988,0.375
+"Iran, Islamic Rep.",IRN,1989,0.389
+"Iran, Islamic Rep.",IRN,1990,0.404
+"Iran, Islamic Rep.",IRN,1991,0.419
+"Iran, Islamic Rep.",IRN,1992,0.433
+"Iran, Islamic Rep.",IRN,1993,0.446
+"Iran, Islamic Rep.",IRN,1994,0.457
+"Iran, Islamic Rep.",IRN,1995,0.468
+"Iran, Islamic Rep.",IRN,1996,0.477
+"Iran, Islamic Rep.",IRN,1997,0.486
+"Iran, Islamic Rep.",IRN,1998,0.496
+"Iran, Islamic Rep.",IRN,1999,0.506
+"Iran, Islamic Rep.",IRN,2000,0.517
+"Iran, Islamic Rep.",IRN,2001,0.529
+"Iran, Islamic Rep.",IRN,2002,0.541
+"Iran, Islamic Rep.",IRN,2003,0.552
+"Iran, Islamic Rep.",IRN,2004,0.562
+"Iran, Islamic Rep.",IRN,2005,0.571
+"Iran, Islamic Rep.",IRN,2006,0.581
+"Iran, Islamic Rep.",IRN,2007,0.593
+"Iran, Islamic Rep.",IRN,2008,0.603
+"Iran, Islamic Rep.",IRN,2009,0.613
+"Iran, Islamic Rep.",IRN,2010,0.622
+"Iran, Islamic Rep.",IRN,2011,0.63
+"Iran, Islamic Rep.",IRN,2012,0.635
+"Iran, Islamic Rep.",IRN,2013,0.64
+"Iran, Islamic Rep.",IRN,2014,0.645
+"Iran, Islamic Rep.",IRN,2015,0.649
+"Iran, Islamic Rep.",IRN,2016,0.654
+"Iran, Islamic Rep.",IRN,2017,0.659
+"Iran, Islamic Rep.",IRN,2018,0.665
+"Iran, Islamic Rep.",IRN,2019,0.67
+Lebanon,LBN,1950,0.193
+Lebanon,LBN,1951,0.201
+Lebanon,LBN,1952,0.208
+Lebanon,LBN,1953,0.215
+Lebanon,LBN,1954,0.222
+Lebanon,LBN,1955,0.229
+Lebanon,LBN,1956,0.235
+Lebanon,LBN,1957,0.242
+Lebanon,LBN,1958,0.247
+Lebanon,LBN,1959,0.253
+Lebanon,LBN,1960,0.258
+Lebanon,LBN,1961,0.264
+Lebanon,LBN,1962,0.27
+Lebanon,LBN,1963,0.276
+Lebanon,LBN,1964,0.281
+Lebanon,LBN,1965,0.288
+Lebanon,LBN,1966,0.294
+Lebanon,LBN,1967,0.3
+Lebanon,LBN,1968,0.306
+Lebanon,LBN,1969,0.313
+Lebanon,LBN,1970,0.319
+Lebanon,LBN,1971,0.326
+Lebanon,LBN,1972,0.335
+Lebanon,LBN,1973,0.344
+Lebanon,LBN,1974,0.353
+Lebanon,LBN,1975,0.36
+Lebanon,LBN,1976,0.366
+Lebanon,LBN,1977,0.371
+Lebanon,LBN,1978,0.376
+Lebanon,LBN,1979,0.381
+Lebanon,LBN,1980,0.387
+Lebanon,LBN,1981,0.392
+Lebanon,LBN,1982,0.396
+Lebanon,LBN,1983,0.402
+Lebanon,LBN,1984,0.411
+Lebanon,LBN,1985,0.422
+Lebanon,LBN,1986,0.432
+Lebanon,LBN,1987,0.443
+Lebanon,LBN,1988,0.451
+Lebanon,LBN,1989,0.456
+Lebanon,LBN,1990,0.462
+Lebanon,LBN,1991,0.47
+Lebanon,LBN,1992,0.477
+Lebanon,LBN,1993,0.485
+Lebanon,LBN,1994,0.493
+Lebanon,LBN,1995,0.502
+Lebanon,LBN,1996,0.511
+Lebanon,LBN,1997,0.52
+Lebanon,LBN,1998,0.53
+Lebanon,LBN,1999,0.54
+Lebanon,LBN,2000,0.548
+Lebanon,LBN,2001,0.557
+Lebanon,LBN,2002,0.565
+Lebanon,LBN,2003,0.574
+Lebanon,LBN,2004,0.582
+Lebanon,LBN,2005,0.591
+Lebanon,LBN,2006,0.6
+Lebanon,LBN,2007,0.609
+Lebanon,LBN,2008,0.618
+Lebanon,LBN,2009,0.628
+Lebanon,LBN,2010,0.639
+Lebanon,LBN,2011,0.649
+Lebanon,LBN,2012,0.66
+Lebanon,LBN,2013,0.67
+Lebanon,LBN,2014,0.677
+Lebanon,LBN,2015,0.685
+Lebanon,LBN,2016,0.691
+Lebanon,LBN,2017,0.698
+Lebanon,LBN,2018,0.704
+Lebanon,LBN,2019,0.708
+Morocco,MAR,1950,0.103
+Morocco,MAR,1951,0.105
+Morocco,MAR,1952,0.108
+Morocco,MAR,1953,0.111
+Morocco,MAR,1954,0.114
+Morocco,MAR,1955,0.117
+Morocco,MAR,1956,0.12
+Morocco,MAR,1957,0.123
+Morocco,MAR,1958,0.126
+Morocco,MAR,1959,0.129
+Morocco,MAR,1960,0.133
+Morocco,MAR,1961,0.136
+Morocco,MAR,1962,0.141
+Morocco,MAR,1963,0.145
+Morocco,MAR,1964,0.15
+Morocco,MAR,1965,0.155
+Morocco,MAR,1966,0.16
+Morocco,MAR,1967,0.166
+Morocco,MAR,1968,0.172
+Morocco,MAR,1969,0.178
+Morocco,MAR,1970,0.185
+Morocco,MAR,1971,0.191
+Morocco,MAR,1972,0.198
+Morocco,MAR,1973,0.205
+Morocco,MAR,1974,0.213
+Morocco,MAR,1975,0.221
+Morocco,MAR,1976,0.229
+Morocco,MAR,1977,0.238
+Morocco,MAR,1978,0.246
+Morocco,MAR,1979,0.255
+Morocco,MAR,1980,0.264
+Morocco,MAR,1981,0.272
+Morocco,MAR,1982,0.281
+Morocco,MAR,1983,0.289
+Morocco,MAR,1984,0.298
+Morocco,MAR,1985,0.306
+Morocco,MAR,1986,0.315
+Morocco,MAR,1987,0.323
+Morocco,MAR,1988,0.331
+Morocco,MAR,1989,0.339
+Morocco,MAR,1990,0.347
+Morocco,MAR,1991,0.354
+Morocco,MAR,1992,0.361
+Morocco,MAR,1993,0.367
+Morocco,MAR,1994,0.374
+Morocco,MAR,1995,0.38
+Morocco,MAR,1996,0.386
+Morocco,MAR,1997,0.392
+Morocco,MAR,1998,0.398
+Morocco,MAR,1999,0.403
+Morocco,MAR,2000,0.409
+Morocco,MAR,2001,0.414
+Morocco,MAR,2002,0.42
+Morocco,MAR,2003,0.426
+Morocco,MAR,2004,0.432
+Morocco,MAR,2005,0.439
+Morocco,MAR,2006,0.445
+Morocco,MAR,2007,0.452
+Morocco,MAR,2008,0.46
+Morocco,MAR,2009,0.467
+Morocco,MAR,2010,0.475
+Morocco,MAR,2011,0.483
+Morocco,MAR,2012,0.491
+Morocco,MAR,2013,0.499
+Morocco,MAR,2014,0.508
+Morocco,MAR,2015,0.516
+Morocco,MAR,2016,0.524
+Morocco,MAR,2017,0.533
+Morocco,MAR,2018,0.541
+Morocco,MAR,2019,0.548
+Sudan,SDN,1950,0.0907
+Sudan,SDN,1951,0.0932
+Sudan,SDN,1952,0.0958
+Sudan,SDN,1953,0.0984
+Sudan,SDN,1954,0.101
+Sudan,SDN,1955,0.104
+Sudan,SDN,1956,0.106
+Sudan,SDN,1957,0.109
+Sudan,SDN,1958,0.111
+Sudan,SDN,1959,0.114
+Sudan,SDN,1960,0.116
+Sudan,SDN,1961,0.119
+Sudan,SDN,1962,0.121
+Sudan,SDN,1963,0.123
+Sudan,SDN,1964,0.125
+Sudan,SDN,1965,0.127
+Sudan,SDN,1966,0.129
+Sudan,SDN,1967,0.13
+Sudan,SDN,1968,0.132
+Sudan,SDN,1969,0.134
+Sudan,SDN,1970,0.136
+Sudan,SDN,1971,0.138
+Sudan,SDN,1972,0.14
+Sudan,SDN,1973,0.143
+Sudan,SDN,1974,0.145
+Sudan,SDN,1975,0.149
+Sudan,SDN,1976,0.153
+Sudan,SDN,1977,0.158
+Sudan,SDN,1978,0.163
+Sudan,SDN,1979,0.168
+Sudan,SDN,1980,0.172
+Sudan,SDN,1981,0.177
+Sudan,SDN,1982,0.182
+Sudan,SDN,1983,0.188
+Sudan,SDN,1984,0.193
+Sudan,SDN,1985,0.198
+Sudan,SDN,1986,0.203
+Sudan,SDN,1987,0.208
+Sudan,SDN,1988,0.214
+Sudan,SDN,1989,0.22
+Sudan,SDN,1990,0.227
+Sudan,SDN,1991,0.234
+Sudan,SDN,1992,0.241
+Sudan,SDN,1993,0.248
+Sudan,SDN,1994,0.256
+Sudan,SDN,1995,0.263
+Sudan,SDN,1996,0.271
+Sudan,SDN,1997,0.28
+Sudan,SDN,1998,0.289
+Sudan,SDN,1999,0.298
+Sudan,SDN,2000,0.308
+Sudan,SDN,2001,0.318
+Sudan,SDN,2002,0.327
+Sudan,SDN,2003,0.337
+Sudan,SDN,2004,0.348
+Sudan,SDN,2005,0.358
+Sudan,SDN,2006,0.37
+Sudan,SDN,2007,0.381
+Sudan,SDN,2008,0.393
+Sudan,SDN,2009,0.404
+Sudan,SDN,2010,0.416
+Sudan,SDN,2011,0.428
+Sudan,SDN,2012,0.44
+Sudan,SDN,2013,0.451
+Sudan,SDN,2014,0.462
+Sudan,SDN,2015,0.474
+Sudan,SDN,2016,0.485
+Sudan,SDN,2017,0.497
+Sudan,SDN,2018,0.507
+Sudan,SDN,2019,0.515
+Syrian Arab Republic,SYR,1950,0.123
+Syrian Arab Republic,SYR,1951,0.125
+Syrian Arab Republic,SYR,1952,0.129
+Syrian Arab Republic,SYR,1953,0.133
+Syrian Arab Republic,SYR,1954,0.137
+Syrian Arab Republic,SYR,1955,0.14
+Syrian Arab Republic,SYR,1956,0.144
+Syrian Arab Republic,SYR,1957,0.148
+Syrian Arab Republic,SYR,1958,0.151
+Syrian Arab Republic,SYR,1959,0.154
+Syrian Arab Republic,SYR,1960,0.157
+Syrian Arab Republic,SYR,1961,0.161
+Syrian Arab Republic,SYR,1962,0.165
+Syrian Arab Republic,SYR,1963,0.169
+Syrian Arab Republic,SYR,1964,0.173
+Syrian Arab Republic,SYR,1965,0.178
+Syrian Arab Republic,SYR,1966,0.182
+Syrian Arab Republic,SYR,1967,0.186
+Syrian Arab Republic,SYR,1968,0.19
+Syrian Arab Republic,SYR,1969,0.196
+Syrian Arab Republic,SYR,1970,0.201
+Syrian Arab Republic,SYR,1971,0.207
+Syrian Arab Republic,SYR,1972,0.213
+Syrian Arab Republic,SYR,1973,0.22
+Syrian Arab Republic,SYR,1974,0.228
+Syrian Arab Republic,SYR,1975,0.236
+Syrian Arab Republic,SYR,1976,0.245
+Syrian Arab Republic,SYR,1977,0.254
+Syrian Arab Republic,SYR,1978,0.262
+Syrian Arab Republic,SYR,1979,0.271
+Syrian Arab Republic,SYR,1980,0.279
+Syrian Arab Republic,SYR,1981,0.289
+Syrian Arab Republic,SYR,1982,0.298
+Syrian Arab Republic,SYR,1983,0.307
+Syrian Arab Republic,SYR,1984,0.315
+Syrian Arab Republic,SYR,1985,0.324
+Syrian Arab Republic,SYR,1986,0.332
+Syrian Arab Republic,SYR,1987,0.341
+Syrian Arab Republic,SYR,1988,0.35
+Syrian Arab Republic,SYR,1989,0.358
+Syrian Arab Republic,SYR,1990,0.367
+Syrian Arab Republic,SYR,1991,0.376
+Syrian Arab Republic,SYR,1992,0.387
+Syrian Arab Republic,SYR,1993,0.398
+Syrian Arab Republic,SYR,1994,0.409
+Syrian Arab Republic,SYR,1995,0.421
+Syrian Arab Republic,SYR,1996,0.432
+Syrian Arab Republic,SYR,1997,0.443
+Syrian Arab Republic,SYR,1998,0.454
+Syrian Arab Republic,SYR,1999,0.465
+Syrian Arab Republic,SYR,2000,0.476
+Syrian Arab Republic,SYR,2001,0.486
+Syrian Arab Republic,SYR,2002,0.497
+Syrian Arab Republic,SYR,2003,0.508
+Syrian Arab Republic,SYR,2004,0.521
+Syrian Arab Republic,SYR,2005,0.535
+Syrian Arab Republic,SYR,2006,0.548
+Syrian Arab Republic,SYR,2007,0.56
+Syrian Arab Republic,SYR,2008,0.572
+Syrian Arab Republic,SYR,2009,0.583
+Syrian Arab Republic,SYR,2010,0.594
+Syrian Arab Republic,SYR,2011,0.601
+Syrian Arab Republic,SYR,2012,0.605
+Syrian Arab Republic,SYR,2013,0.606
+Syrian Arab Republic,SYR,2014,0.607
+Syrian Arab Republic,SYR,2015,0.608
+Syrian Arab Republic,SYR,2016,0.61
+Syrian Arab Republic,SYR,2017,0.613
+Syrian Arab Republic,SYR,2018,0.616
+Syrian Arab Republic,SYR,2019,0.619
+Tunisia,TUN,1950,0.141
+Tunisia,TUN,1951,0.144
+Tunisia,TUN,1952,0.148
+Tunisia,TUN,1953,0.152
+Tunisia,TUN,1954,0.156
+Tunisia,TUN,1955,0.16
+Tunisia,TUN,1956,0.164
+Tunisia,TUN,1957,0.167
+Tunisia,TUN,1958,0.172
+Tunisia,TUN,1959,0.176
+Tunisia,TUN,1960,0.181
+Tunisia,TUN,1961,0.186
+Tunisia,TUN,1962,0.191
+Tunisia,TUN,1963,0.196
+Tunisia,TUN,1964,0.202
+Tunisia,TUN,1965,0.207
+Tunisia,TUN,1966,0.213
+Tunisia,TUN,1967,0.219
+Tunisia,TUN,1968,0.225
+Tunisia,TUN,1969,0.231
+Tunisia,TUN,1970,0.238
+Tunisia,TUN,1971,0.245
+Tunisia,TUN,1972,0.253
+Tunisia,TUN,1973,0.261
+Tunisia,TUN,1974,0.269
+Tunisia,TUN,1975,0.278
+Tunisia,TUN,1976,0.286
+Tunisia,TUN,1977,0.296
+Tunisia,TUN,1978,0.305
+Tunisia,TUN,1979,0.315
+Tunisia,TUN,1980,0.325
+Tunisia,TUN,1981,0.336
+Tunisia,TUN,1982,0.346
+Tunisia,TUN,1983,0.357
+Tunisia,TUN,1984,0.368
+Tunisia,TUN,1985,0.379
+Tunisia,TUN,1986,0.39
+Tunisia,TUN,1987,0.401
+Tunisia,TUN,1988,0.412
+Tunisia,TUN,1989,0.423
+Tunisia,TUN,1990,0.434
+Tunisia,TUN,1991,0.444
+Tunisia,TUN,1992,0.455
+Tunisia,TUN,1993,0.466
+Tunisia,TUN,1994,0.476
+Tunisia,TUN,1995,0.487
+Tunisia,TUN,1996,0.498
+Tunisia,TUN,1997,0.508
+Tunisia,TUN,1998,0.518
+Tunisia,TUN,1999,0.528
+Tunisia,TUN,2000,0.538
+Tunisia,TUN,2001,0.548
+Tunisia,TUN,2002,0.556
+Tunisia,TUN,2003,0.565
+Tunisia,TUN,2004,0.574
+Tunisia,TUN,2005,0.582
+Tunisia,TUN,2006,0.591
+Tunisia,TUN,2007,0.599
+Tunisia,TUN,2008,0.607
+Tunisia,TUN,2009,0.614
+Tunisia,TUN,2010,0.622
+Tunisia,TUN,2011,0.628
+Tunisia,TUN,2012,0.634
+Tunisia,TUN,2013,0.64
+Tunisia,TUN,2014,0.646
+Tunisia,TUN,2015,0.651
+Tunisia,TUN,2016,0.657
+Tunisia,TUN,2017,0.662
+Tunisia,TUN,2018,0.667
+Tunisia,TUN,2019,0.672
+"Yemen, Rep.",YEM,1950,0.0645
+"Yemen, Rep.",YEM,1951,0.0657
+"Yemen, Rep.",YEM,1952,0.067
+"Yemen, Rep.",YEM,1953,0.0684
+"Yemen, Rep.",YEM,1954,0.0698
+"Yemen, Rep.",YEM,1955,0.0711
+"Yemen, Rep.",YEM,1956,0.0725
+"Yemen, Rep.",YEM,1957,0.074
+"Yemen, Rep.",YEM,1958,0.0753
+"Yemen, Rep.",YEM,1959,0.0767
+"Yemen, Rep.",YEM,1960,0.0782
+"Yemen, Rep.",YEM,1961,0.0796
+"Yemen, Rep.",YEM,1962,0.081
+"Yemen, Rep.",YEM,1963,0.0824
+"Yemen, Rep.",YEM,1964,0.0837
+"Yemen, Rep.",YEM,1965,0.0851
+"Yemen, Rep.",YEM,1966,0.0865
+"Yemen, Rep.",YEM,1967,0.0879
+"Yemen, Rep.",YEM,1968,0.0894
+"Yemen, Rep.",YEM,1969,0.0909
+"Yemen, Rep.",YEM,1970,0.0932
+"Yemen, Rep.",YEM,1971,0.0959
+"Yemen, Rep.",YEM,1972,0.0988
+"Yemen, Rep.",YEM,1973,0.102
+"Yemen, Rep.",YEM,1974,0.105
+"Yemen, Rep.",YEM,1975,0.108
+"Yemen, Rep.",YEM,1976,0.112
+"Yemen, Rep.",YEM,1977,0.116
+"Yemen, Rep.",YEM,1978,0.119
+"Yemen, Rep.",YEM,1979,0.123
+"Yemen, Rep.",YEM,1980,0.127
+"Yemen, Rep.",YEM,1981,0.131
+"Yemen, Rep.",YEM,1982,0.135
+"Yemen, Rep.",YEM,1983,0.139
+"Yemen, Rep.",YEM,1984,0.143
+"Yemen, Rep.",YEM,1985,0.148
+"Yemen, Rep.",YEM,1986,0.153
+"Yemen, Rep.",YEM,1987,0.158
+"Yemen, Rep.",YEM,1988,0.163
+"Yemen, Rep.",YEM,1989,0.169
+"Yemen, Rep.",YEM,1990,0.176
+"Yemen, Rep.",YEM,1991,0.183
+"Yemen, Rep.",YEM,1992,0.191
+"Yemen, Rep.",YEM,1993,0.198
+"Yemen, Rep.",YEM,1994,0.207
+"Yemen, Rep.",YEM,1995,0.215
+"Yemen, Rep.",YEM,1996,0.224
+"Yemen, Rep.",YEM,1997,0.234
+"Yemen, Rep.",YEM,1998,0.243
+"Yemen, Rep.",YEM,1999,0.253
+"Yemen, Rep.",YEM,2000,0.263
+"Yemen, Rep.",YEM,2001,0.273
+"Yemen, Rep.",YEM,2002,0.283
+"Yemen, Rep.",YEM,2003,0.293
+"Yemen, Rep.",YEM,2004,0.303
+"Yemen, Rep.",YEM,2005,0.314
+"Yemen, Rep.",YEM,2006,0.325
+"Yemen, Rep.",YEM,2007,0.335
+"Yemen, Rep.",YEM,2008,0.346
+"Yemen, Rep.",YEM,2009,0.356
+"Yemen, Rep.",YEM,2010,0.366
+"Yemen, Rep.",YEM,2011,0.375
+"Yemen, Rep.",YEM,2012,0.384
+"Yemen, Rep.",YEM,2013,0.393
+"Yemen, Rep.",YEM,2014,0.402
+"Yemen, Rep.",YEM,2015,0.407
+"Yemen, Rep.",YEM,2016,0.41
+"Yemen, Rep.",YEM,2017,0.412
+"Yemen, Rep.",YEM,2018,0.413
+"Yemen, Rep.",YEM,2019,0.412
+Bangladesh,BGD,1950,0.045
+Bangladesh,BGD,1951,0.0454
+Bangladesh,BGD,1952,0.046
+Bangladesh,BGD,1953,0.0464
+Bangladesh,BGD,1954,0.0469
+Bangladesh,BGD,1955,0.0472
+Bangladesh,BGD,1956,0.0477
+Bangladesh,BGD,1957,0.0481
+Bangladesh,BGD,1958,0.0485
+Bangladesh,BGD,1959,0.0489
+Bangladesh,BGD,1960,0.0494
+Bangladesh,BGD,1961,0.0499
+Bangladesh,BGD,1962,0.0504
+Bangladesh,BGD,1963,0.0519
+Bangladesh,BGD,1964,0.0695
+Bangladesh,BGD,1965,0.0834
+Bangladesh,BGD,1966,0.0959
+Bangladesh,BGD,1967,0.107
+Bangladesh,BGD,1968,0.119
+Bangladesh,BGD,1969,0.129
+Bangladesh,BGD,1970,0.14
+Bangladesh,BGD,1971,0.15
+Bangladesh,BGD,1972,0.159
+Bangladesh,BGD,1973,0.167
+Bangladesh,BGD,1974,0.175
+Bangladesh,BGD,1975,0.181
+Bangladesh,BGD,1976,0.188
+Bangladesh,BGD,1977,0.194
+Bangladesh,BGD,1978,0.2
+Bangladesh,BGD,1979,0.206
+Bangladesh,BGD,1980,0.211
+Bangladesh,BGD,1981,0.216
+Bangladesh,BGD,1982,0.22
+Bangladesh,BGD,1983,0.225
+Bangladesh,BGD,1984,0.23
+Bangladesh,BGD,1985,0.235
+Bangladesh,BGD,1986,0.24
+Bangladesh,BGD,1987,0.246
+Bangladesh,BGD,1988,0.253
+Bangladesh,BGD,1989,0.26
+Bangladesh,BGD,1990,0.267
+Bangladesh,BGD,1991,0.275
+Bangladesh,BGD,1992,0.283
+Bangladesh,BGD,1993,0.29
+Bangladesh,BGD,1994,0.297
+Bangladesh,BGD,1995,0.304
+Bangladesh,BGD,1996,0.311
+Bangladesh,BGD,1997,0.317
+Bangladesh,BGD,1998,0.324
+Bangladesh,BGD,1999,0.33
+Bangladesh,BGD,2000,0.336
+Bangladesh,BGD,2001,0.343
+Bangladesh,BGD,2002,0.349
+Bangladesh,BGD,2003,0.355
+Bangladesh,BGD,2004,0.362
+Bangladesh,BGD,2005,0.369
+Bangladesh,BGD,2006,0.376
+Bangladesh,BGD,2007,0.384
+Bangladesh,BGD,2008,0.392
+Bangladesh,BGD,2009,0.4
+Bangladesh,BGD,2010,0.408
+Bangladesh,BGD,2011,0.416
+Bangladesh,BGD,2012,0.425
+Bangladesh,BGD,2013,0.433
+Bangladesh,BGD,2014,0.441
+Bangladesh,BGD,2015,0.449
+Bangladesh,BGD,2016,0.457
+Bangladesh,BGD,2017,0.466
+Bangladesh,BGD,2018,0.475
+Bangladesh,BGD,2019,0.483
+Bhutan,BTN,1950,0.0673
+Bhutan,BTN,1951,0.0697
+Bhutan,BTN,1952,0.072
+Bhutan,BTN,1953,0.0745
+Bhutan,BTN,1954,0.0771
+Bhutan,BTN,1955,0.0798
+Bhutan,BTN,1956,0.0826
+Bhutan,BTN,1957,0.0854
+Bhutan,BTN,1958,0.0883
+Bhutan,BTN,1959,0.0914
+Bhutan,BTN,1960,0.0947
+Bhutan,BTN,1961,0.0981
+Bhutan,BTN,1962,0.101
+Bhutan,BTN,1963,0.105
+Bhutan,BTN,1964,0.109
+Bhutan,BTN,1965,0.112
+Bhutan,BTN,1966,0.116
+Bhutan,BTN,1967,0.12
+Bhutan,BTN,1968,0.124
+Bhutan,BTN,1969,0.128
+Bhutan,BTN,1970,0.132
+Bhutan,BTN,1971,0.136
+Bhutan,BTN,1972,0.14
+Bhutan,BTN,1973,0.144
+Bhutan,BTN,1974,0.147
+Bhutan,BTN,1975,0.151
+Bhutan,BTN,1976,0.154
+Bhutan,BTN,1977,0.157
+Bhutan,BTN,1978,0.161
+Bhutan,BTN,1979,0.165
+Bhutan,BTN,1980,0.169
+Bhutan,BTN,1981,0.174
+Bhutan,BTN,1982,0.179
+Bhutan,BTN,1983,0.185
+Bhutan,BTN,1984,0.191
+Bhutan,BTN,1985,0.196
+Bhutan,BTN,1986,0.202
+Bhutan,BTN,1987,0.209
+Bhutan,BTN,1988,0.215
+Bhutan,BTN,1989,0.222
+Bhutan,BTN,1990,0.228
+Bhutan,BTN,1991,0.232
+Bhutan,BTN,1992,0.237
+Bhutan,BTN,1993,0.243
+Bhutan,BTN,1994,0.251
+Bhutan,BTN,1995,0.258
+Bhutan,BTN,1996,0.266
+Bhutan,BTN,1997,0.275
+Bhutan,BTN,1998,0.282
+Bhutan,BTN,1999,0.29
+Bhutan,BTN,2000,0.298
+Bhutan,BTN,2001,0.306
+Bhutan,BTN,2002,0.314
+Bhutan,BTN,2003,0.322
+Bhutan,BTN,2004,0.33
+Bhutan,BTN,2005,0.338
+Bhutan,BTN,2006,0.347
+Bhutan,BTN,2007,0.356
+Bhutan,BTN,2008,0.365
+Bhutan,BTN,2009,0.375
+Bhutan,BTN,2010,0.384
+Bhutan,BTN,2011,0.394
+Bhutan,BTN,2012,0.403
+Bhutan,BTN,2013,0.411
+Bhutan,BTN,2014,0.419
+Bhutan,BTN,2015,0.426
+Bhutan,BTN,2016,0.434
+Bhutan,BTN,2017,0.442
+Bhutan,BTN,2018,0.449
+Bhutan,BTN,2019,0.455
+India,IND,1950,0.179
+India,IND,1951,0.182
+India,IND,1952,0.184
+India,IND,1953,0.187
+India,IND,1954,0.19
+India,IND,1955,0.193
+India,IND,1956,0.196
+India,IND,1957,0.199
+India,IND,1958,0.203
+India,IND,1959,0.206
+India,IND,1960,0.21
+India,IND,1961,0.213
+India,IND,1962,0.217
+India,IND,1963,0.221
+India,IND,1964,0.225
+India,IND,1965,0.228
+India,IND,1966,0.232
+India,IND,1967,0.236
+India,IND,1968,0.239
+India,IND,1969,0.244
+India,IND,1970,0.248
+India,IND,1971,0.252
+India,IND,1972,0.255
+India,IND,1973,0.259
+India,IND,1974,0.261
+India,IND,1975,0.263
+India,IND,1976,0.265
+India,IND,1977,0.267
+India,IND,1978,0.27
+India,IND,1979,0.272
+India,IND,1980,0.275
+India,IND,1981,0.278
+India,IND,1982,0.282
+India,IND,1983,0.286
+India,IND,1984,0.291
+India,IND,1985,0.296
+India,IND,1986,0.301
+India,IND,1987,0.307
+India,IND,1988,0.314
+India,IND,1989,0.32
+India,IND,1990,0.327
+India,IND,1991,0.333
+India,IND,1992,0.339
+India,IND,1993,0.345
+India,IND,1994,0.351
+India,IND,1995,0.358
+India,IND,1996,0.364
+India,IND,1997,0.371
+India,IND,1998,0.378
+India,IND,1999,0.386
+India,IND,2000,0.393
+India,IND,2001,0.4
+India,IND,2002,0.407
+India,IND,2003,0.414
+India,IND,2004,0.421
+India,IND,2005,0.429
+India,IND,2006,0.437
+India,IND,2007,0.446
+India,IND,2008,0.455
+India,IND,2009,0.463
+India,IND,2010,0.473
+India,IND,2011,0.483
+India,IND,2012,0.493
+India,IND,2013,0.504
+India,IND,2014,0.515
+India,IND,2015,0.526
+India,IND,2016,0.537
+India,IND,2017,0.547
+India,IND,2018,0.558
+India,IND,2019,0.566
+Nepal,NPL,1950,0.111
+Nepal,NPL,1951,0.112
+Nepal,NPL,1952,0.114
+Nepal,NPL,1953,0.116
+Nepal,NPL,1954,0.118
+Nepal,NPL,1955,0.12
+Nepal,NPL,1956,0.122
+Nepal,NPL,1957,0.124
+Nepal,NPL,1958,0.126
+Nepal,NPL,1959,0.129
+Nepal,NPL,1960,0.131
+Nepal,NPL,1961,0.133
+Nepal,NPL,1962,0.135
+Nepal,NPL,1963,0.137
+Nepal,NPL,1964,0.139
+Nepal,NPL,1965,0.141
+Nepal,NPL,1966,0.143
+Nepal,NPL,1967,0.144
+Nepal,NPL,1968,0.146
+Nepal,NPL,1969,0.147
+Nepal,NPL,1970,0.148
+Nepal,NPL,1971,0.15
+Nepal,NPL,1972,0.151
+Nepal,NPL,1973,0.152
+Nepal,NPL,1974,0.153
+Nepal,NPL,1975,0.155
+Nepal,NPL,1976,0.157
+Nepal,NPL,1977,0.158
+Nepal,NPL,1978,0.16
+Nepal,NPL,1979,0.162
+Nepal,NPL,1980,0.164
+Nepal,NPL,1981,0.167
+Nepal,NPL,1982,0.169
+Nepal,NPL,1983,0.171
+Nepal,NPL,1984,0.174
+Nepal,NPL,1985,0.177
+Nepal,NPL,1986,0.181
+Nepal,NPL,1987,0.184
+Nepal,NPL,1988,0.188
+Nepal,NPL,1989,0.193
+Nepal,NPL,1990,0.198
+Nepal,NPL,1991,0.203
+Nepal,NPL,1992,0.208
+Nepal,NPL,1993,0.215
+Nepal,NPL,1994,0.221
+Nepal,NPL,1995,0.228
+Nepal,NPL,1996,0.236
+Nepal,NPL,1997,0.244
+Nepal,NPL,1998,0.251
+Nepal,NPL,1999,0.259
+Nepal,NPL,2000,0.267
+Nepal,NPL,2001,0.276
+Nepal,NPL,2002,0.284
+Nepal,NPL,2003,0.291
+Nepal,NPL,2004,0.299
+Nepal,NPL,2005,0.307
+Nepal,NPL,2006,0.315
+Nepal,NPL,2007,0.322
+Nepal,NPL,2008,0.33
+Nepal,NPL,2009,0.339
+Nepal,NPL,2010,0.347
+Nepal,NPL,2011,0.356
+Nepal,NPL,2012,0.365
+Nepal,NPL,2013,0.373
+Nepal,NPL,2014,0.382
+Nepal,NPL,2015,0.391
+Nepal,NPL,2016,0.399
+Nepal,NPL,2017,0.408
+Nepal,NPL,2018,0.416
+Nepal,NPL,2019,0.422
+Pakistan,PAK,1950,0.126
+Pakistan,PAK,1951,0.127
+Pakistan,PAK,1952,0.128
+Pakistan,PAK,1953,0.129
+Pakistan,PAK,1954,0.131
+Pakistan,PAK,1955,0.132
+Pakistan,PAK,1956,0.134
+Pakistan,PAK,1957,0.135
+Pakistan,PAK,1958,0.137
+Pakistan,PAK,1959,0.139
+Pakistan,PAK,1960,0.14
+Pakistan,PAK,1961,0.142
+Pakistan,PAK,1962,0.145
+Pakistan,PAK,1963,0.147
+Pakistan,PAK,1964,0.15
+Pakistan,PAK,1965,0.152
+Pakistan,PAK,1966,0.155
+Pakistan,PAK,1967,0.158
+Pakistan,PAK,1968,0.161
+Pakistan,PAK,1969,0.164
+Pakistan,PAK,1970,0.167
+Pakistan,PAK,1971,0.17
+Pakistan,PAK,1972,0.173
+Pakistan,PAK,1973,0.176
+Pakistan,PAK,1974,0.179
+Pakistan,PAK,1975,0.182
+Pakistan,PAK,1976,0.185
+Pakistan,PAK,1977,0.189
+Pakistan,PAK,1978,0.192
+Pakistan,PAK,1979,0.195
+Pakistan,PAK,1980,0.199
+Pakistan,PAK,1981,0.203
+Pakistan,PAK,1982,0.207
+Pakistan,PAK,1983,0.211
+Pakistan,PAK,1984,0.216
+Pakistan,PAK,1985,0.22
+Pakistan,PAK,1986,0.226
+Pakistan,PAK,1987,0.231
+Pakistan,PAK,1988,0.236
+Pakistan,PAK,1989,0.242
+Pakistan,PAK,1990,0.247
+Pakistan,PAK,1991,0.253
+Pakistan,PAK,1992,0.259
+Pakistan,PAK,1993,0.265
+Pakistan,PAK,1994,0.271
+Pakistan,PAK,1995,0.277
+Pakistan,PAK,1996,0.283
+Pakistan,PAK,1997,0.289
+Pakistan,PAK,1998,0.295
+Pakistan,PAK,1999,0.301
+Pakistan,PAK,2000,0.307
+Pakistan,PAK,2001,0.313
+Pakistan,PAK,2002,0.32
+Pakistan,PAK,2003,0.326
+Pakistan,PAK,2004,0.333
+Pakistan,PAK,2005,0.34
+Pakistan,PAK,2006,0.347
+Pakistan,PAK,2007,0.355
+Pakistan,PAK,2008,0.363
+Pakistan,PAK,2009,0.371
+Pakistan,PAK,2010,0.379
+Pakistan,PAK,2011,0.387
+Pakistan,PAK,2012,0.394
+Pakistan,PAK,2013,0.402
+Pakistan,PAK,2014,0.41
+Pakistan,PAK,2015,0.418
+Pakistan,PAK,2016,0.426
+Pakistan,PAK,2017,0.434
+Pakistan,PAK,2018,0.442
+Pakistan,PAK,2019,0.449
+"Korea, Dem. People's Rep.",PRK,1950,0.185
+"Korea, Dem. People's Rep.",PRK,1951,0.179
+"Korea, Dem. People's Rep.",PRK,1952,0.181
+"Korea, Dem. People's Rep.",PRK,1953,0.189
+"Korea, Dem. People's Rep.",PRK,1954,0.196
+"Korea, Dem. People's Rep.",PRK,1955,0.202
+"Korea, Dem. People's Rep.",PRK,1956,0.207
+"Korea, Dem. People's Rep.",PRK,1957,0.213
+"Korea, Dem. People's Rep.",PRK,1958,0.219
+"Korea, Dem. People's Rep.",PRK,1959,0.224
+"Korea, Dem. People's Rep.",PRK,1960,0.229
+"Korea, Dem. People's Rep.",PRK,1961,0.235
+"Korea, Dem. People's Rep.",PRK,1962,0.24
+"Korea, Dem. People's Rep.",PRK,1963,0.246
+"Korea, Dem. People's Rep.",PRK,1964,0.252
+"Korea, Dem. People's Rep.",PRK,1965,0.258
+"Korea, Dem. People's Rep.",PRK,1966,0.265
+"Korea, Dem. People's Rep.",PRK,1967,0.272
+"Korea, Dem. People's Rep.",PRK,1968,0.28
+"Korea, Dem. People's Rep.",PRK,1969,0.289
+"Korea, Dem. People's Rep.",PRK,1970,0.297
+"Korea, Dem. People's Rep.",PRK,1971,0.306
+"Korea, Dem. People's Rep.",PRK,1972,0.314
+"Korea, Dem. People's Rep.",PRK,1973,0.323
+"Korea, Dem. People's Rep.",PRK,1974,0.331
+"Korea, Dem. People's Rep.",PRK,1975,0.338
+"Korea, Dem. People's Rep.",PRK,1976,0.346
+"Korea, Dem. People's Rep.",PRK,1977,0.353
+"Korea, Dem. People's Rep.",PRK,1978,0.359
+"Korea, Dem. People's Rep.",PRK,1979,0.366
+"Korea, Dem. People's Rep.",PRK,1980,0.372
+"Korea, Dem. People's Rep.",PRK,1981,0.378
+"Korea, Dem. People's Rep.",PRK,1982,0.384
+"Korea, Dem. People's Rep.",PRK,1983,0.39
+"Korea, Dem. People's Rep.",PRK,1984,0.396
+"Korea, Dem. People's Rep.",PRK,1985,0.402
+"Korea, Dem. People's Rep.",PRK,1986,0.408
+"Korea, Dem. People's Rep.",PRK,1987,0.414
+"Korea, Dem. People's Rep.",PRK,1988,0.42
+"Korea, Dem. People's Rep.",PRK,1989,0.426
+"Korea, Dem. People's Rep.",PRK,1990,0.431
+"Korea, Dem. People's Rep.",PRK,1991,0.436
+"Korea, Dem. People's Rep.",PRK,1992,0.439
+"Korea, Dem. People's Rep.",PRK,1993,0.442
+"Korea, Dem. People's Rep.",PRK,1994,0.445
+"Korea, Dem. People's Rep.",PRK,1995,0.447
+"Korea, Dem. People's Rep.",PRK,1996,0.45
+"Korea, Dem. People's Rep.",PRK,1997,0.451
+"Korea, Dem. People's Rep.",PRK,1998,0.452
+"Korea, Dem. People's Rep.",PRK,1999,0.455
+"Korea, Dem. People's Rep.",PRK,2000,0.458
+"Korea, Dem. People's Rep.",PRK,2001,0.463
+"Korea, Dem. People's Rep.",PRK,2002,0.467
+"Korea, Dem. People's Rep.",PRK,2003,0.473
+"Korea, Dem. People's Rep.",PRK,2004,0.478
+"Korea, Dem. People's Rep.",PRK,2005,0.485
+"Korea, Dem. People's Rep.",PRK,2006,0.49
+"Korea, Dem. People's Rep.",PRK,2007,0.496
+"Korea, Dem. People's Rep.",PRK,2008,0.502
+"Korea, Dem. People's Rep.",PRK,2009,0.507
+"Korea, Dem. People's Rep.",PRK,2010,0.513
+"Korea, Dem. People's Rep.",PRK,2011,0.518
+"Korea, Dem. People's Rep.",PRK,2012,0.523
+"Korea, Dem. People's Rep.",PRK,2013,0.528
+"Korea, Dem. People's Rep.",PRK,2014,0.534
+"Korea, Dem. People's Rep.",PRK,2015,0.538
+"Korea, Dem. People's Rep.",PRK,2016,0.543
+"Korea, Dem. People's Rep.",PRK,2017,0.548
+"Korea, Dem. People's Rep.",PRK,2018,0.553
+"Korea, Dem. People's Rep.",PRK,2019,0.558
+Kiribati,KIR,1950,0.278
+Kiribati,KIR,1951,0.281
+Kiribati,KIR,1952,0.284
+Kiribati,KIR,1953,0.287
+Kiribati,KIR,1954,0.29
+Kiribati,KIR,1955,0.294
+Kiribati,KIR,1956,0.297
+Kiribati,KIR,1957,0.301
+Kiribati,KIR,1958,0.305
+Kiribati,KIR,1959,0.309
+Kiribati,KIR,1960,0.314
+Kiribati,KIR,1961,0.318
+Kiribati,KIR,1962,0.323
+Kiribati,KIR,1963,0.328
+Kiribati,KIR,1964,0.333
+Kiribati,KIR,1965,0.338
+Kiribati,KIR,1966,0.344
+Kiribati,KIR,1967,0.349
+Kiribati,KIR,1968,0.354
+Kiribati,KIR,1969,0.359
+Kiribati,KIR,1970,0.364
+Kiribati,KIR,1971,0.369
+Kiribati,KIR,1972,0.374
+Kiribati,KIR,1973,0.381
+Kiribati,KIR,1974,0.391
+Kiribati,KIR,1975,0.401
+Kiribati,KIR,1976,0.407
+Kiribati,KIR,1977,0.411
+Kiribati,KIR,1978,0.416
+Kiribati,KIR,1979,0.419
+Kiribati,KIR,1980,0.419
+Kiribati,KIR,1981,0.419
+Kiribati,KIR,1982,0.419
+Kiribati,KIR,1983,0.419
+Kiribati,KIR,1984,0.418
+Kiribati,KIR,1985,0.418
+Kiribati,KIR,1986,0.419
+Kiribati,KIR,1987,0.419
+Kiribati,KIR,1988,0.421
+Kiribati,KIR,1989,0.423
+Kiribati,KIR,1990,0.425
+Kiribati,KIR,1991,0.427
+Kiribati,KIR,1992,0.429
+Kiribati,KIR,1993,0.432
+Kiribati,KIR,1994,0.435
+Kiribati,KIR,1995,0.438
+Kiribati,KIR,1996,0.441
+Kiribati,KIR,1997,0.444
+Kiribati,KIR,1998,0.447
+Kiribati,KIR,1999,0.451
+Kiribati,KIR,2000,0.455
+Kiribati,KIR,2001,0.459
+Kiribati,KIR,2002,0.463
+Kiribati,KIR,2003,0.468
+Kiribati,KIR,2004,0.472
+Kiribati,KIR,2005,0.476
+Kiribati,KIR,2006,0.48
+Kiribati,KIR,2007,0.484
+Kiribati,KIR,2008,0.487
+Kiribati,KIR,2009,0.49
+Kiribati,KIR,2010,0.492
+Kiribati,KIR,2011,0.495
+Kiribati,KIR,2012,0.497
+Kiribati,KIR,2013,0.501
+Kiribati,KIR,2014,0.504
+Kiribati,KIR,2015,0.509
+Kiribati,KIR,2016,0.514
+Kiribati,KIR,2017,0.518
+Kiribati,KIR,2018,0.523
+Kiribati,KIR,2019,0.527
+"Micronesia, Fed. Sts.",FSM,1950,0.243
+"Micronesia, Fed. Sts.",FSM,1951,0.246
+"Micronesia, Fed. Sts.",FSM,1952,0.249
+"Micronesia, Fed. Sts.",FSM,1953,0.252
+"Micronesia, Fed. Sts.",FSM,1954,0.256
+"Micronesia, Fed. Sts.",FSM,1955,0.259
+"Micronesia, Fed. Sts.",FSM,1956,0.262
+"Micronesia, Fed. Sts.",FSM,1957,0.266
+"Micronesia, Fed. Sts.",FSM,1958,0.269
+"Micronesia, Fed. Sts.",FSM,1959,0.273
+"Micronesia, Fed. Sts.",FSM,1960,0.277
+"Micronesia, Fed. Sts.",FSM,1961,0.281
+"Micronesia, Fed. Sts.",FSM,1962,0.285
+"Micronesia, Fed. Sts.",FSM,1963,0.289
+"Micronesia, Fed. Sts.",FSM,1964,0.293
+"Micronesia, Fed. Sts.",FSM,1965,0.298
+"Micronesia, Fed. Sts.",FSM,1966,0.303
+"Micronesia, Fed. Sts.",FSM,1967,0.308
+"Micronesia, Fed. Sts.",FSM,1968,0.313
+"Micronesia, Fed. Sts.",FSM,1969,0.319
+"Micronesia, Fed. Sts.",FSM,1970,0.324
+"Micronesia, Fed. Sts.",FSM,1971,0.33
+"Micronesia, Fed. Sts.",FSM,1972,0.337
+"Micronesia, Fed. Sts.",FSM,1973,0.343
+"Micronesia, Fed. Sts.",FSM,1974,0.35
+"Micronesia, Fed. Sts.",FSM,1975,0.356
+"Micronesia, Fed. Sts.",FSM,1976,0.363
+"Micronesia, Fed. Sts.",FSM,1977,0.37
+"Micronesia, Fed. Sts.",FSM,1978,0.377
+"Micronesia, Fed. Sts.",FSM,1979,0.383
+"Micronesia, Fed. Sts.",FSM,1980,0.39
+"Micronesia, Fed. Sts.",FSM,1981,0.396
+"Micronesia, Fed. Sts.",FSM,1982,0.402
+"Micronesia, Fed. Sts.",FSM,1983,0.408
+"Micronesia, Fed. Sts.",FSM,1984,0.414
+"Micronesia, Fed. Sts.",FSM,1985,0.419
+"Micronesia, Fed. Sts.",FSM,1986,0.425
+"Micronesia, Fed. Sts.",FSM,1987,0.43
+"Micronesia, Fed. Sts.",FSM,1988,0.436
+"Micronesia, Fed. Sts.",FSM,1989,0.441
+"Micronesia, Fed. Sts.",FSM,1990,0.447
+"Micronesia, Fed. Sts.",FSM,1991,0.453
+"Micronesia, Fed. Sts.",FSM,1992,0.459
+"Micronesia, Fed. Sts.",FSM,1993,0.465
+"Micronesia, Fed. Sts.",FSM,1994,0.471
+"Micronesia, Fed. Sts.",FSM,1995,0.478
+"Micronesia, Fed. Sts.",FSM,1996,0.483
+"Micronesia, Fed. Sts.",FSM,1997,0.488
+"Micronesia, Fed. Sts.",FSM,1998,0.492
+"Micronesia, Fed. Sts.",FSM,1999,0.497
+"Micronesia, Fed. Sts.",FSM,2000,0.502
+"Micronesia, Fed. Sts.",FSM,2001,0.507
+"Micronesia, Fed. Sts.",FSM,2002,0.511
+"Micronesia, Fed. Sts.",FSM,2003,0.516
+"Micronesia, Fed. Sts.",FSM,2004,0.521
+"Micronesia, Fed. Sts.",FSM,2005,0.525
+"Micronesia, Fed. Sts.",FSM,2006,0.53
+"Micronesia, Fed. Sts.",FSM,2007,0.534
+"Micronesia, Fed. Sts.",FSM,2008,0.538
+"Micronesia, Fed. Sts.",FSM,2009,0.542
+"Micronesia, Fed. Sts.",FSM,2010,0.546
+"Micronesia, Fed. Sts.",FSM,2011,0.55
+"Micronesia, Fed. Sts.",FSM,2012,0.554
+"Micronesia, Fed. Sts.",FSM,2013,0.558
+"Micronesia, Fed. Sts.",FSM,2014,0.561
+"Micronesia, Fed. Sts.",FSM,2015,0.565
+"Micronesia, Fed. Sts.",FSM,2016,0.569
+"Micronesia, Fed. Sts.",FSM,2017,0.573
+"Micronesia, Fed. Sts.",FSM,2018,0.577
+"Micronesia, Fed. Sts.",FSM,2019,0.58
+Papua New Guinea,PNG,1950,0.158
+Papua New Guinea,PNG,1951,0.16
+Papua New Guinea,PNG,1952,0.162
+Papua New Guinea,PNG,1953,0.164
+Papua New Guinea,PNG,1954,0.166
+Papua New Guinea,PNG,1955,0.168
+Papua New Guinea,PNG,1956,0.171
+Papua New Guinea,PNG,1957,0.173
+Papua New Guinea,PNG,1958,0.175
+Papua New Guinea,PNG,1959,0.177
+Papua New Guinea,PNG,1960,0.18
+Papua New Guinea,PNG,1961,0.183
+Papua New Guinea,PNG,1962,0.187
+Papua New Guinea,PNG,1963,0.19
+Papua New Guinea,PNG,1964,0.193
+Papua New Guinea,PNG,1965,0.197
+Papua New Guinea,PNG,1966,0.201
+Papua New Guinea,PNG,1967,0.205
+Papua New Guinea,PNG,1968,0.209
+Papua New Guinea,PNG,1969,0.214
+Papua New Guinea,PNG,1970,0.218
+Papua New Guinea,PNG,1971,0.223
+Papua New Guinea,PNG,1972,0.228
+Papua New Guinea,PNG,1973,0.232
+Papua New Guinea,PNG,1974,0.236
+Papua New Guinea,PNG,1975,0.241
+Papua New Guinea,PNG,1976,0.244
+Papua New Guinea,PNG,1977,0.248
+Papua New Guinea,PNG,1978,0.252
+Papua New Guinea,PNG,1979,0.255
+Papua New Guinea,PNG,1980,0.259
+Papua New Guinea,PNG,1981,0.262
+Papua New Guinea,PNG,1982,0.266
+Papua New Guinea,PNG,1983,0.269
+Papua New Guinea,PNG,1984,0.273
+Papua New Guinea,PNG,1985,0.276
+Papua New Guinea,PNG,1986,0.279
+Papua New Guinea,PNG,1987,0.283
+Papua New Guinea,PNG,1988,0.287
+Papua New Guinea,PNG,1989,0.29
+Papua New Guinea,PNG,1990,0.292
+Papua New Guinea,PNG,1991,0.295
+Papua New Guinea,PNG,1992,0.299
+Papua New Guinea,PNG,1993,0.304
+Papua New Guinea,PNG,1994,0.309
+Papua New Guinea,PNG,1995,0.313
+Papua New Guinea,PNG,1996,0.317
+Papua New Guinea,PNG,1997,0.32
+Papua New Guinea,PNG,1998,0.323
+Papua New Guinea,PNG,1999,0.326
+Papua New Guinea,PNG,2000,0.329
+Papua New Guinea,PNG,2001,0.331
+Papua New Guinea,PNG,2002,0.333
+Papua New Guinea,PNG,2003,0.335
+Papua New Guinea,PNG,2004,0.337
+Papua New Guinea,PNG,2005,0.339
+Papua New Guinea,PNG,2006,0.342
+Papua New Guinea,PNG,2007,0.345
+Papua New Guinea,PNG,2008,0.348
+Papua New Guinea,PNG,2009,0.352
+Papua New Guinea,PNG,2010,0.356
+Papua New Guinea,PNG,2011,0.36
+Papua New Guinea,PNG,2012,0.363
+Papua New Guinea,PNG,2013,0.367
+Papua New Guinea,PNG,2014,0.372
+Papua New Guinea,PNG,2015,0.377
+Papua New Guinea,PNG,2016,0.382
+Papua New Guinea,PNG,2017,0.386
+Papua New Guinea,PNG,2018,0.391
+Papua New Guinea,PNG,2019,0.394
+Samoa,WSM,1950,0.317
+Samoa,WSM,1951,0.321
+Samoa,WSM,1952,0.324
+Samoa,WSM,1953,0.327
+Samoa,WSM,1954,0.33
+Samoa,WSM,1955,0.334
+Samoa,WSM,1956,0.337
+Samoa,WSM,1957,0.341
+Samoa,WSM,1958,0.344
+Samoa,WSM,1959,0.348
+Samoa,WSM,1960,0.353
+Samoa,WSM,1961,0.357
+Samoa,WSM,1962,0.362
+Samoa,WSM,1963,0.367
+Samoa,WSM,1964,0.372
+Samoa,WSM,1965,0.378
+Samoa,WSM,1966,0.383
+Samoa,WSM,1967,0.389
+Samoa,WSM,1968,0.396
+Samoa,WSM,1969,0.402
+Samoa,WSM,1970,0.408
+Samoa,WSM,1971,0.416
+Samoa,WSM,1972,0.423
+Samoa,WSM,1973,0.431
+Samoa,WSM,1974,0.437
+Samoa,WSM,1975,0.443
+Samoa,WSM,1976,0.45
+Samoa,WSM,1977,0.456
+Samoa,WSM,1978,0.463
+Samoa,WSM,1979,0.47
+Samoa,WSM,1980,0.477
+Samoa,WSM,1981,0.482
+Samoa,WSM,1982,0.488
+Samoa,WSM,1983,0.493
+Samoa,WSM,1984,0.498
+Samoa,WSM,1985,0.503
+Samoa,WSM,1986,0.509
+Samoa,WSM,1987,0.515
+Samoa,WSM,1988,0.52
+Samoa,WSM,1989,0.526
+Samoa,WSM,1990,0.531
+Samoa,WSM,1991,0.535
+Samoa,WSM,1992,0.539
+Samoa,WSM,1993,0.543
+Samoa,WSM,1994,0.546
+Samoa,WSM,1995,0.55
+Samoa,WSM,1996,0.555
+Samoa,WSM,1997,0.559
+Samoa,WSM,1998,0.563
+Samoa,WSM,1999,0.567
+Samoa,WSM,2000,0.571
+Samoa,WSM,2001,0.576
+Samoa,WSM,2002,0.581
+Samoa,WSM,2003,0.586
+Samoa,WSM,2004,0.59
+Samoa,WSM,2005,0.595
+Samoa,WSM,2006,0.599
+Samoa,WSM,2007,0.603
+Samoa,WSM,2008,0.607
+Samoa,WSM,2009,0.61
+Samoa,WSM,2010,0.612
+Samoa,WSM,2011,0.615
+Samoa,WSM,2012,0.618
+Samoa,WSM,2013,0.62
+Samoa,WSM,2014,0.623
+Samoa,WSM,2015,0.626
+Samoa,WSM,2016,0.629
+Samoa,WSM,2017,0.633
+Samoa,WSM,2018,0.637
+Samoa,WSM,2019,0.641
+Solomon Islands,SLB,1950,0.155
+Solomon Islands,SLB,1951,0.157
+Solomon Islands,SLB,1952,0.159
+Solomon Islands,SLB,1953,0.16
+Solomon Islands,SLB,1954,0.162
+Solomon Islands,SLB,1955,0.165
+Solomon Islands,SLB,1956,0.167
+Solomon Islands,SLB,1957,0.169
+Solomon Islands,SLB,1958,0.171
+Solomon Islands,SLB,1959,0.174
+Solomon Islands,SLB,1960,0.176
+Solomon Islands,SLB,1961,0.179
+Solomon Islands,SLB,1962,0.181
+Solomon Islands,SLB,1963,0.184
+Solomon Islands,SLB,1964,0.187
+Solomon Islands,SLB,1965,0.189
+Solomon Islands,SLB,1966,0.193
+Solomon Islands,SLB,1967,0.195
+Solomon Islands,SLB,1968,0.198
+Solomon Islands,SLB,1969,0.202
+Solomon Islands,SLB,1970,0.205
+Solomon Islands,SLB,1971,0.208
+Solomon Islands,SLB,1972,0.211
+Solomon Islands,SLB,1973,0.215
+Solomon Islands,SLB,1974,0.219
+Solomon Islands,SLB,1975,0.222
+Solomon Islands,SLB,1976,0.226
+Solomon Islands,SLB,1977,0.23
+Solomon Islands,SLB,1978,0.235
+Solomon Islands,SLB,1979,0.241
+Solomon Islands,SLB,1980,0.245
+Solomon Islands,SLB,1981,0.25
+Solomon Islands,SLB,1982,0.253
+Solomon Islands,SLB,1983,0.257
+Solomon Islands,SLB,1984,0.26
+Solomon Islands,SLB,1985,0.263
+Solomon Islands,SLB,1986,0.266
+Solomon Islands,SLB,1987,0.269
+Solomon Islands,SLB,1988,0.272
+Solomon Islands,SLB,1989,0.275
+Solomon Islands,SLB,1990,0.279
+Solomon Islands,SLB,1991,0.283
+Solomon Islands,SLB,1992,0.288
+Solomon Islands,SLB,1993,0.294
+Solomon Islands,SLB,1994,0.3
+Solomon Islands,SLB,1995,0.306
+Solomon Islands,SLB,1996,0.312
+Solomon Islands,SLB,1997,0.317
+Solomon Islands,SLB,1998,0.321
+Solomon Islands,SLB,1999,0.326
+Solomon Islands,SLB,2000,0.328
+Solomon Islands,SLB,2001,0.33
+Solomon Islands,SLB,2002,0.331
+Solomon Islands,SLB,2003,0.332
+Solomon Islands,SLB,2004,0.333
+Solomon Islands,SLB,2005,0.336
+Solomon Islands,SLB,2006,0.339
+Solomon Islands,SLB,2007,0.343
+Solomon Islands,SLB,2008,0.348
+Solomon Islands,SLB,2009,0.353
+Solomon Islands,SLB,2010,0.358
+Solomon Islands,SLB,2011,0.364
+Solomon Islands,SLB,2012,0.371
+Solomon Islands,SLB,2013,0.377
+Solomon Islands,SLB,2014,0.382
+Solomon Islands,SLB,2015,0.387
+Solomon Islands,SLB,2016,0.393
+Solomon Islands,SLB,2017,0.398
+Solomon Islands,SLB,2018,0.403
+Solomon Islands,SLB,2019,0.407
+Vanuatu,VUT,1950,0.209
+Vanuatu,VUT,1951,0.212
+Vanuatu,VUT,1952,0.215
+Vanuatu,VUT,1953,0.217
+Vanuatu,VUT,1954,0.22
+Vanuatu,VUT,1955,0.223
+Vanuatu,VUT,1956,0.227
+Vanuatu,VUT,1957,0.23
+Vanuatu,VUT,1958,0.233
+Vanuatu,VUT,1959,0.236
+Vanuatu,VUT,1960,0.24
+Vanuatu,VUT,1961,0.243
+Vanuatu,VUT,1962,0.247
+Vanuatu,VUT,1963,0.25
+Vanuatu,VUT,1964,0.254
+Vanuatu,VUT,1965,0.258
+Vanuatu,VUT,1966,0.262
+Vanuatu,VUT,1967,0.266
+Vanuatu,VUT,1968,0.27
+Vanuatu,VUT,1969,0.274
+Vanuatu,VUT,1970,0.278
+Vanuatu,VUT,1971,0.282
+Vanuatu,VUT,1972,0.286
+Vanuatu,VUT,1973,0.291
+Vanuatu,VUT,1974,0.298
+Vanuatu,VUT,1975,0.303
+Vanuatu,VUT,1976,0.308
+Vanuatu,VUT,1977,0.313
+Vanuatu,VUT,1978,0.318
+Vanuatu,VUT,1979,0.324
+Vanuatu,VUT,1980,0.327
+Vanuatu,VUT,1981,0.33
+Vanuatu,VUT,1982,0.334
+Vanuatu,VUT,1983,0.337
+Vanuatu,VUT,1984,0.341
+Vanuatu,VUT,1985,0.345
+Vanuatu,VUT,1986,0.348
+Vanuatu,VUT,1987,0.351
+Vanuatu,VUT,1988,0.354
+Vanuatu,VUT,1989,0.357
+Vanuatu,VUT,1990,0.361
+Vanuatu,VUT,1991,0.365
+Vanuatu,VUT,1992,0.369
+Vanuatu,VUT,1993,0.373
+Vanuatu,VUT,1994,0.377
+Vanuatu,VUT,1995,0.381
+Vanuatu,VUT,1996,0.386
+Vanuatu,VUT,1997,0.39
+Vanuatu,VUT,1998,0.395
+Vanuatu,VUT,1999,0.399
+Vanuatu,VUT,2000,0.403
+Vanuatu,VUT,2001,0.407
+Vanuatu,VUT,2002,0.41
+Vanuatu,VUT,2003,0.413
+Vanuatu,VUT,2004,0.417
+Vanuatu,VUT,2005,0.42
+Vanuatu,VUT,2006,0.425
+Vanuatu,VUT,2007,0.43
+Vanuatu,VUT,2008,0.435
+Vanuatu,VUT,2009,0.44
+Vanuatu,VUT,2010,0.446
+Vanuatu,VUT,2011,0.451
+Vanuatu,VUT,2012,0.455
+Vanuatu,VUT,2013,0.46
+Vanuatu,VUT,2014,0.464
+Vanuatu,VUT,2015,0.468
+Vanuatu,VUT,2016,0.473
+Vanuatu,VUT,2017,0.477
+Vanuatu,VUT,2018,0.481
+Vanuatu,VUT,2019,0.485
+Cambodia,KHM,1950,0.161
+Cambodia,KHM,1951,0.163
+Cambodia,KHM,1952,0.165
+Cambodia,KHM,1953,0.167
+Cambodia,KHM,1954,0.169
+Cambodia,KHM,1955,0.171
+Cambodia,KHM,1956,0.174
+Cambodia,KHM,1957,0.177
+Cambodia,KHM,1958,0.18
+Cambodia,KHM,1959,0.184
+Cambodia,KHM,1960,0.187
+Cambodia,KHM,1961,0.19
+Cambodia,KHM,1962,0.193
+Cambodia,KHM,1963,0.197
+Cambodia,KHM,1964,0.2
+Cambodia,KHM,1965,0.203
+Cambodia,KHM,1966,0.206
+Cambodia,KHM,1967,0.209
+Cambodia,KHM,1968,0.212
+Cambodia,KHM,1969,0.215
+Cambodia,KHM,1970,0.217
+Cambodia,KHM,1971,0.218
+Cambodia,KHM,1972,0.219
+Cambodia,KHM,1973,0.22
+Cambodia,KHM,1974,0.221
+Cambodia,KHM,1975,0.22
+Cambodia,KHM,1976,0.22
+Cambodia,KHM,1977,0.22
+Cambodia,KHM,1978,0.221
+Cambodia,KHM,1979,0.223
+Cambodia,KHM,1980,0.225
+Cambodia,KHM,1981,0.227
+Cambodia,KHM,1982,0.23
+Cambodia,KHM,1983,0.233
+Cambodia,KHM,1984,0.237
+Cambodia,KHM,1985,0.242
+Cambodia,KHM,1986,0.246
+Cambodia,KHM,1987,0.251
+Cambodia,KHM,1988,0.256
+Cambodia,KHM,1989,0.261
+Cambodia,KHM,1990,0.266
+Cambodia,KHM,1991,0.272
+Cambodia,KHM,1992,0.277
+Cambodia,KHM,1993,0.282
+Cambodia,KHM,1994,0.286
+Cambodia,KHM,1995,0.291
+Cambodia,KHM,1996,0.296
+Cambodia,KHM,1997,0.301
+Cambodia,KHM,1998,0.307
+Cambodia,KHM,1999,0.313
+Cambodia,KHM,2000,0.321
+Cambodia,KHM,2001,0.328
+Cambodia,KHM,2002,0.337
+Cambodia,KHM,2003,0.345
+Cambodia,KHM,2004,0.354
+Cambodia,KHM,2005,0.363
+Cambodia,KHM,2006,0.373
+Cambodia,KHM,2007,0.382
+Cambodia,KHM,2008,0.391
+Cambodia,KHM,2009,0.399
+Cambodia,KHM,2010,0.406
+Cambodia,KHM,2011,0.413
+Cambodia,KHM,2012,0.421
+Cambodia,KHM,2013,0.428
+Cambodia,KHM,2014,0.435
+Cambodia,KHM,2015,0.442
+Cambodia,KHM,2016,0.449
+Cambodia,KHM,2017,0.456
+Cambodia,KHM,2018,0.463
+Cambodia,KHM,2019,0.469
+Indonesia,IDN,1950,0.204
+Indonesia,IDN,1951,0.208
+Indonesia,IDN,1952,0.211
+Indonesia,IDN,1953,0.215
+Indonesia,IDN,1954,0.218
+Indonesia,IDN,1955,0.221
+Indonesia,IDN,1956,0.224
+Indonesia,IDN,1957,0.227
+Indonesia,IDN,1958,0.23
+Indonesia,IDN,1959,0.233
+Indonesia,IDN,1960,0.236
+Indonesia,IDN,1961,0.239
+Indonesia,IDN,1962,0.243
+Indonesia,IDN,1963,0.246
+Indonesia,IDN,1964,0.249
+Indonesia,IDN,1965,0.252
+Indonesia,IDN,1966,0.255
+Indonesia,IDN,1967,0.259
+Indonesia,IDN,1968,0.263
+Indonesia,IDN,1969,0.268
+Indonesia,IDN,1970,0.274
+Indonesia,IDN,1971,0.28
+Indonesia,IDN,1972,0.287
+Indonesia,IDN,1973,0.296
+Indonesia,IDN,1974,0.304
+Indonesia,IDN,1975,0.312
+Indonesia,IDN,1976,0.321
+Indonesia,IDN,1977,0.33
+Indonesia,IDN,1978,0.339
+Indonesia,IDN,1979,0.348
+Indonesia,IDN,1980,0.357
+Indonesia,IDN,1981,0.367
+Indonesia,IDN,1982,0.376
+Indonesia,IDN,1983,0.386
+Indonesia,IDN,1984,0.395
+Indonesia,IDN,1985,0.405
+Indonesia,IDN,1986,0.414
+Indonesia,IDN,1987,0.424
+Indonesia,IDN,1988,0.433
+Indonesia,IDN,1989,0.443
+Indonesia,IDN,1990,0.452
+Indonesia,IDN,1991,0.462
+Indonesia,IDN,1992,0.472
+Indonesia,IDN,1993,0.481
+Indonesia,IDN,1994,0.49
+Indonesia,IDN,1995,0.499
+Indonesia,IDN,1996,0.508
+Indonesia,IDN,1997,0.516
+Indonesia,IDN,1998,0.522
+Indonesia,IDN,1999,0.527
+Indonesia,IDN,2000,0.533
+Indonesia,IDN,2001,0.537
+Indonesia,IDN,2002,0.542
+Indonesia,IDN,2003,0.547
+Indonesia,IDN,2004,0.552
+Indonesia,IDN,2005,0.558
+Indonesia,IDN,2006,0.564
+Indonesia,IDN,2007,0.571
+Indonesia,IDN,2008,0.578
+Indonesia,IDN,2009,0.585
+Indonesia,IDN,2010,0.593
+Indonesia,IDN,2011,0.601
+Indonesia,IDN,2012,0.609
+Indonesia,IDN,2013,0.617
+Indonesia,IDN,2014,0.625
+Indonesia,IDN,2015,0.633
+Indonesia,IDN,2016,0.64
+Indonesia,IDN,2017,0.647
+Indonesia,IDN,2018,0.654
+Indonesia,IDN,2019,0.66
+Lao PDR,LAO,1950,0.14
+Lao PDR,LAO,1951,0.141
+Lao PDR,LAO,1952,0.143
+Lao PDR,LAO,1953,0.144
+Lao PDR,LAO,1954,0.146
+Lao PDR,LAO,1955,0.148
+Lao PDR,LAO,1956,0.149
+Lao PDR,LAO,1957,0.151
+Lao PDR,LAO,1958,0.153
+Lao PDR,LAO,1959,0.155
+Lao PDR,LAO,1960,0.157
+Lao PDR,LAO,1961,0.159
+Lao PDR,LAO,1962,0.162
+Lao PDR,LAO,1963,0.164
+Lao PDR,LAO,1964,0.166
+Lao PDR,LAO,1965,0.169
+Lao PDR,LAO,1966,0.171
+Lao PDR,LAO,1967,0.174
+Lao PDR,LAO,1968,0.177
+Lao PDR,LAO,1969,0.179
+Lao PDR,LAO,1970,0.182
+Lao PDR,LAO,1971,0.185
+Lao PDR,LAO,1972,0.188
+Lao PDR,LAO,1973,0.192
+Lao PDR,LAO,1974,0.195
+Lao PDR,LAO,1975,0.199
+Lao PDR,LAO,1976,0.203
+Lao PDR,LAO,1977,0.206
+Lao PDR,LAO,1978,0.21
+Lao PDR,LAO,1979,0.213
+Lao PDR,LAO,1980,0.217
+Lao PDR,LAO,1981,0.222
+Lao PDR,LAO,1982,0.227
+Lao PDR,LAO,1983,0.232
+Lao PDR,LAO,1984,0.237
+Lao PDR,LAO,1985,0.243
+Lao PDR,LAO,1986,0.248
+Lao PDR,LAO,1987,0.253
+Lao PDR,LAO,1988,0.258
+Lao PDR,LAO,1989,0.263
+Lao PDR,LAO,1990,0.268
+Lao PDR,LAO,1991,0.274
+Lao PDR,LAO,1992,0.279
+Lao PDR,LAO,1993,0.285
+Lao PDR,LAO,1994,0.29
+Lao PDR,LAO,1995,0.296
+Lao PDR,LAO,1996,0.302
+Lao PDR,LAO,1997,0.309
+Lao PDR,LAO,1998,0.315
+Lao PDR,LAO,1999,0.322
+Lao PDR,LAO,2000,0.329
+Lao PDR,LAO,2001,0.336
+Lao PDR,LAO,2002,0.344
+Lao PDR,LAO,2003,0.351
+Lao PDR,LAO,2004,0.359
+Lao PDR,LAO,2005,0.367
+Lao PDR,LAO,2006,0.376
+Lao PDR,LAO,2007,0.385
+Lao PDR,LAO,2008,0.394
+Lao PDR,LAO,2009,0.403
+Lao PDR,LAO,2010,0.413
+Lao PDR,LAO,2011,0.422
+Lao PDR,LAO,2012,0.431
+Lao PDR,LAO,2013,0.441
+Lao PDR,LAO,2014,0.45
+Lao PDR,LAO,2015,0.458
+Lao PDR,LAO,2016,0.467
+Lao PDR,LAO,2017,0.475
+Lao PDR,LAO,2018,0.483
+Lao PDR,LAO,2019,0.49
+Myanmar,MMR,1950,0.0947
+Myanmar,MMR,1951,0.104
+Myanmar,MMR,1952,0.107
+Myanmar,MMR,1953,0.11
+Myanmar,MMR,1954,0.11
+Myanmar,MMR,1955,0.113
+Myanmar,MMR,1956,0.117
+Myanmar,MMR,1957,0.121
+Myanmar,MMR,1958,0.124
+Myanmar,MMR,1959,0.129
+Myanmar,MMR,1960,0.134
+Myanmar,MMR,1961,0.138
+Myanmar,MMR,1962,0.143
+Myanmar,MMR,1963,0.148
+Myanmar,MMR,1964,0.152
+Myanmar,MMR,1965,0.156
+Myanmar,MMR,1966,0.159
+Myanmar,MMR,1967,0.161
+Myanmar,MMR,1968,0.164
+Myanmar,MMR,1969,0.168
+Myanmar,MMR,1970,0.176
+Myanmar,MMR,1971,0.183
+Myanmar,MMR,1972,0.19
+Myanmar,MMR,1973,0.196
+Myanmar,MMR,1974,0.201
+Myanmar,MMR,1975,0.207
+Myanmar,MMR,1976,0.213
+Myanmar,MMR,1977,0.218
+Myanmar,MMR,1978,0.224
+Myanmar,MMR,1979,0.229
+Myanmar,MMR,1980,0.235
+Myanmar,MMR,1981,0.241
+Myanmar,MMR,1982,0.247
+Myanmar,MMR,1983,0.253
+Myanmar,MMR,1984,0.26
+Myanmar,MMR,1985,0.266
+Myanmar,MMR,1986,0.271
+Myanmar,MMR,1987,0.276
+Myanmar,MMR,1988,0.278
+Myanmar,MMR,1989,0.281
+Myanmar,MMR,1990,0.284
+Myanmar,MMR,1991,0.287
+Myanmar,MMR,1992,0.29
+Myanmar,MMR,1993,0.295
+Myanmar,MMR,1994,0.3
+Myanmar,MMR,1995,0.306
+Myanmar,MMR,1996,0.313
+Myanmar,MMR,1997,0.32
+Myanmar,MMR,1998,0.327
+Myanmar,MMR,1999,0.335
+Myanmar,MMR,2000,0.344
+Myanmar,MMR,2001,0.353
+Myanmar,MMR,2002,0.363
+Myanmar,MMR,2003,0.373
+Myanmar,MMR,2004,0.384
+Myanmar,MMR,2005,0.395
+Myanmar,MMR,2006,0.406
+Myanmar,MMR,2007,0.417
+Myanmar,MMR,2008,0.427
+Myanmar,MMR,2009,0.437
+Myanmar,MMR,2010,0.446
+Myanmar,MMR,2011,0.455
+Myanmar,MMR,2012,0.464
+Myanmar,MMR,2013,0.473
+Myanmar,MMR,2014,0.482
+Myanmar,MMR,2015,0.49
+Myanmar,MMR,2016,0.498
+Myanmar,MMR,2017,0.506
+Myanmar,MMR,2018,0.514
+Myanmar,MMR,2019,0.521
+Philippines,PHL,1950,0.284
+Philippines,PHL,1951,0.288
+Philippines,PHL,1952,0.292
+Philippines,PHL,1953,0.297
+Philippines,PHL,1954,0.301
+Philippines,PHL,1955,0.306
+Philippines,PHL,1956,0.311
+Philippines,PHL,1957,0.315
+Philippines,PHL,1958,0.32
+Philippines,PHL,1959,0.325
+Philippines,PHL,1960,0.329
+Philippines,PHL,1961,0.334
+Philippines,PHL,1962,0.339
+Philippines,PHL,1963,0.343
+Philippines,PHL,1964,0.348
+Philippines,PHL,1965,0.352
+Philippines,PHL,1966,0.357
+Philippines,PHL,1967,0.362
+Philippines,PHL,1968,0.366
+Philippines,PHL,1969,0.371
+Philippines,PHL,1970,0.377
+Philippines,PHL,1971,0.382
+Philippines,PHL,1972,0.387
+Philippines,PHL,1973,0.393
+Philippines,PHL,1974,0.399
+Philippines,PHL,1975,0.405
+Philippines,PHL,1976,0.412
+Philippines,PHL,1977,0.419
+Philippines,PHL,1978,0.426
+Philippines,PHL,1979,0.433
+Philippines,PHL,1980,0.44
+Philippines,PHL,1981,0.447
+Philippines,PHL,1982,0.455
+Philippines,PHL,1983,0.462
+Philippines,PHL,1984,0.467
+Philippines,PHL,1985,0.472
+Philippines,PHL,1986,0.477
+Philippines,PHL,1987,0.482
+Philippines,PHL,1988,0.487
+Philippines,PHL,1989,0.492
+Philippines,PHL,1990,0.497
+Philippines,PHL,1991,0.501
+Philippines,PHL,1992,0.505
+Philippines,PHL,1993,0.509
+Philippines,PHL,1994,0.513
+Philippines,PHL,1995,0.518
+Philippines,PHL,1996,0.522
+Philippines,PHL,1997,0.526
+Philippines,PHL,1998,0.529
+Philippines,PHL,1999,0.532
+Philippines,PHL,2000,0.534
+Philippines,PHL,2001,0.537
+Philippines,PHL,2002,0.54
+Philippines,PHL,2003,0.542
+Philippines,PHL,2004,0.545
+Philippines,PHL,2005,0.547
+Philippines,PHL,2006,0.55
+Philippines,PHL,2007,0.554
+Philippines,PHL,2008,0.558
+Philippines,PHL,2009,0.562
+Philippines,PHL,2010,0.567
+Philippines,PHL,2011,0.572
+Philippines,PHL,2012,0.577
+Philippines,PHL,2013,0.583
+Philippines,PHL,2014,0.589
+Philippines,PHL,2015,0.596
+Philippines,PHL,2016,0.603
+Philippines,PHL,2017,0.61
+Philippines,PHL,2018,0.617
+Philippines,PHL,2019,0.623
+Sri Lanka,LKA,1950,0.304
+Sri Lanka,LKA,1951,0.309
+Sri Lanka,LKA,1952,0.312
+Sri Lanka,LKA,1953,0.315
+Sri Lanka,LKA,1954,0.319
+Sri Lanka,LKA,1955,0.324
+Sri Lanka,LKA,1956,0.328
+Sri Lanka,LKA,1957,0.332
+Sri Lanka,LKA,1958,0.336
+Sri Lanka,LKA,1959,0.34
+Sri Lanka,LKA,1960,0.345
+Sri Lanka,LKA,1961,0.35
+Sri Lanka,LKA,1962,0.355
+Sri Lanka,LKA,1963,0.36
+Sri Lanka,LKA,1964,0.365
+Sri Lanka,LKA,1965,0.371
+Sri Lanka,LKA,1966,0.376
+Sri Lanka,LKA,1967,0.381
+Sri Lanka,LKA,1968,0.386
+Sri Lanka,LKA,1969,0.392
+Sri Lanka,LKA,1970,0.398
+Sri Lanka,LKA,1971,0.403
+Sri Lanka,LKA,1972,0.408
+Sri Lanka,LKA,1973,0.414
+Sri Lanka,LKA,1974,0.419
+Sri Lanka,LKA,1975,0.424
+Sri Lanka,LKA,1976,0.428
+Sri Lanka,LKA,1977,0.431
+Sri Lanka,LKA,1978,0.434
+Sri Lanka,LKA,1979,0.437
+Sri Lanka,LKA,1980,0.44
+Sri Lanka,LKA,1981,0.444
+Sri Lanka,LKA,1982,0.448
+Sri Lanka,LKA,1983,0.454
+Sri Lanka,LKA,1984,0.46
+Sri Lanka,LKA,1985,0.468
+Sri Lanka,LKA,1986,0.476
+Sri Lanka,LKA,1987,0.484
+Sri Lanka,LKA,1988,0.491
+Sri Lanka,LKA,1989,0.498
+Sri Lanka,LKA,1990,0.504
+Sri Lanka,LKA,1991,0.511
+Sri Lanka,LKA,1992,0.518
+Sri Lanka,LKA,1993,0.525
+Sri Lanka,LKA,1994,0.532
+Sri Lanka,LKA,1995,0.539
+Sri Lanka,LKA,1996,0.547
+Sri Lanka,LKA,1997,0.554
+Sri Lanka,LKA,1998,0.561
+Sri Lanka,LKA,1999,0.567
+Sri Lanka,LKA,2000,0.573
+Sri Lanka,LKA,2001,0.578
+Sri Lanka,LKA,2002,0.582
+Sri Lanka,LKA,2003,0.587
+Sri Lanka,LKA,2004,0.592
+Sri Lanka,LKA,2005,0.597
+Sri Lanka,LKA,2006,0.602
+Sri Lanka,LKA,2007,0.609
+Sri Lanka,LKA,2008,0.615
+Sri Lanka,LKA,2009,0.621
+Sri Lanka,LKA,2010,0.628
+Sri Lanka,LKA,2011,0.636
+Sri Lanka,LKA,2012,0.644
+Sri Lanka,LKA,2013,0.651
+Sri Lanka,LKA,2014,0.658
+Sri Lanka,LKA,2015,0.666
+Sri Lanka,LKA,2016,0.672
+Sri Lanka,LKA,2017,0.678
+Sri Lanka,LKA,2018,0.684
+Sri Lanka,LKA,2019,0.69
+Timor-Leste,TLS,1950,0.122
+Timor-Leste,TLS,1951,0.124
+Timor-Leste,TLS,1952,0.127
+Timor-Leste,TLS,1953,0.129
+Timor-Leste,TLS,1954,0.132
+Timor-Leste,TLS,1955,0.134
+Timor-Leste,TLS,1956,0.137
+Timor-Leste,TLS,1957,0.139
+Timor-Leste,TLS,1958,0.142
+Timor-Leste,TLS,1959,0.144
+Timor-Leste,TLS,1960,0.149
+Timor-Leste,TLS,1961,0.152
+Timor-Leste,TLS,1962,0.155
+Timor-Leste,TLS,1963,0.157
+Timor-Leste,TLS,1964,0.16
+Timor-Leste,TLS,1965,0.166
+Timor-Leste,TLS,1966,0.17
+Timor-Leste,TLS,1967,0.175
+Timor-Leste,TLS,1968,0.179
+Timor-Leste,TLS,1969,0.184
+Timor-Leste,TLS,1970,0.188
+Timor-Leste,TLS,1971,0.192
+Timor-Leste,TLS,1972,0.197
+Timor-Leste,TLS,1973,0.203
+Timor-Leste,TLS,1974,0.209
+Timor-Leste,TLS,1975,0.21
+Timor-Leste,TLS,1976,0.215
+Timor-Leste,TLS,1977,0.219
+Timor-Leste,TLS,1978,0.223
+Timor-Leste,TLS,1979,0.227
+Timor-Leste,TLS,1980,0.231
+Timor-Leste,TLS,1981,0.234
+Timor-Leste,TLS,1982,0.238
+Timor-Leste,TLS,1983,0.242
+Timor-Leste,TLS,1984,0.246
+Timor-Leste,TLS,1985,0.25
+Timor-Leste,TLS,1986,0.254
+Timor-Leste,TLS,1987,0.259
+Timor-Leste,TLS,1988,0.264
+Timor-Leste,TLS,1989,0.269
+Timor-Leste,TLS,1990,0.274
+Timor-Leste,TLS,1991,0.28
+Timor-Leste,TLS,1992,0.286
+Timor-Leste,TLS,1993,0.293
+Timor-Leste,TLS,1994,0.3
+Timor-Leste,TLS,1995,0.308
+Timor-Leste,TLS,1996,0.317
+Timor-Leste,TLS,1997,0.326
+Timor-Leste,TLS,1998,0.334
+Timor-Leste,TLS,1999,0.339
+Timor-Leste,TLS,2000,0.345
+Timor-Leste,TLS,2001,0.352
+Timor-Leste,TLS,2002,0.358
+Timor-Leste,TLS,2003,0.364
+Timor-Leste,TLS,2004,0.374
+Timor-Leste,TLS,2005,0.388
+Timor-Leste,TLS,2006,0.406
+Timor-Leste,TLS,2007,0.421
+Timor-Leste,TLS,2008,0.436
+Timor-Leste,TLS,2009,0.448
+Timor-Leste,TLS,2010,0.458
+Timor-Leste,TLS,2011,0.469
+Timor-Leste,TLS,2012,0.48
+Timor-Leste,TLS,2013,0.488
+Timor-Leste,TLS,2014,0.493
+Timor-Leste,TLS,2015,0.498
+Timor-Leste,TLS,2016,0.503
+Timor-Leste,TLS,2017,0.508
+Timor-Leste,TLS,2018,0.511
+Timor-Leste,TLS,2019,0.514
+Vietnam,VNM,1950,0.196
+Vietnam,VNM,1951,0.199
+Vietnam,VNM,1952,0.203
+Vietnam,VNM,1953,0.206
+Vietnam,VNM,1954,0.21
+Vietnam,VNM,1955,0.214
+Vietnam,VNM,1956,0.218
+Vietnam,VNM,1957,0.222
+Vietnam,VNM,1958,0.226
+Vietnam,VNM,1959,0.23
+Vietnam,VNM,1960,0.235
+Vietnam,VNM,1961,0.239
+Vietnam,VNM,1962,0.245
+Vietnam,VNM,1963,0.25
+Vietnam,VNM,1964,0.255
+Vietnam,VNM,1965,0.26
+Vietnam,VNM,1966,0.265
+Vietnam,VNM,1967,0.268
+Vietnam,VNM,1968,0.27
+Vietnam,VNM,1969,0.273
+Vietnam,VNM,1970,0.276
+Vietnam,VNM,1971,0.279
+Vietnam,VNM,1972,0.283
+Vietnam,VNM,1973,0.287
+Vietnam,VNM,1974,0.292
+Vietnam,VNM,1975,0.295
+Vietnam,VNM,1976,0.301
+Vietnam,VNM,1977,0.308
+Vietnam,VNM,1978,0.314
+Vietnam,VNM,1979,0.321
+Vietnam,VNM,1980,0.326
+Vietnam,VNM,1981,0.332
+Vietnam,VNM,1982,0.338
+Vietnam,VNM,1983,0.345
+Vietnam,VNM,1984,0.352
+Vietnam,VNM,1985,0.359
+Vietnam,VNM,1986,0.365
+Vietnam,VNM,1987,0.371
+Vietnam,VNM,1988,0.377
+Vietnam,VNM,1989,0.383
+Vietnam,VNM,1990,0.39
+Vietnam,VNM,1991,0.397
+Vietnam,VNM,1992,0.404
+Vietnam,VNM,1993,0.412
+Vietnam,VNM,1994,0.42
+Vietnam,VNM,1995,0.429
+Vietnam,VNM,1996,0.438
+Vietnam,VNM,1997,0.447
+Vietnam,VNM,1998,0.455
+Vietnam,VNM,1999,0.463
+Vietnam,VNM,2000,0.471
+Vietnam,VNM,2001,0.478
+Vietnam,VNM,2002,0.486
+Vietnam,VNM,2003,0.493
+Vietnam,VNM,2004,0.501
+Vietnam,VNM,2005,0.509
+Vietnam,VNM,2006,0.517
+Vietnam,VNM,2007,0.525
+Vietnam,VNM,2008,0.533
+Vietnam,VNM,2009,0.541
+Vietnam,VNM,2010,0.549
+Vietnam,VNM,2011,0.558
+Vietnam,VNM,2012,0.566
+Vietnam,VNM,2013,0.573
+Vietnam,VNM,2014,0.581
+Vietnam,VNM,2015,0.589
+Vietnam,VNM,2016,0.596
+Vietnam,VNM,2017,0.604
+Vietnam,VNM,2018,0.611
+Vietnam,VNM,2019,0.617
+Angola,AGO,1950,0.111
+Angola,AGO,1951,0.113
+Angola,AGO,1952,0.114
+Angola,AGO,1953,0.115
+Angola,AGO,1954,0.117
+Angola,AGO,1955,0.118
+Angola,AGO,1956,0.12
+Angola,AGO,1957,0.121
+Angola,AGO,1958,0.123
+Angola,AGO,1959,0.124
+Angola,AGO,1960,0.126
+Angola,AGO,1961,0.128
+Angola,AGO,1962,0.13
+Angola,AGO,1963,0.131
+Angola,AGO,1964,0.134
+Angola,AGO,1965,0.136
+Angola,AGO,1966,0.139
+Angola,AGO,1967,0.141
+Angola,AGO,1968,0.144
+Angola,AGO,1969,0.147
+Angola,AGO,1970,0.15
+Angola,AGO,1971,0.154
+Angola,AGO,1972,0.158
+Angola,AGO,1973,0.162
+Angola,AGO,1974,0.166
+Angola,AGO,1975,0.17
+Angola,AGO,1976,0.174
+Angola,AGO,1977,0.178
+Angola,AGO,1978,0.183
+Angola,AGO,1979,0.187
+Angola,AGO,1980,0.192
+Angola,AGO,1981,0.196
+Angola,AGO,1982,0.2
+Angola,AGO,1983,0.205
+Angola,AGO,1984,0.209
+Angola,AGO,1985,0.214
+Angola,AGO,1986,0.218
+Angola,AGO,1987,0.223
+Angola,AGO,1988,0.228
+Angola,AGO,1989,0.233
+Angola,AGO,1990,0.238
+Angola,AGO,1991,0.243
+Angola,AGO,1992,0.247
+Angola,AGO,1993,0.25
+Angola,AGO,1994,0.253
+Angola,AGO,1995,0.257
+Angola,AGO,1996,0.262
+Angola,AGO,1997,0.267
+Angola,AGO,1998,0.273
+Angola,AGO,1999,0.278
+Angola,AGO,2000,0.283
+Angola,AGO,2001,0.289
+Angola,AGO,2002,0.296
+Angola,AGO,2003,0.303
+Angola,AGO,2004,0.311
+Angola,AGO,2005,0.319
+Angola,AGO,2006,0.33
+Angola,AGO,2007,0.341
+Angola,AGO,2008,0.353
+Angola,AGO,2009,0.364
+Angola,AGO,2010,0.376
+Angola,AGO,2011,0.387
+Angola,AGO,2012,0.398
+Angola,AGO,2013,0.41
+Angola,AGO,2014,0.421
+Angola,AGO,2015,0.432
+Angola,AGO,2016,0.443
+Angola,AGO,2017,0.454
+Angola,AGO,2018,0.463
+Angola,AGO,2019,0.47
+Central African Republic,CAF,1950,0.0876
+Central African Republic,CAF,1951,0.089
+Central African Republic,CAF,1952,0.0906
+Central African Republic,CAF,1953,0.0921
+Central African Republic,CAF,1954,0.0937
+Central African Republic,CAF,1955,0.0954
+Central African Republic,CAF,1956,0.097
+Central African Republic,CAF,1957,0.0987
+Central African Republic,CAF,1958,0.1
+Central African Republic,CAF,1959,0.102
+Central African Republic,CAF,1960,0.104
+Central African Republic,CAF,1961,0.106
+Central African Republic,CAF,1962,0.108
+Central African Republic,CAF,1963,0.11
+Central African Republic,CAF,1964,0.111
+Central African Republic,CAF,1965,0.113
+Central African Republic,CAF,1966,0.115
+Central African Republic,CAF,1967,0.116
+Central African Republic,CAF,1968,0.118
+Central African Republic,CAF,1969,0.12
+Central African Republic,CAF,1970,0.123
+Central African Republic,CAF,1971,0.125
+Central African Republic,CAF,1972,0.127
+Central African Republic,CAF,1973,0.13
+Central African Republic,CAF,1974,0.132
+Central African Republic,CAF,1975,0.135
+Central African Republic,CAF,1976,0.138
+Central African Republic,CAF,1977,0.141
+Central African Republic,CAF,1978,0.144
+Central African Republic,CAF,1979,0.148
+Central African Republic,CAF,1980,0.15
+Central African Republic,CAF,1981,0.154
+Central African Republic,CAF,1982,0.158
+Central African Republic,CAF,1983,0.161
+Central African Republic,CAF,1984,0.164
+Central African Republic,CAF,1985,0.168
+Central African Republic,CAF,1986,0.172
+Central African Republic,CAF,1987,0.175
+Central African Republic,CAF,1988,0.179
+Central African Republic,CAF,1989,0.183
+Central African Republic,CAF,1990,0.186
+Central African Republic,CAF,1991,0.19
+Central African Republic,CAF,1992,0.193
+Central African Republic,CAF,1993,0.196
+Central African Republic,CAF,1994,0.199
+Central African Republic,CAF,1995,0.202
+Central African Republic,CAF,1996,0.205
+Central African Republic,CAF,1997,0.208
+Central African Republic,CAF,1998,0.211
+Central African Republic,CAF,1999,0.215
+Central African Republic,CAF,2000,0.218
+Central African Republic,CAF,2001,0.221
+Central African Republic,CAF,2002,0.225
+Central African Republic,CAF,2003,0.227
+Central African Republic,CAF,2004,0.23
+Central African Republic,CAF,2005,0.233
+Central African Republic,CAF,2006,0.236
+Central African Republic,CAF,2007,0.24
+Central African Republic,CAF,2008,0.244
+Central African Republic,CAF,2009,0.248
+Central African Republic,CAF,2010,0.253
+Central African Republic,CAF,2011,0.258
+Central African Republic,CAF,2012,0.263
+Central African Republic,CAF,2013,0.263
+Central African Republic,CAF,2014,0.263
+Central African Republic,CAF,2015,0.264
+Central African Republic,CAF,2016,0.266
+Central African Republic,CAF,2017,0.268
+Central African Republic,CAF,2018,0.271
+Central African Republic,CAF,2019,0.274
+"Congo, Rep.",COG,1950,0.132
+"Congo, Rep.",COG,1951,0.134
+"Congo, Rep.",COG,1952,0.136
+"Congo, Rep.",COG,1953,0.138
+"Congo, Rep.",COG,1954,0.14
+"Congo, Rep.",COG,1955,0.143
+"Congo, Rep.",COG,1956,0.145
+"Congo, Rep.",COG,1957,0.147
+"Congo, Rep.",COG,1958,0.15
+"Congo, Rep.",COG,1959,0.152
+"Congo, Rep.",COG,1960,0.155
+"Congo, Rep.",COG,1961,0.158
+"Congo, Rep.",COG,1962,0.161
+"Congo, Rep.",COG,1963,0.164
+"Congo, Rep.",COG,1964,0.167
+"Congo, Rep.",COG,1965,0.17
+"Congo, Rep.",COG,1966,0.174
+"Congo, Rep.",COG,1967,0.177
+"Congo, Rep.",COG,1968,0.181
+"Congo, Rep.",COG,1969,0.185
+"Congo, Rep.",COG,1970,0.19
+"Congo, Rep.",COG,1971,0.196
+"Congo, Rep.",COG,1972,0.201
+"Congo, Rep.",COG,1973,0.208
+"Congo, Rep.",COG,1974,0.214
+"Congo, Rep.",COG,1975,0.22
+"Congo, Rep.",COG,1976,0.228
+"Congo, Rep.",COG,1977,0.235
+"Congo, Rep.",COG,1978,0.242
+"Congo, Rep.",COG,1979,0.25
+"Congo, Rep.",COG,1980,0.26
+"Congo, Rep.",COG,1981,0.269
+"Congo, Rep.",COG,1982,0.28
+"Congo, Rep.",COG,1983,0.291
+"Congo, Rep.",COG,1984,0.303
+"Congo, Rep.",COG,1985,0.314
+"Congo, Rep.",COG,1986,0.324
+"Congo, Rep.",COG,1987,0.334
+"Congo, Rep.",COG,1988,0.344
+"Congo, Rep.",COG,1989,0.354
+"Congo, Rep.",COG,1990,0.364
+"Congo, Rep.",COG,1991,0.373
+"Congo, Rep.",COG,1992,0.381
+"Congo, Rep.",COG,1993,0.389
+"Congo, Rep.",COG,1994,0.396
+"Congo, Rep.",COG,1995,0.403
+"Congo, Rep.",COG,1996,0.41
+"Congo, Rep.",COG,1997,0.416
+"Congo, Rep.",COG,1998,0.421
+"Congo, Rep.",COG,1999,0.426
+"Congo, Rep.",COG,2000,0.431
+"Congo, Rep.",COG,2001,0.437
+"Congo, Rep.",COG,2002,0.442
+"Congo, Rep.",COG,2003,0.447
+"Congo, Rep.",COG,2004,0.452
+"Congo, Rep.",COG,2005,0.458
+"Congo, Rep.",COG,2006,0.464
+"Congo, Rep.",COG,2007,0.469
+"Congo, Rep.",COG,2008,0.475
+"Congo, Rep.",COG,2009,0.482
+"Congo, Rep.",COG,2010,0.491
+"Congo, Rep.",COG,2011,0.5
+"Congo, Rep.",COG,2012,0.509
+"Congo, Rep.",COG,2013,0.519
+"Congo, Rep.",COG,2014,0.528
+"Congo, Rep.",COG,2015,0.538
+"Congo, Rep.",COG,2016,0.547
+"Congo, Rep.",COG,2017,0.556
+"Congo, Rep.",COG,2018,0.563
+"Congo, Rep.",COG,2019,0.568
+"Congo, Dem. Rep.",COD,1950,0.129
+"Congo, Dem. Rep.",COD,1951,0.133
+"Congo, Dem. Rep.",COD,1952,0.136
+"Congo, Dem. Rep.",COD,1953,0.139
+"Congo, Dem. Rep.",COD,1954,0.142
+"Congo, Dem. Rep.",COD,1955,0.145
+"Congo, Dem. Rep.",COD,1956,0.148
+"Congo, Dem. Rep.",COD,1957,0.151
+"Congo, Dem. Rep.",COD,1958,0.154
+"Congo, Dem. Rep.",COD,1959,0.156
+"Congo, Dem. Rep.",COD,1960,0.159
+"Congo, Dem. Rep.",COD,1961,0.161
+"Congo, Dem. Rep.",COD,1962,0.163
+"Congo, Dem. Rep.",COD,1963,0.166
+"Congo, Dem. Rep.",COD,1964,0.168
+"Congo, Dem. Rep.",COD,1965,0.171
+"Congo, Dem. Rep.",COD,1966,0.174
+"Congo, Dem. Rep.",COD,1967,0.176
+"Congo, Dem. Rep.",COD,1968,0.179
+"Congo, Dem. Rep.",COD,1969,0.182
+"Congo, Dem. Rep.",COD,1970,0.185
+"Congo, Dem. Rep.",COD,1971,0.188
+"Congo, Dem. Rep.",COD,1972,0.191
+"Congo, Dem. Rep.",COD,1973,0.195
+"Congo, Dem. Rep.",COD,1974,0.199
+"Congo, Dem. Rep.",COD,1975,0.201
+"Congo, Dem. Rep.",COD,1976,0.204
+"Congo, Dem. Rep.",COD,1977,0.207
+"Congo, Dem. Rep.",COD,1978,0.21
+"Congo, Dem. Rep.",COD,1979,0.214
+"Congo, Dem. Rep.",COD,1980,0.217
+"Congo, Dem. Rep.",COD,1981,0.221
+"Congo, Dem. Rep.",COD,1982,0.225
+"Congo, Dem. Rep.",COD,1983,0.229
+"Congo, Dem. Rep.",COD,1984,0.233
+"Congo, Dem. Rep.",COD,1985,0.238
+"Congo, Dem. Rep.",COD,1986,0.243
+"Congo, Dem. Rep.",COD,1987,0.247
+"Congo, Dem. Rep.",COD,1988,0.252
+"Congo, Dem. Rep.",COD,1989,0.256
+"Congo, Dem. Rep.",COD,1990,0.26
+"Congo, Dem. Rep.",COD,1991,0.262
+"Congo, Dem. Rep.",COD,1992,0.263
+"Congo, Dem. Rep.",COD,1993,0.263
+"Congo, Dem. Rep.",COD,1994,0.262
+"Congo, Dem. Rep.",COD,1995,0.261
+"Congo, Dem. Rep.",COD,1996,0.259
+"Congo, Dem. Rep.",COD,1997,0.256
+"Congo, Dem. Rep.",COD,1998,0.253
+"Congo, Dem. Rep.",COD,1999,0.25
+"Congo, Dem. Rep.",COD,2000,0.246
+"Congo, Dem. Rep.",COD,2001,0.242
+"Congo, Dem. Rep.",COD,2002,0.239
+"Congo, Dem. Rep.",COD,2003,0.238
+"Congo, Dem. Rep.",COD,2004,0.239
+"Congo, Dem. Rep.",COD,2005,0.242
+"Congo, Dem. Rep.",COD,2006,0.244
+"Congo, Dem. Rep.",COD,2007,0.247
+"Congo, Dem. Rep.",COD,2008,0.251
+"Congo, Dem. Rep.",COD,2009,0.257
+"Congo, Dem. Rep.",COD,2010,0.266
+"Congo, Dem. Rep.",COD,2011,0.277
+"Congo, Dem. Rep.",COD,2012,0.289
+"Congo, Dem. Rep.",COD,2013,0.305
+"Congo, Dem. Rep.",COD,2014,0.321
+"Congo, Dem. Rep.",COD,2015,0.336
+"Congo, Dem. Rep.",COD,2016,0.35
+"Congo, Dem. Rep.",COD,2017,0.362
+"Congo, Dem. Rep.",COD,2018,0.374
+"Congo, Dem. Rep.",COD,2019,0.382
+Burundi,BDI,1950,0.0811
+Burundi,BDI,1951,0.0833
+Burundi,BDI,1952,0.0851
+Burundi,BDI,1953,0.0871
+Burundi,BDI,1954,0.0893
+Burundi,BDI,1955,0.0915
+Burundi,BDI,1956,0.0937
+Burundi,BDI,1957,0.0961
+Burundi,BDI,1958,0.0985
+Burundi,BDI,1959,0.101
+Burundi,BDI,1960,0.104
+Burundi,BDI,1961,0.105
+Burundi,BDI,1962,0.107
+Burundi,BDI,1963,0.109
+Burundi,BDI,1964,0.111
+Burundi,BDI,1965,0.113
+Burundi,BDI,1966,0.115
+Burundi,BDI,1967,0.118
+Burundi,BDI,1968,0.121
+Burundi,BDI,1969,0.123
+Burundi,BDI,1970,0.127
+Burundi,BDI,1971,0.131
+Burundi,BDI,1972,0.134
+Burundi,BDI,1973,0.137
+Burundi,BDI,1974,0.14
+Burundi,BDI,1975,0.143
+Burundi,BDI,1976,0.146
+Burundi,BDI,1977,0.151
+Burundi,BDI,1978,0.155
+Burundi,BDI,1979,0.159
+Burundi,BDI,1980,0.162
+Burundi,BDI,1981,0.166
+Burundi,BDI,1982,0.169
+Burundi,BDI,1983,0.173
+Burundi,BDI,1984,0.176
+Burundi,BDI,1985,0.18
+Burundi,BDI,1986,0.183
+Burundi,BDI,1987,0.187
+Burundi,BDI,1988,0.191
+Burundi,BDI,1989,0.194
+Burundi,BDI,1990,0.198
+Burundi,BDI,1991,0.201
+Burundi,BDI,1992,0.204
+Burundi,BDI,1993,0.207
+Burundi,BDI,1994,0.209
+Burundi,BDI,1995,0.21
+Burundi,BDI,1996,0.21
+Burundi,BDI,1997,0.211
+Burundi,BDI,1998,0.212
+Burundi,BDI,1999,0.213
+Burundi,BDI,2000,0.213
+Burundi,BDI,2001,0.214
+Burundi,BDI,2002,0.216
+Burundi,BDI,2003,0.218
+Burundi,BDI,2004,0.22
+Burundi,BDI,2005,0.223
+Burundi,BDI,2006,0.226
+Burundi,BDI,2007,0.23
+Burundi,BDI,2008,0.234
+Burundi,BDI,2009,0.238
+Burundi,BDI,2010,0.243
+Burundi,BDI,2011,0.248
+Burundi,BDI,2012,0.254
+Burundi,BDI,2013,0.26
+Burundi,BDI,2014,0.266
+Burundi,BDI,2015,0.27
+Burundi,BDI,2016,0.274
+Burundi,BDI,2017,0.278
+Burundi,BDI,2018,0.282
+Burundi,BDI,2019,0.284
+Comoros,COM,1950,0.129
+Comoros,COM,1951,0.131
+Comoros,COM,1952,0.133
+Comoros,COM,1953,0.134
+Comoros,COM,1954,0.135
+Comoros,COM,1955,0.137
+Comoros,COM,1956,0.138
+Comoros,COM,1957,0.139
+Comoros,COM,1958,0.139
+Comoros,COM,1959,0.14
+Comoros,COM,1960,0.141
+Comoros,COM,1961,0.142
+Comoros,COM,1962,0.144
+Comoros,COM,1963,0.146
+Comoros,COM,1964,0.148
+Comoros,COM,1965,0.149
+Comoros,COM,1966,0.151
+Comoros,COM,1967,0.154
+Comoros,COM,1968,0.156
+Comoros,COM,1969,0.158
+Comoros,COM,1970,0.161
+Comoros,COM,1971,0.164
+Comoros,COM,1972,0.166
+Comoros,COM,1973,0.17
+Comoros,COM,1974,0.173
+Comoros,COM,1975,0.178
+Comoros,COM,1976,0.182
+Comoros,COM,1977,0.186
+Comoros,COM,1978,0.191
+Comoros,COM,1979,0.196
+Comoros,COM,1980,0.202
+Comoros,COM,1981,0.208
+Comoros,COM,1982,0.214
+Comoros,COM,1983,0.221
+Comoros,COM,1984,0.228
+Comoros,COM,1985,0.236
+Comoros,COM,1986,0.243
+Comoros,COM,1987,0.251
+Comoros,COM,1988,0.259
+Comoros,COM,1989,0.266
+Comoros,COM,1990,0.274
+Comoros,COM,1991,0.281
+Comoros,COM,1992,0.288
+Comoros,COM,1993,0.296
+Comoros,COM,1994,0.302
+Comoros,COM,1995,0.309
+Comoros,COM,1996,0.315
+Comoros,COM,1997,0.322
+Comoros,COM,1998,0.328
+Comoros,COM,1999,0.334
+Comoros,COM,2000,0.34
+Comoros,COM,2001,0.346
+Comoros,COM,2002,0.353
+Comoros,COM,2003,0.359
+Comoros,COM,2004,0.365
+Comoros,COM,2005,0.371
+Comoros,COM,2006,0.378
+Comoros,COM,2007,0.384
+Comoros,COM,2008,0.39
+Comoros,COM,2009,0.396
+Comoros,COM,2010,0.401
+Comoros,COM,2011,0.407
+Comoros,COM,2012,0.413
+Comoros,COM,2013,0.419
+Comoros,COM,2014,0.426
+Comoros,COM,2015,0.432
+Comoros,COM,2016,0.438
+Comoros,COM,2017,0.444
+Comoros,COM,2018,0.45
+Comoros,COM,2019,0.455
+Djibouti,DJI,1950,0.129
+Djibouti,DJI,1951,0.131
+Djibouti,DJI,1952,0.133
+Djibouti,DJI,1953,0.135
+Djibouti,DJI,1954,0.137
+Djibouti,DJI,1955,0.14
+Djibouti,DJI,1956,0.142
+Djibouti,DJI,1957,0.144
+Djibouti,DJI,1958,0.146
+Djibouti,DJI,1959,0.149
+Djibouti,DJI,1960,0.151
+Djibouti,DJI,1961,0.153
+Djibouti,DJI,1962,0.156
+Djibouti,DJI,1963,0.158
+Djibouti,DJI,1964,0.16
+Djibouti,DJI,1965,0.162
+Djibouti,DJI,1966,0.165
+Djibouti,DJI,1967,0.168
+Djibouti,DJI,1968,0.17
+Djibouti,DJI,1969,0.173
+Djibouti,DJI,1970,0.176
+Djibouti,DJI,1971,0.18
+Djibouti,DJI,1972,0.183
+Djibouti,DJI,1973,0.187
+Djibouti,DJI,1974,0.191
+Djibouti,DJI,1975,0.195
+Djibouti,DJI,1976,0.2
+Djibouti,DJI,1977,0.205
+Djibouti,DJI,1978,0.21
+Djibouti,DJI,1979,0.215
+Djibouti,DJI,1980,0.22
+Djibouti,DJI,1981,0.223
+Djibouti,DJI,1982,0.227
+Djibouti,DJI,1983,0.231
+Djibouti,DJI,1984,0.236
+Djibouti,DJI,1985,0.241
+Djibouti,DJI,1986,0.247
+Djibouti,DJI,1987,0.253
+Djibouti,DJI,1988,0.261
+Djibouti,DJI,1989,0.269
+Djibouti,DJI,1990,0.275
+Djibouti,DJI,1991,0.277
+Djibouti,DJI,1992,0.28
+Djibouti,DJI,1993,0.285
+Djibouti,DJI,1994,0.289
+Djibouti,DJI,1995,0.293
+Djibouti,DJI,1996,0.297
+Djibouti,DJI,1997,0.302
+Djibouti,DJI,1998,0.306
+Djibouti,DJI,1999,0.311
+Djibouti,DJI,2000,0.317
+Djibouti,DJI,2001,0.322
+Djibouti,DJI,2002,0.327
+Djibouti,DJI,2003,0.333
+Djibouti,DJI,2004,0.339
+Djibouti,DJI,2005,0.345
+Djibouti,DJI,2006,0.353
+Djibouti,DJI,2007,0.36
+Djibouti,DJI,2008,0.368
+Djibouti,DJI,2009,0.376
+Djibouti,DJI,2010,0.384
+Djibouti,DJI,2011,0.392
+Djibouti,DJI,2012,0.4
+Djibouti,DJI,2013,0.408
+Djibouti,DJI,2014,0.416
+Djibouti,DJI,2015,0.425
+Djibouti,DJI,2016,0.434
+Djibouti,DJI,2017,0.443
+Djibouti,DJI,2018,0.452
+Djibouti,DJI,2019,0.459
+Eritrea,ERI,1950,0.0556
+Eritrea,ERI,1951,0.0575
+Eritrea,ERI,1952,0.0595
+Eritrea,ERI,1953,0.0616
+Eritrea,ERI,1954,0.064
+Eritrea,ERI,1955,0.0665
+Eritrea,ERI,1956,0.0691
+Eritrea,ERI,1957,0.0718
+Eritrea,ERI,1958,0.0745
+Eritrea,ERI,1959,0.0773
+Eritrea,ERI,1960,0.0804
+Eritrea,ERI,1961,0.0836
+Eritrea,ERI,1962,0.0867
+Eritrea,ERI,1963,0.0898
+Eritrea,ERI,1964,0.0931
+Eritrea,ERI,1965,0.0965
+Eritrea,ERI,1966,0.1
+Eritrea,ERI,1967,0.104
+Eritrea,ERI,1968,0.107
+Eritrea,ERI,1969,0.111
+Eritrea,ERI,1970,0.115
+Eritrea,ERI,1971,0.119
+Eritrea,ERI,1972,0.123
+Eritrea,ERI,1973,0.127
+Eritrea,ERI,1974,0.132
+Eritrea,ERI,1975,0.136
+Eritrea,ERI,1976,0.14
+Eritrea,ERI,1977,0.144
+Eritrea,ERI,1978,0.148
+Eritrea,ERI,1979,0.152
+Eritrea,ERI,1980,0.156
+Eritrea,ERI,1981,0.16
+Eritrea,ERI,1982,0.164
+Eritrea,ERI,1983,0.168
+Eritrea,ERI,1984,0.172
+Eritrea,ERI,1985,0.176
+Eritrea,ERI,1986,0.18
+Eritrea,ERI,1987,0.184
+Eritrea,ERI,1988,0.189
+Eritrea,ERI,1989,0.193
+Eritrea,ERI,1990,0.198
+Eritrea,ERI,1991,0.203
+Eritrea,ERI,1992,0.21
+Eritrea,ERI,1993,0.218
+Eritrea,ERI,1994,0.228
+Eritrea,ERI,1995,0.238
+Eritrea,ERI,1996,0.248
+Eritrea,ERI,1997,0.258
+Eritrea,ERI,1998,0.267
+Eritrea,ERI,1999,0.275
+Eritrea,ERI,2000,0.283
+Eritrea,ERI,2001,0.289
+Eritrea,ERI,2002,0.296
+Eritrea,ERI,2003,0.302
+Eritrea,ERI,2004,0.307
+Eritrea,ERI,2005,0.312
+Eritrea,ERI,2006,0.317
+Eritrea,ERI,2007,0.322
+Eritrea,ERI,2008,0.326
+Eritrea,ERI,2009,0.33
+Eritrea,ERI,2010,0.334
+Eritrea,ERI,2011,0.34
+Eritrea,ERI,2012,0.346
+Eritrea,ERI,2013,0.353
+Eritrea,ERI,2014,0.36
+Eritrea,ERI,2015,0.367
+Eritrea,ERI,2016,0.375
+Eritrea,ERI,2017,0.382
+Eritrea,ERI,2018,0.39
+Eritrea,ERI,2019,0.396
+Ethiopia,ETH,1950,0.045
+Ethiopia,ETH,1951,0.0481
+Ethiopia,ETH,1952,0.05
+Ethiopia,ETH,1953,0.0518
+Ethiopia,ETH,1954,0.0533
+Ethiopia,ETH,1955,0.0546
+Ethiopia,ETH,1956,0.0562
+Ethiopia,ETH,1957,0.0577
+Ethiopia,ETH,1958,0.059
+Ethiopia,ETH,1959,0.0608
+Ethiopia,ETH,1960,0.0628
+Ethiopia,ETH,1961,0.0647
+Ethiopia,ETH,1962,0.0667
+Ethiopia,ETH,1963,0.0686
+Ethiopia,ETH,1964,0.0709
+Ethiopia,ETH,1965,0.0731
+Ethiopia,ETH,1966,0.0755
+Ethiopia,ETH,1967,0.0777
+Ethiopia,ETH,1968,0.08
+Ethiopia,ETH,1969,0.0825
+Ethiopia,ETH,1970,0.0847
+Ethiopia,ETH,1971,0.0868
+Ethiopia,ETH,1972,0.0895
+Ethiopia,ETH,1973,0.092
+Ethiopia,ETH,1974,0.0941
+Ethiopia,ETH,1975,0.0967
+Ethiopia,ETH,1976,0.099
+Ethiopia,ETH,1977,0.101
+Ethiopia,ETH,1978,0.103
+Ethiopia,ETH,1979,0.106
+Ethiopia,ETH,1980,0.109
+Ethiopia,ETH,1981,0.112
+Ethiopia,ETH,1982,0.116
+Ethiopia,ETH,1983,0.12
+Ethiopia,ETH,1984,0.124
+Ethiopia,ETH,1985,0.127
+Ethiopia,ETH,1986,0.13
+Ethiopia,ETH,1987,0.134
+Ethiopia,ETH,1988,0.137
+Ethiopia,ETH,1989,0.14
+Ethiopia,ETH,1990,0.144
+Ethiopia,ETH,1991,0.146
+Ethiopia,ETH,1992,0.147
+Ethiopia,ETH,1993,0.149
+Ethiopia,ETH,1994,0.151
+Ethiopia,ETH,1995,0.153
+Ethiopia,ETH,1996,0.157
+Ethiopia,ETH,1997,0.161
+Ethiopia,ETH,1998,0.164
+Ethiopia,ETH,1999,0.167
+Ethiopia,ETH,2000,0.171
+Ethiopia,ETH,2001,0.176
+Ethiopia,ETH,2002,0.18
+Ethiopia,ETH,2003,0.183
+Ethiopia,ETH,2004,0.189
+Ethiopia,ETH,2005,0.195
+Ethiopia,ETH,2006,0.203
+Ethiopia,ETH,2007,0.213
+Ethiopia,ETH,2008,0.223
+Ethiopia,ETH,2009,0.233
+Ethiopia,ETH,2010,0.244
+Ethiopia,ETH,2011,0.256
+Ethiopia,ETH,2012,0.268
+Ethiopia,ETH,2013,0.279
+Ethiopia,ETH,2014,0.291
+Ethiopia,ETH,2015,0.302
+Ethiopia,ETH,2016,0.313
+Ethiopia,ETH,2017,0.324
+Ethiopia,ETH,2018,0.334
+Ethiopia,ETH,2019,0.343
+Kenya,KEN,1950,0.112
+Kenya,KEN,1951,0.116
+Kenya,KEN,1952,0.118
+Kenya,KEN,1953,0.12
+Kenya,KEN,1954,0.123
+Kenya,KEN,1955,0.126
+Kenya,KEN,1956,0.129
+Kenya,KEN,1957,0.132
+Kenya,KEN,1958,0.135
+Kenya,KEN,1959,0.138
+Kenya,KEN,1960,0.142
+Kenya,KEN,1961,0.145
+Kenya,KEN,1962,0.149
+Kenya,KEN,1963,0.153
+Kenya,KEN,1964,0.157
+Kenya,KEN,1965,0.161
+Kenya,KEN,1966,0.166
+Kenya,KEN,1967,0.171
+Kenya,KEN,1968,0.176
+Kenya,KEN,1969,0.182
+Kenya,KEN,1970,0.187
+Kenya,KEN,1971,0.193
+Kenya,KEN,1972,0.199
+Kenya,KEN,1973,0.205
+Kenya,KEN,1974,0.212
+Kenya,KEN,1975,0.218
+Kenya,KEN,1976,0.224
+Kenya,KEN,1977,0.231
+Kenya,KEN,1978,0.239
+Kenya,KEN,1979,0.246
+Kenya,KEN,1980,0.254
+Kenya,KEN,1981,0.261
+Kenya,KEN,1982,0.269
+Kenya,KEN,1983,0.277
+Kenya,KEN,1984,0.285
+Kenya,KEN,1985,0.292
+Kenya,KEN,1986,0.3
+Kenya,KEN,1987,0.309
+Kenya,KEN,1988,0.317
+Kenya,KEN,1989,0.325
+Kenya,KEN,1990,0.333
+Kenya,KEN,1991,0.341
+Kenya,KEN,1992,0.348
+Kenya,KEN,1993,0.354
+Kenya,KEN,1994,0.36
+Kenya,KEN,1995,0.366
+Kenya,KEN,1996,0.372
+Kenya,KEN,1997,0.378
+Kenya,KEN,1998,0.383
+Kenya,KEN,1999,0.388
+Kenya,KEN,2000,0.392
+Kenya,KEN,2001,0.397
+Kenya,KEN,2002,0.401
+Kenya,KEN,2003,0.404
+Kenya,KEN,2004,0.409
+Kenya,KEN,2005,0.413
+Kenya,KEN,2006,0.418
+Kenya,KEN,2007,0.424
+Kenya,KEN,2008,0.429
+Kenya,KEN,2009,0.435
+Kenya,KEN,2010,0.441
+Kenya,KEN,2011,0.448
+Kenya,KEN,2012,0.455
+Kenya,KEN,2013,0.463
+Kenya,KEN,2014,0.47
+Kenya,KEN,2015,0.478
+Kenya,KEN,2016,0.486
+Kenya,KEN,2017,0.494
+Kenya,KEN,2018,0.502
+Kenya,KEN,2019,0.508
+Madagascar,MDG,1950,0.144
+Madagascar,MDG,1951,0.146
+Madagascar,MDG,1952,0.148
+Madagascar,MDG,1953,0.15
+Madagascar,MDG,1954,0.152
+Madagascar,MDG,1955,0.153
+Madagascar,MDG,1956,0.155
+Madagascar,MDG,1957,0.156
+Madagascar,MDG,1958,0.158
+Madagascar,MDG,1959,0.16
+Madagascar,MDG,1960,0.161
+Madagascar,MDG,1961,0.162
+Madagascar,MDG,1962,0.163
+Madagascar,MDG,1963,0.164
+Madagascar,MDG,1964,0.165
+Madagascar,MDG,1965,0.166
+Madagascar,MDG,1966,0.167
+Madagascar,MDG,1967,0.168
+Madagascar,MDG,1968,0.17
+Madagascar,MDG,1969,0.173
+Madagascar,MDG,1970,0.175
+Madagascar,MDG,1971,0.179
+Madagascar,MDG,1972,0.182
+Madagascar,MDG,1973,0.186
+Madagascar,MDG,1974,0.19
+Madagascar,MDG,1975,0.194
+Madagascar,MDG,1976,0.199
+Madagascar,MDG,1977,0.203
+Madagascar,MDG,1978,0.208
+Madagascar,MDG,1979,0.213
+Madagascar,MDG,1980,0.219
+Madagascar,MDG,1981,0.224
+Madagascar,MDG,1982,0.229
+Madagascar,MDG,1983,0.234
+Madagascar,MDG,1984,0.239
+Madagascar,MDG,1985,0.244
+Madagascar,MDG,1986,0.249
+Madagascar,MDG,1987,0.253
+Madagascar,MDG,1988,0.257
+Madagascar,MDG,1989,0.261
+Madagascar,MDG,1990,0.265
+Madagascar,MDG,1991,0.268
+Madagascar,MDG,1992,0.27
+Madagascar,MDG,1993,0.273
+Madagascar,MDG,1994,0.275
+Madagascar,MDG,1995,0.277
+Madagascar,MDG,1996,0.28
+Madagascar,MDG,1997,0.283
+Madagascar,MDG,1998,0.286
+Madagascar,MDG,1999,0.29
+Madagascar,MDG,2000,0.294
+Madagascar,MDG,2001,0.299
+Madagascar,MDG,2002,0.302
+Madagascar,MDG,2003,0.307
+Madagascar,MDG,2004,0.311
+Madagascar,MDG,2005,0.316
+Madagascar,MDG,2006,0.32
+Madagascar,MDG,2007,0.324
+Madagascar,MDG,2008,0.328
+Madagascar,MDG,2009,0.332
+Madagascar,MDG,2010,0.336
+Madagascar,MDG,2011,0.342
+Madagascar,MDG,2012,0.348
+Madagascar,MDG,2013,0.355
+Madagascar,MDG,2014,0.361
+Madagascar,MDG,2015,0.369
+Madagascar,MDG,2016,0.376
+Madagascar,MDG,2017,0.383
+Madagascar,MDG,2018,0.391
+Madagascar,MDG,2019,0.396
+Malawi,MWI,1950,0.0943
+Malawi,MWI,1951,0.0965
+Malawi,MWI,1952,0.0988
+Malawi,MWI,1953,0.101
+Malawi,MWI,1954,0.104
+Malawi,MWI,1955,0.106
+Malawi,MWI,1956,0.109
+Malawi,MWI,1957,0.112
+Malawi,MWI,1958,0.115
+Malawi,MWI,1959,0.118
+Malawi,MWI,1960,0.12
+Malawi,MWI,1961,0.123
+Malawi,MWI,1962,0.126
+Malawi,MWI,1963,0.128
+Malawi,MWI,1964,0.13
+Malawi,MWI,1965,0.133
+Malawi,MWI,1966,0.137
+Malawi,MWI,1967,0.141
+Malawi,MWI,1968,0.144
+Malawi,MWI,1969,0.148
+Malawi,MWI,1970,0.152
+Malawi,MWI,1971,0.156
+Malawi,MWI,1972,0.161
+Malawi,MWI,1973,0.165
+Malawi,MWI,1974,0.169
+Malawi,MWI,1975,0.172
+Malawi,MWI,1976,0.176
+Malawi,MWI,1977,0.179
+Malawi,MWI,1978,0.183
+Malawi,MWI,1979,0.186
+Malawi,MWI,1980,0.189
+Malawi,MWI,1981,0.192
+Malawi,MWI,1982,0.194
+Malawi,MWI,1983,0.197
+Malawi,MWI,1984,0.2
+Malawi,MWI,1985,0.204
+Malawi,MWI,1986,0.207
+Malawi,MWI,1987,0.209
+Malawi,MWI,1988,0.21
+Malawi,MWI,1989,0.212
+Malawi,MWI,1990,0.213
+Malawi,MWI,1991,0.215
+Malawi,MWI,1992,0.215
+Malawi,MWI,1993,0.217
+Malawi,MWI,1994,0.218
+Malawi,MWI,1995,0.22
+Malawi,MWI,1996,0.225
+Malawi,MWI,1997,0.23
+Malawi,MWI,1998,0.235
+Malawi,MWI,1999,0.24
+Malawi,MWI,2000,0.245
+Malawi,MWI,2001,0.249
+Malawi,MWI,2002,0.254
+Malawi,MWI,2003,0.26
+Malawi,MWI,2004,0.267
+Malawi,MWI,2005,0.274
+Malawi,MWI,2006,0.281
+Malawi,MWI,2007,0.29
+Malawi,MWI,2008,0.299
+Malawi,MWI,2009,0.308
+Malawi,MWI,2010,0.317
+Malawi,MWI,2011,0.326
+Malawi,MWI,2012,0.335
+Malawi,MWI,2013,0.342
+Malawi,MWI,2014,0.35
+Malawi,MWI,2015,0.358
+Malawi,MWI,2016,0.365
+Malawi,MWI,2017,0.372
+Malawi,MWI,2018,0.379
+Malawi,MWI,2019,0.384
+Mozambique,MOZ,1950,0.0569
+Mozambique,MOZ,1951,0.0583
+Mozambique,MOZ,1952,0.0598
+Mozambique,MOZ,1953,0.0614
+Mozambique,MOZ,1954,0.0627
+Mozambique,MOZ,1955,0.0646
+Mozambique,MOZ,1956,0.0661
+Mozambique,MOZ,1957,0.0675
+Mozambique,MOZ,1958,0.0692
+Mozambique,MOZ,1959,0.0712
+Mozambique,MOZ,1960,0.0732
+Mozambique,MOZ,1961,0.0751
+Mozambique,MOZ,1962,0.0774
+Mozambique,MOZ,1963,0.0793
+Mozambique,MOZ,1964,0.0814
+Mozambique,MOZ,1965,0.0832
+Mozambique,MOZ,1966,0.085
+Mozambique,MOZ,1967,0.0873
+Mozambique,MOZ,1968,0.0901
+Mozambique,MOZ,1969,0.0932
+Mozambique,MOZ,1970,0.0961
+Mozambique,MOZ,1971,0.0991
+Mozambique,MOZ,1972,0.102
+Mozambique,MOZ,1973,0.105
+Mozambique,MOZ,1974,0.107
+Mozambique,MOZ,1975,0.109
+Mozambique,MOZ,1976,0.11
+Mozambique,MOZ,1977,0.112
+Mozambique,MOZ,1978,0.113
+Mozambique,MOZ,1979,0.114
+Mozambique,MOZ,1980,0.115
+Mozambique,MOZ,1981,0.117
+Mozambique,MOZ,1982,0.118
+Mozambique,MOZ,1983,0.118
+Mozambique,MOZ,1984,0.118
+Mozambique,MOZ,1985,0.117
+Mozambique,MOZ,1986,0.116
+Mozambique,MOZ,1987,0.115
+Mozambique,MOZ,1988,0.116
+Mozambique,MOZ,1989,0.118
+Mozambique,MOZ,1990,0.12
+Mozambique,MOZ,1991,0.122
+Mozambique,MOZ,1992,0.123
+Mozambique,MOZ,1993,0.126
+Mozambique,MOZ,1994,0.129
+Mozambique,MOZ,1995,0.131
+Mozambique,MOZ,1996,0.137
+Mozambique,MOZ,1997,0.144
+Mozambique,MOZ,1998,0.152
+Mozambique,MOZ,1999,0.159
+Mozambique,MOZ,2000,0.165
+Mozambique,MOZ,2001,0.172
+Mozambique,MOZ,2002,0.179
+Mozambique,MOZ,2003,0.186
+Mozambique,MOZ,2004,0.194
+Mozambique,MOZ,2005,0.201
+Mozambique,MOZ,2006,0.208
+Mozambique,MOZ,2007,0.215
+Mozambique,MOZ,2008,0.223
+Mozambique,MOZ,2009,0.23
+Mozambique,MOZ,2010,0.237
+Mozambique,MOZ,2011,0.244
+Mozambique,MOZ,2012,0.252
+Mozambique,MOZ,2013,0.26
+Mozambique,MOZ,2014,0.268
+Mozambique,MOZ,2015,0.277
+Mozambique,MOZ,2016,0.285
+Mozambique,MOZ,2017,0.294
+Mozambique,MOZ,2018,0.301
+Mozambique,MOZ,2019,0.307
+Rwanda,RWA,1950,0.0965
+Rwanda,RWA,1951,0.0989
+Rwanda,RWA,1952,0.101
+Rwanda,RWA,1953,0.103
+Rwanda,RWA,1954,0.106
+Rwanda,RWA,1955,0.108
+Rwanda,RWA,1956,0.111
+Rwanda,RWA,1957,0.114
+Rwanda,RWA,1958,0.116
+Rwanda,RWA,1959,0.119
+Rwanda,RWA,1960,0.122
+Rwanda,RWA,1961,0.125
+Rwanda,RWA,1962,0.128
+Rwanda,RWA,1963,0.131
+Rwanda,RWA,1964,0.133
+Rwanda,RWA,1965,0.135
+Rwanda,RWA,1966,0.137
+Rwanda,RWA,1967,0.14
+Rwanda,RWA,1968,0.143
+Rwanda,RWA,1969,0.148
+Rwanda,RWA,1970,0.152
+Rwanda,RWA,1971,0.157
+Rwanda,RWA,1972,0.161
+Rwanda,RWA,1973,0.166
+Rwanda,RWA,1974,0.171
+Rwanda,RWA,1975,0.175
+Rwanda,RWA,1976,0.181
+Rwanda,RWA,1977,0.187
+Rwanda,RWA,1978,0.192
+Rwanda,RWA,1979,0.199
+Rwanda,RWA,1980,0.205
+Rwanda,RWA,1981,0.212
+Rwanda,RWA,1982,0.218
+Rwanda,RWA,1983,0.224
+Rwanda,RWA,1984,0.23
+Rwanda,RWA,1985,0.235
+Rwanda,RWA,1986,0.241
+Rwanda,RWA,1987,0.246
+Rwanda,RWA,1988,0.25
+Rwanda,RWA,1989,0.254
+Rwanda,RWA,1990,0.257
+Rwanda,RWA,1991,0.259
+Rwanda,RWA,1992,0.262
+Rwanda,RWA,1993,0.265
+Rwanda,RWA,1994,0.261
+Rwanda,RWA,1995,0.261
+Rwanda,RWA,1996,0.262
+Rwanda,RWA,1997,0.265
+Rwanda,RWA,1998,0.269
+Rwanda,RWA,1999,0.272
+Rwanda,RWA,2000,0.277
+Rwanda,RWA,2001,0.283
+Rwanda,RWA,2002,0.291
+Rwanda,RWA,2003,0.298
+Rwanda,RWA,2004,0.307
+Rwanda,RWA,2005,0.315
+Rwanda,RWA,2006,0.325
+Rwanda,RWA,2007,0.333
+Rwanda,RWA,2008,0.342
+Rwanda,RWA,2009,0.351
+Rwanda,RWA,2010,0.359
+Rwanda,RWA,2011,0.368
+Rwanda,RWA,2012,0.376
+Rwanda,RWA,2013,0.384
+Rwanda,RWA,2014,0.391
+Rwanda,RWA,2015,0.399
+Rwanda,RWA,2016,0.407
+Rwanda,RWA,2017,0.415
+Rwanda,RWA,2018,0.422
+Rwanda,RWA,2019,0.429
+Somalia,SOM,1950,0.0593
+Somalia,SOM,1951,0.06
+Somalia,SOM,1952,0.0605
+Somalia,SOM,1953,0.0612
+Somalia,SOM,1954,0.062
+Somalia,SOM,1955,0.0628
+Somalia,SOM,1956,0.0636
+Somalia,SOM,1957,0.0643
+Somalia,SOM,1958,0.0648
+Somalia,SOM,1959,0.0651
+Somalia,SOM,1960,0.0656
+Somalia,SOM,1961,0.0661
+Somalia,SOM,1962,0.0665
+Somalia,SOM,1963,0.0669
+Somalia,SOM,1964,0.0676
+Somalia,SOM,1965,0.0684
+Somalia,SOM,1966,0.0691
+Somalia,SOM,1967,0.0698
+Somalia,SOM,1968,0.0705
+Somalia,SOM,1969,0.0714
+Somalia,SOM,1970,0.0725
+Somalia,SOM,1971,0.074
+Somalia,SOM,1972,0.0788
+Somalia,SOM,1973,0.08
+Somalia,SOM,1974,0.0806
+Somalia,SOM,1975,0.0828
+Somalia,SOM,1976,0.0823
+Somalia,SOM,1977,0.0822
+Somalia,SOM,1978,0.081
+Somalia,SOM,1979,0.0752
+Somalia,SOM,1980,0.0655
+Somalia,SOM,1981,0.0533
+Somalia,SOM,1982,0.0461
+Somalia,SOM,1983,0.0468
+Somalia,SOM,1984,0.0475
+Somalia,SOM,1985,0.0481
+Somalia,SOM,1986,0.0488
+Somalia,SOM,1987,0.0494
+Somalia,SOM,1988,0.0499
+Somalia,SOM,1989,0.0504
+Somalia,SOM,1990,0.0508
+Somalia,SOM,1991,0.0514
+Somalia,SOM,1992,0.0522
+Somalia,SOM,1993,0.053
+Somalia,SOM,1994,0.053900000000000003
+Somalia,SOM,1995,0.0547
+Somalia,SOM,1996,0.0556
+Somalia,SOM,1997,0.0565
+Somalia,SOM,1998,0.0574
+Somalia,SOM,1999,0.0584
+Somalia,SOM,2000,0.0593
+Somalia,SOM,2001,0.0603
+Somalia,SOM,2002,0.0613
+Somalia,SOM,2003,0.0622
+Somalia,SOM,2004,0.0632
+Somalia,SOM,2005,0.0641
+Somalia,SOM,2006,0.0651
+Somalia,SOM,2007,0.0661
+Somalia,SOM,2008,0.0671
+Somalia,SOM,2009,0.0682
+Somalia,SOM,2010,0.0692
+Somalia,SOM,2011,0.0703
+Somalia,SOM,2012,0.0716
+Somalia,SOM,2013,0.0728
+Somalia,SOM,2014,0.0742
+Somalia,SOM,2015,0.0756
+Somalia,SOM,2016,0.077
+Somalia,SOM,2017,0.0785
+Somalia,SOM,2018,0.0799
+Somalia,SOM,2019,0.081
+South Sudan,SSD,1950,0.142
+South Sudan,SSD,1951,0.144
+South Sudan,SSD,1952,0.146
+South Sudan,SSD,1953,0.148
+South Sudan,SSD,1954,0.151
+South Sudan,SSD,1955,0.153
+South Sudan,SSD,1956,0.155
+South Sudan,SSD,1957,0.157
+South Sudan,SSD,1958,0.16
+South Sudan,SSD,1959,0.162
+South Sudan,SSD,1960,0.164
+South Sudan,SSD,1961,0.167
+South Sudan,SSD,1962,0.169
+South Sudan,SSD,1963,0.171
+South Sudan,SSD,1964,0.174
+South Sudan,SSD,1965,0.176
+South Sudan,SSD,1966,0.179
+South Sudan,SSD,1967,0.181
+South Sudan,SSD,1968,0.184
+South Sudan,SSD,1969,0.187
+South Sudan,SSD,1970,0.189
+South Sudan,SSD,1971,0.192
+South Sudan,SSD,1972,0.195
+South Sudan,SSD,1973,0.198
+South Sudan,SSD,1974,0.201
+South Sudan,SSD,1975,0.204
+South Sudan,SSD,1976,0.207
+South Sudan,SSD,1977,0.21
+South Sudan,SSD,1978,0.213
+South Sudan,SSD,1979,0.216
+South Sudan,SSD,1980,0.219
+South Sudan,SSD,1981,0.222
+South Sudan,SSD,1982,0.224
+South Sudan,SSD,1983,0.227
+South Sudan,SSD,1984,0.23
+South Sudan,SSD,1985,0.233
+South Sudan,SSD,1986,0.236
+South Sudan,SSD,1987,0.239
+South Sudan,SSD,1988,0.242
+South Sudan,SSD,1989,0.245
+South Sudan,SSD,1990,0.248
+South Sudan,SSD,1991,0.251
+South Sudan,SSD,1992,0.253
+South Sudan,SSD,1993,0.256
+South Sudan,SSD,1994,0.259
+South Sudan,SSD,1995,0.261
+South Sudan,SSD,1996,0.264
+South Sudan,SSD,1997,0.267
+South Sudan,SSD,1998,0.271
+South Sudan,SSD,1999,0.274
+South Sudan,SSD,2000,0.277
+South Sudan,SSD,2001,0.281
+South Sudan,SSD,2002,0.284
+South Sudan,SSD,2003,0.288
+South Sudan,SSD,2004,0.292
+South Sudan,SSD,2005,0.296
+South Sudan,SSD,2006,0.301
+South Sudan,SSD,2007,0.305
+South Sudan,SSD,2008,0.31
+South Sudan,SSD,2009,0.315
+South Sudan,SSD,2010,0.32
+South Sudan,SSD,2011,0.325
+South Sudan,SSD,2012,0.33
+South Sudan,SSD,2013,0.334
+South Sudan,SSD,2014,0.339
+South Sudan,SSD,2015,0.342
+South Sudan,SSD,2016,0.345
+South Sudan,SSD,2017,0.351
+South Sudan,SSD,2018,0.358
+South Sudan,SSD,2019,0.363
+Uganda,UGA,1950,0.0882
+Uganda,UGA,1951,0.0901
+Uganda,UGA,1952,0.0915
+Uganda,UGA,1953,0.0924
+Uganda,UGA,1954,0.0935
+Uganda,UGA,1955,0.0947
+Uganda,UGA,1956,0.0961
+Uganda,UGA,1957,0.0978
+Uganda,UGA,1958,0.0994
+Uganda,UGA,1959,0.101
+Uganda,UGA,1960,0.103
+Uganda,UGA,1961,0.105
+Uganda,UGA,1962,0.106
+Uganda,UGA,1963,0.109
+Uganda,UGA,1964,0.111
+Uganda,UGA,1965,0.113
+Uganda,UGA,1966,0.116
+Uganda,UGA,1967,0.118
+Uganda,UGA,1968,0.121
+Uganda,UGA,1969,0.124
+Uganda,UGA,1970,0.126
+Uganda,UGA,1971,0.129
+Uganda,UGA,1972,0.132
+Uganda,UGA,1973,0.134
+Uganda,UGA,1974,0.137
+Uganda,UGA,1975,0.139
+Uganda,UGA,1976,0.141
+Uganda,UGA,1977,0.144
+Uganda,UGA,1978,0.145
+Uganda,UGA,1979,0.147
+Uganda,UGA,1980,0.148
+Uganda,UGA,1981,0.149
+Uganda,UGA,1982,0.15
+Uganda,UGA,1983,0.152
+Uganda,UGA,1984,0.154
+Uganda,UGA,1985,0.156
+Uganda,UGA,1986,0.157
+Uganda,UGA,1987,0.159
+Uganda,UGA,1988,0.161
+Uganda,UGA,1989,0.164
+Uganda,UGA,1990,0.167
+Uganda,UGA,1991,0.169
+Uganda,UGA,1992,0.172
+Uganda,UGA,1993,0.176
+Uganda,UGA,1994,0.181
+Uganda,UGA,1995,0.187
+Uganda,UGA,1996,0.194
+Uganda,UGA,1997,0.201
+Uganda,UGA,1998,0.208
+Uganda,UGA,1999,0.216
+Uganda,UGA,2000,0.225
+Uganda,UGA,2001,0.234
+Uganda,UGA,2002,0.243
+Uganda,UGA,2003,0.253
+Uganda,UGA,2004,0.262
+Uganda,UGA,2005,0.272
+Uganda,UGA,2006,0.282
+Uganda,UGA,2007,0.293
+Uganda,UGA,2008,0.303
+Uganda,UGA,2009,0.314
+Uganda,UGA,2010,0.325
+Uganda,UGA,2011,0.335
+Uganda,UGA,2012,0.345
+Uganda,UGA,2013,0.355
+Uganda,UGA,2014,0.364
+Uganda,UGA,2015,0.373
+Uganda,UGA,2016,0.382
+Uganda,UGA,2017,0.391
+Uganda,UGA,2018,0.399
+Uganda,UGA,2019,0.404
+Tanzania,TZA,1950,0.115
+Tanzania,TZA,1951,0.118
+Tanzania,TZA,1952,0.12
+Tanzania,TZA,1953,0.121
+Tanzania,TZA,1954,0.123
+Tanzania,TZA,1955,0.124
+Tanzania,TZA,1956,0.126
+Tanzania,TZA,1957,0.128
+Tanzania,TZA,1958,0.129
+Tanzania,TZA,1959,0.131
+Tanzania,TZA,1960,0.133
+Tanzania,TZA,1961,0.135
+Tanzania,TZA,1962,0.138
+Tanzania,TZA,1963,0.141
+Tanzania,TZA,1964,0.144
+Tanzania,TZA,1965,0.147
+Tanzania,TZA,1966,0.15
+Tanzania,TZA,1967,0.154
+Tanzania,TZA,1968,0.158
+Tanzania,TZA,1969,0.162
+Tanzania,TZA,1970,0.166
+Tanzania,TZA,1971,0.17
+Tanzania,TZA,1972,0.175
+Tanzania,TZA,1973,0.179
+Tanzania,TZA,1974,0.184
+Tanzania,TZA,1975,0.189
+Tanzania,TZA,1976,0.194
+Tanzania,TZA,1977,0.2
+Tanzania,TZA,1978,0.205
+Tanzania,TZA,1979,0.21
+Tanzania,TZA,1980,0.215
+Tanzania,TZA,1981,0.22
+Tanzania,TZA,1982,0.224
+Tanzania,TZA,1983,0.229
+Tanzania,TZA,1984,0.234
+Tanzania,TZA,1985,0.239
+Tanzania,TZA,1986,0.243
+Tanzania,TZA,1987,0.247
+Tanzania,TZA,1988,0.251
+Tanzania,TZA,1989,0.255
+Tanzania,TZA,1990,0.26
+Tanzania,TZA,1991,0.265
+Tanzania,TZA,1992,0.269
+Tanzania,TZA,1993,0.273
+Tanzania,TZA,1994,0.276
+Tanzania,TZA,1995,0.28
+Tanzania,TZA,1996,0.284
+Tanzania,TZA,1997,0.288
+Tanzania,TZA,1998,0.292
+Tanzania,TZA,1999,0.296
+Tanzania,TZA,2000,0.301
+Tanzania,TZA,2001,0.305
+Tanzania,TZA,2002,0.31
+Tanzania,TZA,2003,0.315
+Tanzania,TZA,2004,0.32
+Tanzania,TZA,2005,0.326
+Tanzania,TZA,2006,0.331
+Tanzania,TZA,2007,0.337
+Tanzania,TZA,2008,0.342
+Tanzania,TZA,2009,0.348
+Tanzania,TZA,2010,0.354
+Tanzania,TZA,2011,0.361
+Tanzania,TZA,2012,0.368
+Tanzania,TZA,2013,0.375
+Tanzania,TZA,2014,0.383
+Tanzania,TZA,2015,0.391
+Tanzania,TZA,2016,0.399
+Tanzania,TZA,2017,0.408
+Tanzania,TZA,2018,0.416
+Tanzania,TZA,2019,0.423
+Zambia,ZMB,1950,0.122
+Zambia,ZMB,1951,0.122
+Zambia,ZMB,1952,0.122
+Zambia,ZMB,1953,0.122
+Zambia,ZMB,1954,0.122
+Zambia,ZMB,1955,0.122
+Zambia,ZMB,1956,0.122
+Zambia,ZMB,1957,0.123
+Zambia,ZMB,1958,0.123
+Zambia,ZMB,1959,0.125
+Zambia,ZMB,1960,0.126
+Zambia,ZMB,1961,0.128
+Zambia,ZMB,1962,0.131
+Zambia,ZMB,1963,0.133
+Zambia,ZMB,1964,0.137
+Zambia,ZMB,1965,0.141
+Zambia,ZMB,1966,0.146
+Zambia,ZMB,1967,0.152
+Zambia,ZMB,1968,0.158
+Zambia,ZMB,1969,0.164
+Zambia,ZMB,1970,0.17
+Zambia,ZMB,1971,0.177
+Zambia,ZMB,1972,0.184
+Zambia,ZMB,1973,0.191
+Zambia,ZMB,1974,0.198
+Zambia,ZMB,1975,0.206
+Zambia,ZMB,1976,0.213
+Zambia,ZMB,1977,0.22
+Zambia,ZMB,1978,0.227
+Zambia,ZMB,1979,0.234
+Zambia,ZMB,1980,0.241
+Zambia,ZMB,1981,0.248
+Zambia,ZMB,1982,0.254
+Zambia,ZMB,1983,0.261
+Zambia,ZMB,1984,0.267
+Zambia,ZMB,1985,0.273
+Zambia,ZMB,1986,0.278
+Zambia,ZMB,1987,0.284
+Zambia,ZMB,1988,0.29
+Zambia,ZMB,1989,0.295
+Zambia,ZMB,1990,0.299
+Zambia,ZMB,1991,0.304
+Zambia,ZMB,1992,0.307
+Zambia,ZMB,1993,0.311
+Zambia,ZMB,1994,0.314
+Zambia,ZMB,1995,0.316
+Zambia,ZMB,1996,0.319
+Zambia,ZMB,1997,0.323
+Zambia,ZMB,1998,0.326
+Zambia,ZMB,1999,0.33
+Zambia,ZMB,2000,0.334
+Zambia,ZMB,2001,0.34
+Zambia,ZMB,2002,0.345
+Zambia,ZMB,2003,0.352
+Zambia,ZMB,2004,0.359
+Zambia,ZMB,2005,0.367
+Zambia,ZMB,2006,0.376
+Zambia,ZMB,2007,0.386
+Zambia,ZMB,2008,0.396
+Zambia,ZMB,2009,0.407
+Zambia,ZMB,2010,0.418
+Zambia,ZMB,2011,0.429
+Zambia,ZMB,2012,0.44
+Zambia,ZMB,2013,0.451
+Zambia,ZMB,2014,0.462
+Zambia,ZMB,2015,0.472
+Zambia,ZMB,2016,0.481
+Zambia,ZMB,2017,0.491
+Zambia,ZMB,2018,0.499
+Zambia,ZMB,2019,0.505
+Eswatini,SWZ,1950,0.148
+Eswatini,SWZ,1951,0.15
+Eswatini,SWZ,1952,0.153
+Eswatini,SWZ,1953,0.155
+Eswatini,SWZ,1954,0.158
+Eswatini,SWZ,1955,0.161
+Eswatini,SWZ,1956,0.163
+Eswatini,SWZ,1957,0.166
+Eswatini,SWZ,1958,0.169
+Eswatini,SWZ,1959,0.172
+Eswatini,SWZ,1960,0.176
+Eswatini,SWZ,1961,0.181
+Eswatini,SWZ,1962,0.187
+Eswatini,SWZ,1963,0.193
+Eswatini,SWZ,1964,0.199
+Eswatini,SWZ,1965,0.206
+Eswatini,SWZ,1966,0.213
+Eswatini,SWZ,1967,0.219
+Eswatini,SWZ,1968,0.224
+Eswatini,SWZ,1969,0.23
+Eswatini,SWZ,1970,0.236
+Eswatini,SWZ,1971,0.242
+Eswatini,SWZ,1972,0.249
+Eswatini,SWZ,1973,0.255
+Eswatini,SWZ,1974,0.262
+Eswatini,SWZ,1975,0.27
+Eswatini,SWZ,1976,0.279
+Eswatini,SWZ,1977,0.286
+Eswatini,SWZ,1978,0.294
+Eswatini,SWZ,1979,0.301
+Eswatini,SWZ,1980,0.308
+Eswatini,SWZ,1981,0.315
+Eswatini,SWZ,1982,0.323
+Eswatini,SWZ,1983,0.33
+Eswatini,SWZ,1984,0.338
+Eswatini,SWZ,1985,0.345
+Eswatini,SWZ,1986,0.354
+Eswatini,SWZ,1987,0.363
+Eswatini,SWZ,1988,0.373
+Eswatini,SWZ,1989,0.382
+Eswatini,SWZ,1990,0.392
+Eswatini,SWZ,1991,0.401
+Eswatini,SWZ,1992,0.41
+Eswatini,SWZ,1993,0.419
+Eswatini,SWZ,1994,0.427
+Eswatini,SWZ,1995,0.435
+Eswatini,SWZ,1996,0.443
+Eswatini,SWZ,1997,0.45
+Eswatini,SWZ,1998,0.456
+Eswatini,SWZ,1999,0.462
+Eswatini,SWZ,2000,0.468
+Eswatini,SWZ,2001,0.474
+Eswatini,SWZ,2002,0.479
+Eswatini,SWZ,2003,0.484
+Eswatini,SWZ,2004,0.49
+Eswatini,SWZ,2005,0.495
+Eswatini,SWZ,2006,0.501
+Eswatini,SWZ,2007,0.507
+Eswatini,SWZ,2008,0.513
+Eswatini,SWZ,2009,0.519
+Eswatini,SWZ,2010,0.526
+Eswatini,SWZ,2011,0.532
+Eswatini,SWZ,2012,0.538
+Eswatini,SWZ,2013,0.545
+Eswatini,SWZ,2014,0.551
+Eswatini,SWZ,2015,0.557
+Eswatini,SWZ,2016,0.563
+Eswatini,SWZ,2017,0.569
+Eswatini,SWZ,2018,0.574
+Eswatini,SWZ,2019,0.577
+Lesotho,LSO,1950,0.15
+Lesotho,LSO,1951,0.154
+Lesotho,LSO,1952,0.156
+Lesotho,LSO,1953,0.159
+Lesotho,LSO,1954,0.163
+Lesotho,LSO,1955,0.166
+Lesotho,LSO,1956,0.169
+Lesotho,LSO,1957,0.173
+Lesotho,LSO,1958,0.177
+Lesotho,LSO,1959,0.18
+Lesotho,LSO,1960,0.184
+Lesotho,LSO,1961,0.188
+Lesotho,LSO,1962,0.193
+Lesotho,LSO,1963,0.2
+Lesotho,LSO,1964,0.206
+Lesotho,LSO,1965,0.212
+Lesotho,LSO,1966,0.217
+Lesotho,LSO,1967,0.223
+Lesotho,LSO,1968,0.227
+Lesotho,LSO,1969,0.231
+Lesotho,LSO,1970,0.235
+Lesotho,LSO,1971,0.237
+Lesotho,LSO,1972,0.24
+Lesotho,LSO,1973,0.246
+Lesotho,LSO,1974,0.251
+Lesotho,LSO,1975,0.255
+Lesotho,LSO,1976,0.259
+Lesotho,LSO,1977,0.265
+Lesotho,LSO,1978,0.273
+Lesotho,LSO,1979,0.278
+Lesotho,LSO,1980,0.282
+Lesotho,LSO,1981,0.285
+Lesotho,LSO,1982,0.288
+Lesotho,LSO,1983,0.291
+Lesotho,LSO,1984,0.295
+Lesotho,LSO,1985,0.298
+Lesotho,LSO,1986,0.302
+Lesotho,LSO,1987,0.305
+Lesotho,LSO,1988,0.31
+Lesotho,LSO,1989,0.315
+Lesotho,LSO,1990,0.321
+Lesotho,LSO,1991,0.327
+Lesotho,LSO,1992,0.333
+Lesotho,LSO,1993,0.34
+Lesotho,LSO,1994,0.346
+Lesotho,LSO,1995,0.353
+Lesotho,LSO,1996,0.36
+Lesotho,LSO,1997,0.367
+Lesotho,LSO,1998,0.373
+Lesotho,LSO,1999,0.38
+Lesotho,LSO,2000,0.387
+Lesotho,LSO,2001,0.393
+Lesotho,LSO,2002,0.399
+Lesotho,LSO,2003,0.405
+Lesotho,LSO,2004,0.411
+Lesotho,LSO,2005,0.417
+Lesotho,LSO,2006,0.423
+Lesotho,LSO,2007,0.429
+Lesotho,LSO,2008,0.435
+Lesotho,LSO,2009,0.441
+Lesotho,LSO,2010,0.448
+Lesotho,LSO,2011,0.455
+Lesotho,LSO,2012,0.462
+Lesotho,LSO,2013,0.469
+Lesotho,LSO,2014,0.476
+Lesotho,LSO,2015,0.483
+Lesotho,LSO,2016,0.489
+Lesotho,LSO,2017,0.496
+Lesotho,LSO,2018,0.502
+Lesotho,LSO,2019,0.507
+Zimbabwe,ZWE,1950,0.174
+Zimbabwe,ZWE,1951,0.177
+Zimbabwe,ZWE,1952,0.18
+Zimbabwe,ZWE,1953,0.183
+Zimbabwe,ZWE,1954,0.185
+Zimbabwe,ZWE,1955,0.188
+Zimbabwe,ZWE,1956,0.192
+Zimbabwe,ZWE,1957,0.195
+Zimbabwe,ZWE,1958,0.198
+Zimbabwe,ZWE,1959,0.202
+Zimbabwe,ZWE,1960,0.205
+Zimbabwe,ZWE,1961,0.209
+Zimbabwe,ZWE,1962,0.213
+Zimbabwe,ZWE,1963,0.216
+Zimbabwe,ZWE,1964,0.219
+Zimbabwe,ZWE,1965,0.222
+Zimbabwe,ZWE,1966,0.225
+Zimbabwe,ZWE,1967,0.229
+Zimbabwe,ZWE,1968,0.232
+Zimbabwe,ZWE,1969,0.236
+Zimbabwe,ZWE,1970,0.241
+Zimbabwe,ZWE,1971,0.247
+Zimbabwe,ZWE,1972,0.252
+Zimbabwe,ZWE,1973,0.258
+Zimbabwe,ZWE,1974,0.264
+Zimbabwe,ZWE,1975,0.27
+Zimbabwe,ZWE,1976,0.276
+Zimbabwe,ZWE,1977,0.281
+Zimbabwe,ZWE,1978,0.287
+Zimbabwe,ZWE,1979,0.293
+Zimbabwe,ZWE,1980,0.3
+Zimbabwe,ZWE,1981,0.308
+Zimbabwe,ZWE,1982,0.317
+Zimbabwe,ZWE,1983,0.327
+Zimbabwe,ZWE,1984,0.336
+Zimbabwe,ZWE,1985,0.347
+Zimbabwe,ZWE,1986,0.357
+Zimbabwe,ZWE,1987,0.367
+Zimbabwe,ZWE,1988,0.376
+Zimbabwe,ZWE,1989,0.386
+Zimbabwe,ZWE,1990,0.394
+Zimbabwe,ZWE,1991,0.403
+Zimbabwe,ZWE,1992,0.409
+Zimbabwe,ZWE,1993,0.415
+Zimbabwe,ZWE,1994,0.421
+Zimbabwe,ZWE,1995,0.426
+Zimbabwe,ZWE,1996,0.432
+Zimbabwe,ZWE,1997,0.437
+Zimbabwe,ZWE,1998,0.441
+Zimbabwe,ZWE,1999,0.444
+Zimbabwe,ZWE,2000,0.446
+Zimbabwe,ZWE,2001,0.448
+Zimbabwe,ZWE,2002,0.448
+Zimbabwe,ZWE,2003,0.447
+Zimbabwe,ZWE,2004,0.444
+Zimbabwe,ZWE,2005,0.441
+Zimbabwe,ZWE,2006,0.437
+Zimbabwe,ZWE,2007,0.433
+Zimbabwe,ZWE,2008,0.428
+Zimbabwe,ZWE,2009,0.425
+Zimbabwe,ZWE,2010,0.425
+Zimbabwe,ZWE,2011,0.427
+Zimbabwe,ZWE,2012,0.432
+Zimbabwe,ZWE,2013,0.438
+Zimbabwe,ZWE,2014,0.445
+Zimbabwe,ZWE,2015,0.452
+Zimbabwe,ZWE,2016,0.459
+Zimbabwe,ZWE,2017,0.465
+Zimbabwe,ZWE,2018,0.471
+Zimbabwe,ZWE,2019,0.476
+Benin,BEN,1950,0.097
+Benin,BEN,1951,0.0984
+Benin,BEN,1952,0.0997
+Benin,BEN,1953,0.101
+Benin,BEN,1954,0.102
+Benin,BEN,1955,0.104
+Benin,BEN,1956,0.105
+Benin,BEN,1957,0.107
+Benin,BEN,1958,0.108
+Benin,BEN,1959,0.11
+Benin,BEN,1960,0.112
+Benin,BEN,1961,0.114
+Benin,BEN,1962,0.115
+Benin,BEN,1963,0.117
+Benin,BEN,1964,0.119
+Benin,BEN,1965,0.121
+Benin,BEN,1966,0.124
+Benin,BEN,1967,0.126
+Benin,BEN,1968,0.128
+Benin,BEN,1969,0.131
+Benin,BEN,1970,0.134
+Benin,BEN,1971,0.136
+Benin,BEN,1972,0.139
+Benin,BEN,1973,0.142
+Benin,BEN,1974,0.146
+Benin,BEN,1975,0.149
+Benin,BEN,1976,0.152
+Benin,BEN,1977,0.155
+Benin,BEN,1978,0.158
+Benin,BEN,1979,0.162
+Benin,BEN,1980,0.166
+Benin,BEN,1981,0.17
+Benin,BEN,1982,0.174
+Benin,BEN,1983,0.178
+Benin,BEN,1984,0.183
+Benin,BEN,1985,0.187
+Benin,BEN,1986,0.192
+Benin,BEN,1987,0.196
+Benin,BEN,1988,0.2
+Benin,BEN,1989,0.204
+Benin,BEN,1990,0.209
+Benin,BEN,1991,0.213
+Benin,BEN,1992,0.218
+Benin,BEN,1993,0.222
+Benin,BEN,1994,0.227
+Benin,BEN,1995,0.231
+Benin,BEN,1996,0.236
+Benin,BEN,1997,0.241
+Benin,BEN,1998,0.245
+Benin,BEN,1999,0.25
+Benin,BEN,2000,0.254
+Benin,BEN,2001,0.259
+Benin,BEN,2002,0.263
+Benin,BEN,2003,0.267
+Benin,BEN,2004,0.271
+Benin,BEN,2005,0.275
+Benin,BEN,2006,0.279
+Benin,BEN,2007,0.283
+Benin,BEN,2008,0.288
+Benin,BEN,2009,0.292
+Benin,BEN,2010,0.297
+Benin,BEN,2011,0.301
+Benin,BEN,2012,0.306
+Benin,BEN,2013,0.312
+Benin,BEN,2014,0.318
+Benin,BEN,2015,0.324
+Benin,BEN,2016,0.331
+Benin,BEN,2017,0.338
+Benin,BEN,2018,0.346
+Benin,BEN,2019,0.352
+Burkina Faso,BFA,1950,0.0524
+Burkina Faso,BFA,1951,0.0535
+Burkina Faso,BFA,1952,0.0547
+Burkina Faso,BFA,1953,0.056
+Burkina Faso,BFA,1954,0.0573
+Burkina Faso,BFA,1955,0.0586
+Burkina Faso,BFA,1956,0.06
+Burkina Faso,BFA,1957,0.0614
+Burkina Faso,BFA,1958,0.0629
+Burkina Faso,BFA,1959,0.0646
+Burkina Faso,BFA,1960,0.0664
+Burkina Faso,BFA,1961,0.0681
+Burkina Faso,BFA,1962,0.07
+Burkina Faso,BFA,1963,0.0716
+Burkina Faso,BFA,1964,0.0731
+Burkina Faso,BFA,1965,0.0746
+Burkina Faso,BFA,1966,0.0761
+Burkina Faso,BFA,1967,0.0778
+Burkina Faso,BFA,1968,0.0794
+Burkina Faso,BFA,1969,0.081
+Burkina Faso,BFA,1970,0.0824
+Burkina Faso,BFA,1971,0.0838
+Burkina Faso,BFA,1972,0.0855
+Burkina Faso,BFA,1973,0.0869
+Burkina Faso,BFA,1974,0.0883
+Burkina Faso,BFA,1975,0.0896
+Burkina Faso,BFA,1976,0.091
+Burkina Faso,BFA,1977,0.0925
+Burkina Faso,BFA,1978,0.0946
+Burkina Faso,BFA,1979,0.0968
+Burkina Faso,BFA,1980,0.0989
+Burkina Faso,BFA,1981,0.101
+Burkina Faso,BFA,1982,0.104
+Burkina Faso,BFA,1983,0.106
+Burkina Faso,BFA,1984,0.108
+Burkina Faso,BFA,1985,0.11
+Burkina Faso,BFA,1986,0.113
+Burkina Faso,BFA,1987,0.116
+Burkina Faso,BFA,1988,0.119
+Burkina Faso,BFA,1989,0.122
+Burkina Faso,BFA,1990,0.125
+Burkina Faso,BFA,1991,0.128
+Burkina Faso,BFA,1992,0.131
+Burkina Faso,BFA,1993,0.134
+Burkina Faso,BFA,1994,0.137
+Burkina Faso,BFA,1995,0.14
+Burkina Faso,BFA,1996,0.144
+Burkina Faso,BFA,1997,0.147
+Burkina Faso,BFA,1998,0.152
+Burkina Faso,BFA,1999,0.156
+Burkina Faso,BFA,2000,0.161
+Burkina Faso,BFA,2001,0.166
+Burkina Faso,BFA,2002,0.17
+Burkina Faso,BFA,2003,0.175
+Burkina Faso,BFA,2004,0.18
+Burkina Faso,BFA,2005,0.186
+Burkina Faso,BFA,2006,0.191
+Burkina Faso,BFA,2007,0.196
+Burkina Faso,BFA,2008,0.2
+Burkina Faso,BFA,2009,0.205
+Burkina Faso,BFA,2010,0.21
+Burkina Faso,BFA,2011,0.215
+Burkina Faso,BFA,2012,0.22
+Burkina Faso,BFA,2013,0.226
+Burkina Faso,BFA,2014,0.231
+Burkina Faso,BFA,2015,0.236
+Burkina Faso,BFA,2016,0.241
+Burkina Faso,BFA,2017,0.247
+Burkina Faso,BFA,2018,0.252
+Burkina Faso,BFA,2019,0.257
+Cabo Verde,CPV,1950,0.132
+Cabo Verde,CPV,1951,0.134
+Cabo Verde,CPV,1952,0.135
+Cabo Verde,CPV,1953,0.136
+Cabo Verde,CPV,1954,0.137
+Cabo Verde,CPV,1955,0.138
+Cabo Verde,CPV,1956,0.139
+Cabo Verde,CPV,1957,0.14
+Cabo Verde,CPV,1958,0.141
+Cabo Verde,CPV,1959,0.143
+Cabo Verde,CPV,1960,0.145
+Cabo Verde,CPV,1961,0.148
+Cabo Verde,CPV,1962,0.15
+Cabo Verde,CPV,1963,0.153
+Cabo Verde,CPV,1964,0.155
+Cabo Verde,CPV,1965,0.158
+Cabo Verde,CPV,1966,0.163
+Cabo Verde,CPV,1967,0.168
+Cabo Verde,CPV,1968,0.174
+Cabo Verde,CPV,1969,0.181
+Cabo Verde,CPV,1970,0.187
+Cabo Verde,CPV,1971,0.194
+Cabo Verde,CPV,1972,0.2
+Cabo Verde,CPV,1973,0.206
+Cabo Verde,CPV,1974,0.212
+Cabo Verde,CPV,1975,0.216
+Cabo Verde,CPV,1976,0.22
+Cabo Verde,CPV,1977,0.223
+Cabo Verde,CPV,1978,0.227
+Cabo Verde,CPV,1979,0.231
+Cabo Verde,CPV,1980,0.235
+Cabo Verde,CPV,1981,0.238
+Cabo Verde,CPV,1982,0.242
+Cabo Verde,CPV,1983,0.247
+Cabo Verde,CPV,1984,0.252
+Cabo Verde,CPV,1985,0.257
+Cabo Verde,CPV,1986,0.264
+Cabo Verde,CPV,1987,0.27
+Cabo Verde,CPV,1988,0.277
+Cabo Verde,CPV,1989,0.285
+Cabo Verde,CPV,1990,0.292
+Cabo Verde,CPV,1991,0.298
+Cabo Verde,CPV,1992,0.305
+Cabo Verde,CPV,1993,0.311
+Cabo Verde,CPV,1994,0.318
+Cabo Verde,CPV,1995,0.326
+Cabo Verde,CPV,1996,0.333
+Cabo Verde,CPV,1997,0.342
+Cabo Verde,CPV,1998,0.35
+Cabo Verde,CPV,1999,0.36
+Cabo Verde,CPV,2000,0.37
+Cabo Verde,CPV,2001,0.379
+Cabo Verde,CPV,2002,0.388
+Cabo Verde,CPV,2003,0.397
+Cabo Verde,CPV,2004,0.407
+Cabo Verde,CPV,2005,0.415
+Cabo Verde,CPV,2006,0.424
+Cabo Verde,CPV,2007,0.434
+Cabo Verde,CPV,2008,0.443
+Cabo Verde,CPV,2009,0.452
+Cabo Verde,CPV,2010,0.461
+Cabo Verde,CPV,2011,0.469
+Cabo Verde,CPV,2012,0.477
+Cabo Verde,CPV,2013,0.484
+Cabo Verde,CPV,2014,0.491
+Cabo Verde,CPV,2015,0.498
+Cabo Verde,CPV,2016,0.505
+Cabo Verde,CPV,2017,0.512
+Cabo Verde,CPV,2018,0.519
+Cabo Verde,CPV,2019,0.525
+Cameroon,CMR,1950,0.143
+Cameroon,CMR,1951,0.146
+Cameroon,CMR,1952,0.148
+Cameroon,CMR,1953,0.151
+Cameroon,CMR,1954,0.154
+Cameroon,CMR,1955,0.158
+Cameroon,CMR,1956,0.161
+Cameroon,CMR,1957,0.164
+Cameroon,CMR,1958,0.167
+Cameroon,CMR,1959,0.17
+Cameroon,CMR,1960,0.174
+Cameroon,CMR,1961,0.177
+Cameroon,CMR,1962,0.18
+Cameroon,CMR,1963,0.183
+Cameroon,CMR,1964,0.186
+Cameroon,CMR,1965,0.189
+Cameroon,CMR,1966,0.192
+Cameroon,CMR,1967,0.194
+Cameroon,CMR,1968,0.197
+Cameroon,CMR,1969,0.199
+Cameroon,CMR,1970,0.202
+Cameroon,CMR,1971,0.205
+Cameroon,CMR,1972,0.208
+Cameroon,CMR,1973,0.211
+Cameroon,CMR,1974,0.214
+Cameroon,CMR,1975,0.218
+Cameroon,CMR,1976,0.221
+Cameroon,CMR,1977,0.225
+Cameroon,CMR,1978,0.23
+Cameroon,CMR,1979,0.235
+Cameroon,CMR,1980,0.24
+Cameroon,CMR,1981,0.246
+Cameroon,CMR,1982,0.253
+Cameroon,CMR,1983,0.26
+Cameroon,CMR,1984,0.267
+Cameroon,CMR,1985,0.276
+Cameroon,CMR,1986,0.284
+Cameroon,CMR,1987,0.292
+Cameroon,CMR,1988,0.299
+Cameroon,CMR,1989,0.307
+Cameroon,CMR,1990,0.313
+Cameroon,CMR,1991,0.32
+Cameroon,CMR,1992,0.325
+Cameroon,CMR,1993,0.33
+Cameroon,CMR,1994,0.334
+Cameroon,CMR,1995,0.338
+Cameroon,CMR,1996,0.342
+Cameroon,CMR,1997,0.346
+Cameroon,CMR,1998,0.349
+Cameroon,CMR,1999,0.353
+Cameroon,CMR,2000,0.357
+Cameroon,CMR,2001,0.36
+Cameroon,CMR,2002,0.364
+Cameroon,CMR,2003,0.368
+Cameroon,CMR,2004,0.373
+Cameroon,CMR,2005,0.378
+Cameroon,CMR,2006,0.384
+Cameroon,CMR,2007,0.39
+Cameroon,CMR,2008,0.397
+Cameroon,CMR,2009,0.404
+Cameroon,CMR,2010,0.412
+Cameroon,CMR,2011,0.42
+Cameroon,CMR,2012,0.428
+Cameroon,CMR,2013,0.436
+Cameroon,CMR,2014,0.445
+Cameroon,CMR,2015,0.455
+Cameroon,CMR,2016,0.464
+Cameroon,CMR,2017,0.474
+Cameroon,CMR,2018,0.483
+Cameroon,CMR,2019,0.49
+Chad,TCD,1950,0.061
+Chad,TCD,1951,0.0618
+Chad,TCD,1952,0.0627
+Chad,TCD,1953,0.0637
+Chad,TCD,1954,0.0649
+Chad,TCD,1955,0.0659
+Chad,TCD,1956,0.0669
+Chad,TCD,1957,0.0679
+Chad,TCD,1958,0.069
+Chad,TCD,1959,0.0701
+Chad,TCD,1960,0.0714
+Chad,TCD,1961,0.0726
+Chad,TCD,1962,0.074
+Chad,TCD,1963,0.0751
+Chad,TCD,1964,0.0761
+Chad,TCD,1965,0.077
+Chad,TCD,1966,0.0782
+Chad,TCD,1967,0.0792
+Chad,TCD,1968,0.0802
+Chad,TCD,1969,0.0812
+Chad,TCD,1970,0.0823
+Chad,TCD,1971,0.0834
+Chad,TCD,1972,0.0844
+Chad,TCD,1973,0.0852
+Chad,TCD,1974,0.0861
+Chad,TCD,1975,0.0874
+Chad,TCD,1976,0.0886
+Chad,TCD,1977,0.0897
+Chad,TCD,1978,0.0908
+Chad,TCD,1979,0.091
+Chad,TCD,1980,0.0911
+Chad,TCD,1981,0.091
+Chad,TCD,1982,0.0911
+Chad,TCD,1983,0.092
+Chad,TCD,1984,0.0932
+Chad,TCD,1985,0.095
+Chad,TCD,1986,0.097
+Chad,TCD,1987,0.0993
+Chad,TCD,1988,0.102
+Chad,TCD,1989,0.105
+Chad,TCD,1990,0.108
+Chad,TCD,1991,0.112
+Chad,TCD,1992,0.115
+Chad,TCD,1993,0.118
+Chad,TCD,1994,0.12
+Chad,TCD,1995,0.123
+Chad,TCD,1996,0.125
+Chad,TCD,1997,0.128
+Chad,TCD,1998,0.13
+Chad,TCD,1999,0.132
+Chad,TCD,2000,0.135
+Chad,TCD,2001,0.137
+Chad,TCD,2002,0.14
+Chad,TCD,2003,0.144
+Chad,TCD,2004,0.149
+Chad,TCD,2005,0.156
+Chad,TCD,2006,0.162
+Chad,TCD,2007,0.167
+Chad,TCD,2008,0.173
+Chad,TCD,2009,0.179
+Chad,TCD,2010,0.185
+Chad,TCD,2011,0.191
+Chad,TCD,2012,0.197
+Chad,TCD,2013,0.203
+Chad,TCD,2014,0.21
+Chad,TCD,2015,0.216
+Chad,TCD,2016,0.223
+Chad,TCD,2017,0.228
+Chad,TCD,2018,0.234
+Chad,TCD,2019,0.238
+Côte d’Ivoire,CIV,1950,0.124
+Côte d’Ivoire,CIV,1951,0.126
+Côte d’Ivoire,CIV,1952,0.128
+Côte d’Ivoire,CIV,1953,0.13
+Côte d’Ivoire,CIV,1954,0.132
+Côte d’Ivoire,CIV,1955,0.135
+Côte d’Ivoire,CIV,1956,0.137
+Côte d’Ivoire,CIV,1957,0.139
+Côte d’Ivoire,CIV,1958,0.141
+Côte d’Ivoire,CIV,1959,0.144
+Côte d’Ivoire,CIV,1960,0.146
+Côte d’Ivoire,CIV,1961,0.149
+Côte d’Ivoire,CIV,1962,0.152
+Côte d’Ivoire,CIV,1963,0.155
+Côte d’Ivoire,CIV,1964,0.158
+Côte d’Ivoire,CIV,1965,0.161
+Côte d’Ivoire,CIV,1966,0.164
+Côte d’Ivoire,CIV,1967,0.167
+Côte d’Ivoire,CIV,1968,0.171
+Côte d’Ivoire,CIV,1969,0.174
+Côte d’Ivoire,CIV,1970,0.177
+Côte d’Ivoire,CIV,1971,0.181
+Côte d’Ivoire,CIV,1972,0.184
+Côte d’Ivoire,CIV,1973,0.188
+Côte d’Ivoire,CIV,1974,0.191
+Côte d’Ivoire,CIV,1975,0.194
+Côte d’Ivoire,CIV,1976,0.198
+Côte d’Ivoire,CIV,1977,0.202
+Côte d’Ivoire,CIV,1978,0.205
+Côte d’Ivoire,CIV,1979,0.209
+Côte d’Ivoire,CIV,1980,0.213
+Côte d’Ivoire,CIV,1981,0.216
+Côte d’Ivoire,CIV,1982,0.22
+Côte d’Ivoire,CIV,1983,0.224
+Côte d’Ivoire,CIV,1984,0.227
+Côte d’Ivoire,CIV,1985,0.232
+Côte d’Ivoire,CIV,1986,0.236
+Côte d’Ivoire,CIV,1987,0.241
+Côte d’Ivoire,CIV,1988,0.246
+Côte d’Ivoire,CIV,1989,0.251
+Côte d’Ivoire,CIV,1990,0.256
+Côte d’Ivoire,CIV,1991,0.26
+Côte d’Ivoire,CIV,1992,0.265
+Côte d’Ivoire,CIV,1993,0.27
+Côte d’Ivoire,CIV,1994,0.275
+Côte d’Ivoire,CIV,1995,0.279
+Côte d’Ivoire,CIV,1996,0.285
+Côte d’Ivoire,CIV,1997,0.29
+Côte d’Ivoire,CIV,1998,0.295
+Côte d’Ivoire,CIV,1999,0.301
+Côte d’Ivoire,CIV,2000,0.305
+Côte d’Ivoire,CIV,2001,0.31
+Côte d’Ivoire,CIV,2002,0.314
+Côte d’Ivoire,CIV,2003,0.318
+Côte d’Ivoire,CIV,2004,0.322
+Côte d’Ivoire,CIV,2005,0.325
+Côte d’Ivoire,CIV,2006,0.329
+Côte d’Ivoire,CIV,2007,0.333
+Côte d’Ivoire,CIV,2008,0.337
+Côte d’Ivoire,CIV,2009,0.341
+Côte d’Ivoire,CIV,2010,0.346
+Côte d’Ivoire,CIV,2011,0.35
+Côte d’Ivoire,CIV,2012,0.355
+Côte d’Ivoire,CIV,2013,0.362
+Côte d’Ivoire,CIV,2014,0.369
+Côte d’Ivoire,CIV,2015,0.376
+Côte d’Ivoire,CIV,2016,0.384
+Côte d’Ivoire,CIV,2017,0.393
+Côte d’Ivoire,CIV,2018,0.401
+Côte d’Ivoire,CIV,2019,0.408
+"Gambia, The",GMB,1950,0.123
+"Gambia, The",GMB,1951,0.125
+"Gambia, The",GMB,1952,0.126
+"Gambia, The",GMB,1953,0.128
+"Gambia, The",GMB,1954,0.13
+"Gambia, The",GMB,1955,0.131
+"Gambia, The",GMB,1956,0.133
+"Gambia, The",GMB,1957,0.135
+"Gambia, The",GMB,1958,0.136
+"Gambia, The",GMB,1959,0.138
+"Gambia, The",GMB,1960,0.14
+"Gambia, The",GMB,1961,0.142
+"Gambia, The",GMB,1962,0.143
+"Gambia, The",GMB,1963,0.145
+"Gambia, The",GMB,1964,0.147
+"Gambia, The",GMB,1965,0.149
+"Gambia, The",GMB,1966,0.151
+"Gambia, The",GMB,1967,0.153
+"Gambia, The",GMB,1968,0.155
+"Gambia, The",GMB,1969,0.157
+"Gambia, The",GMB,1970,0.16
+"Gambia, The",GMB,1971,0.161
+"Gambia, The",GMB,1972,0.163
+"Gambia, The",GMB,1973,0.165
+"Gambia, The",GMB,1974,0.167
+"Gambia, The",GMB,1975,0.169
+"Gambia, The",GMB,1976,0.172
+"Gambia, The",GMB,1977,0.174
+"Gambia, The",GMB,1978,0.176
+"Gambia, The",GMB,1979,0.179
+"Gambia, The",GMB,1980,0.181
+"Gambia, The",GMB,1981,0.184
+"Gambia, The",GMB,1982,0.187
+"Gambia, The",GMB,1983,0.19
+"Gambia, The",GMB,1984,0.194
+"Gambia, The",GMB,1985,0.197
+"Gambia, The",GMB,1986,0.201
+"Gambia, The",GMB,1987,0.205
+"Gambia, The",GMB,1988,0.209
+"Gambia, The",GMB,1989,0.214
+"Gambia, The",GMB,1990,0.218
+"Gambia, The",GMB,1991,0.223
+"Gambia, The",GMB,1992,0.227
+"Gambia, The",GMB,1993,0.232
+"Gambia, The",GMB,1994,0.237
+"Gambia, The",GMB,1995,0.241
+"Gambia, The",GMB,1996,0.246
+"Gambia, The",GMB,1997,0.251
+"Gambia, The",GMB,1998,0.256
+"Gambia, The",GMB,1999,0.262
+"Gambia, The",GMB,2000,0.268
+"Gambia, The",GMB,2001,0.274
+"Gambia, The",GMB,2002,0.28
+"Gambia, The",GMB,2003,0.286
+"Gambia, The",GMB,2004,0.293
+"Gambia, The",GMB,2005,0.3
+"Gambia, The",GMB,2006,0.306
+"Gambia, The",GMB,2007,0.313
+"Gambia, The",GMB,2008,0.319
+"Gambia, The",GMB,2009,0.327
+"Gambia, The",GMB,2010,0.334
+"Gambia, The",GMB,2011,0.341
+"Gambia, The",GMB,2012,0.348
+"Gambia, The",GMB,2013,0.356
+"Gambia, The",GMB,2014,0.363
+"Gambia, The",GMB,2015,0.37
+"Gambia, The",GMB,2016,0.378
+"Gambia, The",GMB,2017,0.385
+"Gambia, The",GMB,2018,0.393
+"Gambia, The",GMB,2019,0.399
+Ghana,GHA,1950,0.202
+Ghana,GHA,1951,0.205
+Ghana,GHA,1952,0.206
+Ghana,GHA,1953,0.209
+Ghana,GHA,1954,0.212
+Ghana,GHA,1955,0.214
+Ghana,GHA,1956,0.215
+Ghana,GHA,1957,0.217
+Ghana,GHA,1958,0.219
+Ghana,GHA,1959,0.221
+Ghana,GHA,1960,0.223
+Ghana,GHA,1961,0.226
+Ghana,GHA,1962,0.228
+Ghana,GHA,1963,0.23
+Ghana,GHA,1964,0.233
+Ghana,GHA,1965,0.235
+Ghana,GHA,1966,0.237
+Ghana,GHA,1967,0.239
+Ghana,GHA,1968,0.241
+Ghana,GHA,1969,0.244
+Ghana,GHA,1970,0.248
+Ghana,GHA,1971,0.252
+Ghana,GHA,1972,0.255
+Ghana,GHA,1973,0.259
+Ghana,GHA,1974,0.264
+Ghana,GHA,1975,0.269
+Ghana,GHA,1976,0.274
+Ghana,GHA,1977,0.279
+Ghana,GHA,1978,0.285
+Ghana,GHA,1979,0.29
+Ghana,GHA,1980,0.296
+Ghana,GHA,1981,0.301
+Ghana,GHA,1982,0.306
+Ghana,GHA,1983,0.311
+Ghana,GHA,1984,0.316
+Ghana,GHA,1985,0.322
+Ghana,GHA,1986,0.328
+Ghana,GHA,1987,0.334
+Ghana,GHA,1988,0.341
+Ghana,GHA,1989,0.348
+Ghana,GHA,1990,0.355
+Ghana,GHA,1991,0.362
+Ghana,GHA,1992,0.368
+Ghana,GHA,1993,0.374
+Ghana,GHA,1994,0.38
+Ghana,GHA,1995,0.385
+Ghana,GHA,1996,0.391
+Ghana,GHA,1997,0.396
+Ghana,GHA,1998,0.401
+Ghana,GHA,1999,0.406
+Ghana,GHA,2000,0.411
+Ghana,GHA,2001,0.415
+Ghana,GHA,2002,0.42
+Ghana,GHA,2003,0.426
+Ghana,GHA,2004,0.431
+Ghana,GHA,2005,0.437
+Ghana,GHA,2006,0.444
+Ghana,GHA,2007,0.45
+Ghana,GHA,2008,0.458
+Ghana,GHA,2009,0.466
+Ghana,GHA,2010,0.474
+Ghana,GHA,2011,0.484
+Ghana,GHA,2012,0.494
+Ghana,GHA,2013,0.504
+Ghana,GHA,2014,0.514
+Ghana,GHA,2015,0.523
+Ghana,GHA,2016,0.531
+Ghana,GHA,2017,0.541
+Ghana,GHA,2018,0.549
+Ghana,GHA,2019,0.557
+Guinea,GIN,1950,0.0631
+Guinea,GIN,1951,0.065
+Guinea,GIN,1952,0.0669
+Guinea,GIN,1953,0.069
+Guinea,GIN,1954,0.0715
+Guinea,GIN,1955,0.074
+Guinea,GIN,1956,0.0768
+Guinea,GIN,1957,0.0798
+Guinea,GIN,1958,0.0829
+Guinea,GIN,1959,0.0861
+Guinea,GIN,1960,0.0896
+Guinea,GIN,1961,0.0931
+Guinea,GIN,1962,0.0966
+Guinea,GIN,1963,0.1
+Guinea,GIN,1964,0.103
+Guinea,GIN,1965,0.106
+Guinea,GIN,1966,0.109
+Guinea,GIN,1967,0.112
+Guinea,GIN,1968,0.115
+Guinea,GIN,1969,0.117
+Guinea,GIN,1970,0.119
+Guinea,GIN,1971,0.12
+Guinea,GIN,1972,0.122
+Guinea,GIN,1973,0.125
+Guinea,GIN,1974,0.127
+Guinea,GIN,1975,0.13
+Guinea,GIN,1976,0.135
+Guinea,GIN,1977,0.138
+Guinea,GIN,1978,0.141
+Guinea,GIN,1979,0.144
+Guinea,GIN,1980,0.147
+Guinea,GIN,1981,0.149
+Guinea,GIN,1982,0.152
+Guinea,GIN,1983,0.154
+Guinea,GIN,1984,0.157
+Guinea,GIN,1985,0.159
+Guinea,GIN,1986,0.162
+Guinea,GIN,1987,0.164
+Guinea,GIN,1988,0.167
+Guinea,GIN,1989,0.171
+Guinea,GIN,1990,0.175
+Guinea,GIN,1991,0.178
+Guinea,GIN,1992,0.182
+Guinea,GIN,1993,0.186
+Guinea,GIN,1994,0.19
+Guinea,GIN,1995,0.194
+Guinea,GIN,1996,0.199
+Guinea,GIN,1997,0.204
+Guinea,GIN,1998,0.209
+Guinea,GIN,1999,0.214
+Guinea,GIN,2000,0.219
+Guinea,GIN,2001,0.224
+Guinea,GIN,2002,0.229
+Guinea,GIN,2003,0.235
+Guinea,GIN,2004,0.239
+Guinea,GIN,2005,0.244
+Guinea,GIN,2006,0.249
+Guinea,GIN,2007,0.253
+Guinea,GIN,2008,0.258
+Guinea,GIN,2009,0.263
+Guinea,GIN,2010,0.267
+Guinea,GIN,2011,0.272
+Guinea,GIN,2012,0.278
+Guinea,GIN,2013,0.284
+Guinea,GIN,2014,0.29
+Guinea,GIN,2015,0.296
+Guinea,GIN,2016,0.303
+Guinea,GIN,2017,0.31
+Guinea,GIN,2018,0.318
+Guinea,GIN,2019,0.325
+Guinea-Bissau,GNB,1950,0.064
+Guinea-Bissau,GNB,1951,0.0664
+Guinea-Bissau,GNB,1952,0.069
+Guinea-Bissau,GNB,1953,0.0716
+Guinea-Bissau,GNB,1954,0.0755
+Guinea-Bissau,GNB,1955,0.0784
+Guinea-Bissau,GNB,1956,0.0819
+Guinea-Bissau,GNB,1957,0.0855
+Guinea-Bissau,GNB,1958,0.089
+Guinea-Bissau,GNB,1959,0.0925
+Guinea-Bissau,GNB,1960,0.0961
+Guinea-Bissau,GNB,1961,0.0998
+Guinea-Bissau,GNB,1962,0.103
+Guinea-Bissau,GNB,1963,0.107
+Guinea-Bissau,GNB,1964,0.111
+Guinea-Bissau,GNB,1965,0.115
+Guinea-Bissau,GNB,1966,0.119
+Guinea-Bissau,GNB,1967,0.123
+Guinea-Bissau,GNB,1968,0.127
+Guinea-Bissau,GNB,1969,0.131
+Guinea-Bissau,GNB,1970,0.135
+Guinea-Bissau,GNB,1971,0.139
+Guinea-Bissau,GNB,1972,0.143
+Guinea-Bissau,GNB,1973,0.146
+Guinea-Bissau,GNB,1974,0.15
+Guinea-Bissau,GNB,1975,0.153
+Guinea-Bissau,GNB,1976,0.157
+Guinea-Bissau,GNB,1977,0.16
+Guinea-Bissau,GNB,1978,0.163
+Guinea-Bissau,GNB,1979,0.167
+Guinea-Bissau,GNB,1980,0.169
+Guinea-Bissau,GNB,1981,0.172
+Guinea-Bissau,GNB,1982,0.174
+Guinea-Bissau,GNB,1983,0.176
+Guinea-Bissau,GNB,1984,0.179
+Guinea-Bissau,GNB,1985,0.182
+Guinea-Bissau,GNB,1986,0.184
+Guinea-Bissau,GNB,1987,0.188
+Guinea-Bissau,GNB,1988,0.192
+Guinea-Bissau,GNB,1989,0.196
+Guinea-Bissau,GNB,1990,0.2
+Guinea-Bissau,GNB,1991,0.205
+Guinea-Bissau,GNB,1992,0.209
+Guinea-Bissau,GNB,1993,0.214
+Guinea-Bissau,GNB,1994,0.219
+Guinea-Bissau,GNB,1995,0.224
+Guinea-Bissau,GNB,1996,0.23
+Guinea-Bissau,GNB,1997,0.236
+Guinea-Bissau,GNB,1998,0.239
+Guinea-Bissau,GNB,1999,0.244
+Guinea-Bissau,GNB,2000,0.249
+Guinea-Bissau,GNB,2001,0.253
+Guinea-Bissau,GNB,2002,0.257
+Guinea-Bissau,GNB,2003,0.261
+Guinea-Bissau,GNB,2004,0.266
+Guinea-Bissau,GNB,2005,0.271
+Guinea-Bissau,GNB,2006,0.275
+Guinea-Bissau,GNB,2007,0.28
+Guinea-Bissau,GNB,2008,0.286
+Guinea-Bissau,GNB,2009,0.291
+Guinea-Bissau,GNB,2010,0.297
+Guinea-Bissau,GNB,2011,0.304
+Guinea-Bissau,GNB,2012,0.31
+Guinea-Bissau,GNB,2013,0.316
+Guinea-Bissau,GNB,2014,0.322
+Guinea-Bissau,GNB,2015,0.328
+Guinea-Bissau,GNB,2016,0.335
+Guinea-Bissau,GNB,2017,0.342
+Guinea-Bissau,GNB,2018,0.349
+Guinea-Bissau,GNB,2019,0.355
+Liberia,LBR,1950,0.129
+Liberia,LBR,1951,0.131
+Liberia,LBR,1952,0.134
+Liberia,LBR,1953,0.136
+Liberia,LBR,1954,0.138
+Liberia,LBR,1955,0.14
+Liberia,LBR,1956,0.142
+Liberia,LBR,1957,0.145
+Liberia,LBR,1958,0.147
+Liberia,LBR,1959,0.15
+Liberia,LBR,1960,0.152
+Liberia,LBR,1961,0.154
+Liberia,LBR,1962,0.157
+Liberia,LBR,1963,0.159
+Liberia,LBR,1964,0.161
+Liberia,LBR,1965,0.163
+Liberia,LBR,1966,0.166
+Liberia,LBR,1967,0.168
+Liberia,LBR,1968,0.171
+Liberia,LBR,1969,0.174
+Liberia,LBR,1970,0.177
+Liberia,LBR,1971,0.18
+Liberia,LBR,1972,0.182
+Liberia,LBR,1973,0.186
+Liberia,LBR,1974,0.188
+Liberia,LBR,1975,0.19
+Liberia,LBR,1976,0.193
+Liberia,LBR,1977,0.196
+Liberia,LBR,1978,0.198
+Liberia,LBR,1979,0.201
+Liberia,LBR,1980,0.204
+Liberia,LBR,1981,0.206
+Liberia,LBR,1982,0.207
+Liberia,LBR,1983,0.209
+Liberia,LBR,1984,0.212
+Liberia,LBR,1985,0.214
+Liberia,LBR,1986,0.217
+Liberia,LBR,1987,0.22
+Liberia,LBR,1988,0.222
+Liberia,LBR,1989,0.222
+Liberia,LBR,1990,0.221
+Liberia,LBR,1991,0.222
+Liberia,LBR,1992,0.219
+Liberia,LBR,1993,0.214
+Liberia,LBR,1994,0.206
+Liberia,LBR,1995,0.196
+Liberia,LBR,1996,0.183
+Liberia,LBR,1997,0.176
+Liberia,LBR,1998,0.175
+Liberia,LBR,1999,0.184
+Liberia,LBR,2000,0.203
+Liberia,LBR,2001,0.22
+Liberia,LBR,2002,0.238
+Liberia,LBR,2003,0.245
+Liberia,LBR,2004,0.252
+Liberia,LBR,2005,0.258
+Liberia,LBR,2006,0.265
+Liberia,LBR,2007,0.272
+Liberia,LBR,2008,0.279
+Liberia,LBR,2009,0.287
+Liberia,LBR,2010,0.296
+Liberia,LBR,2011,0.305
+Liberia,LBR,2012,0.314
+Liberia,LBR,2013,0.325
+Liberia,LBR,2014,0.335
+Liberia,LBR,2015,0.344
+Liberia,LBR,2016,0.351
+Liberia,LBR,2017,0.358
+Liberia,LBR,2018,0.365
+Liberia,LBR,2019,0.37
+Mali,MLI,1950,0.0596
+Mali,MLI,1951,0.0606
+Mali,MLI,1952,0.0616
+Mali,MLI,1953,0.0627
+Mali,MLI,1954,0.0638
+Mali,MLI,1955,0.0649
+Mali,MLI,1956,0.0661
+Mali,MLI,1957,0.0673
+Mali,MLI,1958,0.0686
+Mali,MLI,1959,0.0699
+Mali,MLI,1960,0.0713
+Mali,MLI,1961,0.0726
+Mali,MLI,1962,0.0737
+Mali,MLI,1963,0.075
+Mali,MLI,1964,0.0761
+Mali,MLI,1965,0.0773
+Mali,MLI,1966,0.0785
+Mali,MLI,1967,0.0798
+Mali,MLI,1968,0.0813
+Mali,MLI,1969,0.0827
+Mali,MLI,1970,0.0843
+Mali,MLI,1971,0.0859
+Mali,MLI,1972,0.0875
+Mali,MLI,1973,0.089
+Mali,MLI,1974,0.0902
+Mali,MLI,1975,0.092
+Mali,MLI,1976,0.0943
+Mali,MLI,1977,0.0968
+Mali,MLI,1978,0.099
+Mali,MLI,1979,0.102
+Mali,MLI,1980,0.104
+Mali,MLI,1981,0.106
+Mali,MLI,1982,0.108
+Mali,MLI,1983,0.11
+Mali,MLI,1984,0.112
+Mali,MLI,1985,0.114
+Mali,MLI,1986,0.116
+Mali,MLI,1987,0.118
+Mali,MLI,1988,0.12
+Mali,MLI,1989,0.123
+Mali,MLI,1990,0.126
+Mali,MLI,1991,0.129
+Mali,MLI,1992,0.132
+Mali,MLI,1993,0.136
+Mali,MLI,1994,0.139
+Mali,MLI,1995,0.143
+Mali,MLI,1996,0.147
+Mali,MLI,1997,0.151
+Mali,MLI,1998,0.155
+Mali,MLI,1999,0.159
+Mali,MLI,2000,0.163
+Mali,MLI,2001,0.168
+Mali,MLI,2002,0.173
+Mali,MLI,2003,0.178
+Mali,MLI,2004,0.183
+Mali,MLI,2005,0.188
+Mali,MLI,2006,0.193
+Mali,MLI,2007,0.198
+Mali,MLI,2008,0.203
+Mali,MLI,2009,0.209
+Mali,MLI,2010,0.214
+Mali,MLI,2011,0.22
+Mali,MLI,2012,0.225
+Mali,MLI,2013,0.23
+Mali,MLI,2014,0.235
+Mali,MLI,2015,0.241
+Mali,MLI,2016,0.247
+Mali,MLI,2017,0.253
+Mali,MLI,2018,0.259
+Mali,MLI,2019,0.263
+Mauritania,MRT,1950,0.168
+Mauritania,MRT,1951,0.171
+Mauritania,MRT,1952,0.175
+Mauritania,MRT,1953,0.177
+Mauritania,MRT,1954,0.18
+Mauritania,MRT,1955,0.183
+Mauritania,MRT,1956,0.187
+Mauritania,MRT,1957,0.19
+Mauritania,MRT,1958,0.193
+Mauritania,MRT,1959,0.197
+Mauritania,MRT,1960,0.201
+Mauritania,MRT,1961,0.204
+Mauritania,MRT,1962,0.207
+Mauritania,MRT,1963,0.21
+Mauritania,MRT,1964,0.214
+Mauritania,MRT,1965,0.219
+Mauritania,MRT,1966,0.223
+Mauritania,MRT,1967,0.226
+Mauritania,MRT,1968,0.23
+Mauritania,MRT,1969,0.233
+Mauritania,MRT,1970,0.236
+Mauritania,MRT,1971,0.239
+Mauritania,MRT,1972,0.241
+Mauritania,MRT,1973,0.243
+Mauritania,MRT,1974,0.245
+Mauritania,MRT,1975,0.247
+Mauritania,MRT,1976,0.25
+Mauritania,MRT,1977,0.253
+Mauritania,MRT,1978,0.255
+Mauritania,MRT,1979,0.258
+Mauritania,MRT,1980,0.261
+Mauritania,MRT,1981,0.265
+Mauritania,MRT,1982,0.268
+Mauritania,MRT,1983,0.272
+Mauritania,MRT,1984,0.276
+Mauritania,MRT,1985,0.281
+Mauritania,MRT,1986,0.285
+Mauritania,MRT,1987,0.291
+Mauritania,MRT,1988,0.296
+Mauritania,MRT,1989,0.302
+Mauritania,MRT,1990,0.308
+Mauritania,MRT,1991,0.314
+Mauritania,MRT,1992,0.319
+Mauritania,MRT,1993,0.326
+Mauritania,MRT,1994,0.332
+Mauritania,MRT,1995,0.338
+Mauritania,MRT,1996,0.344
+Mauritania,MRT,1997,0.349
+Mauritania,MRT,1998,0.355
+Mauritania,MRT,1999,0.36
+Mauritania,MRT,2000,0.365
+Mauritania,MRT,2001,0.369
+Mauritania,MRT,2002,0.374
+Mauritania,MRT,2003,0.379
+Mauritania,MRT,2004,0.384
+Mauritania,MRT,2005,0.39
+Mauritania,MRT,2006,0.398
+Mauritania,MRT,2007,0.406
+Mauritania,MRT,2008,0.413
+Mauritania,MRT,2009,0.42
+Mauritania,MRT,2010,0.427
+Mauritania,MRT,2011,0.435
+Mauritania,MRT,2012,0.443
+Mauritania,MRT,2013,0.45
+Mauritania,MRT,2014,0.459
+Mauritania,MRT,2015,0.467
+Mauritania,MRT,2016,0.474
+Mauritania,MRT,2017,0.482
+Mauritania,MRT,2018,0.49
+Mauritania,MRT,2019,0.496
+Niger,NER,1950,0.0526
+Niger,NER,1951,0.0523
+Niger,NER,1952,0.053
+Niger,NER,1953,0.0535
+Niger,NER,1954,0.054
+Niger,NER,1955,0.0543
+Niger,NER,1956,0.0547
+Niger,NER,1957,0.0554
+Niger,NER,1958,0.0561
+Niger,NER,1959,0.0567
+Niger,NER,1960,0.0573
+Niger,NER,1961,0.058
+Niger,NER,1962,0.0584
+Niger,NER,1963,0.0591
+Niger,NER,1964,0.0597
+Niger,NER,1965,0.0605
+Niger,NER,1966,0.0608
+Niger,NER,1967,0.0609
+Niger,NER,1968,0.0609
+Niger,NER,1969,0.0609
+Niger,NER,1970,0.0608
+Niger,NER,1971,0.0608
+Niger,NER,1972,0.0607
+Niger,NER,1973,0.0602
+Niger,NER,1974,0.0599
+Niger,NER,1975,0.0593
+Niger,NER,1976,0.059
+Niger,NER,1977,0.0588
+Niger,NER,1978,0.059
+Niger,NER,1979,0.0595
+Niger,NER,1980,0.0601
+Niger,NER,1981,0.0609
+Niger,NER,1982,0.0618
+Niger,NER,1983,0.0629
+Niger,NER,1984,0.0638
+Niger,NER,1985,0.0649
+Niger,NER,1986,0.0663
+Niger,NER,1987,0.0678
+Niger,NER,1988,0.0694
+Niger,NER,1989,0.0711
+Niger,NER,1990,0.0728
+Niger,NER,1991,0.0746
+Niger,NER,1992,0.0761
+Niger,NER,1993,0.0777
+Niger,NER,1994,0.0793
+Niger,NER,1995,0.0808
+Niger,NER,1996,0.0822
+Niger,NER,1997,0.0836
+Niger,NER,1998,0.0853
+Niger,NER,1999,0.0871
+Niger,NER,2000,0.0887
+Niger,NER,2001,0.0907
+Niger,NER,2002,0.093
+Niger,NER,2003,0.0956
+Niger,NER,2004,0.0982
+Niger,NER,2005,0.101
+Niger,NER,2006,0.104
+Niger,NER,2007,0.108
+Niger,NER,2008,0.111
+Niger,NER,2009,0.115
+Niger,NER,2010,0.119
+Niger,NER,2011,0.123
+Niger,NER,2012,0.128
+Niger,NER,2013,0.133
+Niger,NER,2014,0.138
+Niger,NER,2015,0.143
+Niger,NER,2016,0.148
+Niger,NER,2017,0.153
+Niger,NER,2018,0.158
+Niger,NER,2019,0.162
+Nigeria,NGA,1950,0.153
+Nigeria,NGA,1951,0.156
+Nigeria,NGA,1952,0.16
+Nigeria,NGA,1953,0.162
+Nigeria,NGA,1954,0.166
+Nigeria,NGA,1955,0.169
+Nigeria,NGA,1956,0.171
+Nigeria,NGA,1957,0.174
+Nigeria,NGA,1958,0.177
+Nigeria,NGA,1959,0.18
+Nigeria,NGA,1960,0.183
+Nigeria,NGA,1961,0.187
+Nigeria,NGA,1962,0.19
+Nigeria,NGA,1963,0.193
+Nigeria,NGA,1964,0.197
+Nigeria,NGA,1965,0.201
+Nigeria,NGA,1966,0.204
+Nigeria,NGA,1967,0.207
+Nigeria,NGA,1968,0.209
+Nigeria,NGA,1969,0.213
+Nigeria,NGA,1970,0.217
+Nigeria,NGA,1971,0.223
+Nigeria,NGA,1972,0.228
+Nigeria,NGA,1973,0.233
+Nigeria,NGA,1974,0.239
+Nigeria,NGA,1975,0.244
+Nigeria,NGA,1976,0.25
+Nigeria,NGA,1977,0.255
+Nigeria,NGA,1978,0.261
+Nigeria,NGA,1979,0.266
+Nigeria,NGA,1980,0.27
+Nigeria,NGA,1981,0.275
+Nigeria,NGA,1982,0.279
+Nigeria,NGA,1983,0.283
+Nigeria,NGA,1984,0.287
+Nigeria,NGA,1985,0.292
+Nigeria,NGA,1986,0.294
+Nigeria,NGA,1987,0.296
+Nigeria,NGA,1988,0.299
+Nigeria,NGA,1989,0.301
+Nigeria,NGA,1990,0.305
+Nigeria,NGA,1991,0.308
+Nigeria,NGA,1992,0.312
+Nigeria,NGA,1993,0.315
+Nigeria,NGA,1994,0.319
+Nigeria,NGA,1995,0.324
+Nigeria,NGA,1996,0.329
+Nigeria,NGA,1997,0.334
+Nigeria,NGA,1998,0.339
+Nigeria,NGA,1999,0.344
+Nigeria,NGA,2000,0.35
+Nigeria,NGA,2001,0.356
+Nigeria,NGA,2002,0.363
+Nigeria,NGA,2003,0.371
+Nigeria,NGA,2004,0.381
+Nigeria,NGA,2005,0.392
+Nigeria,NGA,2006,0.402
+Nigeria,NGA,2007,0.412
+Nigeria,NGA,2008,0.422
+Nigeria,NGA,2009,0.432
+Nigeria,NGA,2010,0.442
+Nigeria,NGA,2011,0.451
+Nigeria,NGA,2012,0.46
+Nigeria,NGA,2013,0.469
+Nigeria,NGA,2014,0.478
+Nigeria,NGA,2015,0.487
+Nigeria,NGA,2016,0.495
+Nigeria,NGA,2017,0.503
+Nigeria,NGA,2018,0.51
+Nigeria,NGA,2019,0.515
+São Tomé and Príncipe,STP,1950,0.153
+São Tomé and Príncipe,STP,1951,0.155
+São Tomé and Príncipe,STP,1952,0.157
+São Tomé and Príncipe,STP,1953,0.159
+São Tomé and Príncipe,STP,1954,0.16
+São Tomé and Príncipe,STP,1955,0.16
+São Tomé and Príncipe,STP,1956,0.161
+São Tomé and Príncipe,STP,1957,0.162
+São Tomé and Príncipe,STP,1958,0.163
+São Tomé and Príncipe,STP,1959,0.163
+São Tomé and Príncipe,STP,1960,0.165
+São Tomé and Príncipe,STP,1961,0.166
+São Tomé and Príncipe,STP,1962,0.168
+São Tomé and Príncipe,STP,1963,0.171
+São Tomé and Príncipe,STP,1964,0.173
+São Tomé and Príncipe,STP,1965,0.176
+São Tomé and Príncipe,STP,1966,0.18
+São Tomé and Príncipe,STP,1967,0.184
+São Tomé and Príncipe,STP,1968,0.188
+São Tomé and Príncipe,STP,1969,0.193
+São Tomé and Príncipe,STP,1970,0.199
+São Tomé and Príncipe,STP,1971,0.205
+São Tomé and Príncipe,STP,1972,0.211
+São Tomé and Príncipe,STP,1973,0.217
+São Tomé and Príncipe,STP,1974,0.223
+São Tomé and Príncipe,STP,1975,0.229
+São Tomé and Príncipe,STP,1976,0.235
+São Tomé and Príncipe,STP,1977,0.242
+São Tomé and Príncipe,STP,1978,0.248
+São Tomé and Príncipe,STP,1979,0.255
+São Tomé and Príncipe,STP,1980,0.261
+São Tomé and Príncipe,STP,1981,0.265
+São Tomé and Príncipe,STP,1982,0.27
+São Tomé and Príncipe,STP,1983,0.274
+São Tomé and Príncipe,STP,1984,0.278
+São Tomé and Príncipe,STP,1985,0.282
+São Tomé and Príncipe,STP,1986,0.286
+São Tomé and Príncipe,STP,1987,0.289
+São Tomé and Príncipe,STP,1988,0.292
+São Tomé and Príncipe,STP,1989,0.295
+São Tomé and Príncipe,STP,1990,0.299
+São Tomé and Príncipe,STP,1991,0.302
+São Tomé and Príncipe,STP,1992,0.306
+São Tomé and Príncipe,STP,1993,0.309
+São Tomé and Príncipe,STP,1994,0.313
+São Tomé and Príncipe,STP,1995,0.317
+São Tomé and Príncipe,STP,1996,0.322
+São Tomé and Príncipe,STP,1997,0.327
+São Tomé and Príncipe,STP,1998,0.332
+São Tomé and Príncipe,STP,1999,0.338
+São Tomé and Príncipe,STP,2000,0.344
+São Tomé and Príncipe,STP,2001,0.351
+São Tomé and Príncipe,STP,2002,0.358
+São Tomé and Príncipe,STP,2003,0.365
+São Tomé and Príncipe,STP,2004,0.373
+São Tomé and Príncipe,STP,2005,0.381
+São Tomé and Príncipe,STP,2006,0.39
+São Tomé and Príncipe,STP,2007,0.398
+São Tomé and Príncipe,STP,2008,0.407
+São Tomé and Príncipe,STP,2009,0.416
+São Tomé and Príncipe,STP,2010,0.424
+São Tomé and Príncipe,STP,2011,0.433
+São Tomé and Príncipe,STP,2012,0.443
+São Tomé and Príncipe,STP,2013,0.452
+São Tomé and Príncipe,STP,2014,0.461
+São Tomé and Príncipe,STP,2015,0.47
+São Tomé and Príncipe,STP,2016,0.478
+São Tomé and Príncipe,STP,2017,0.487
+São Tomé and Príncipe,STP,2018,0.495
+São Tomé and Príncipe,STP,2019,0.502
+Senegal,SEN,1950,0.102
+Senegal,SEN,1951,0.104
+Senegal,SEN,1952,0.105
+Senegal,SEN,1953,0.107
+Senegal,SEN,1954,0.109
+Senegal,SEN,1955,0.111
+Senegal,SEN,1956,0.113
+Senegal,SEN,1957,0.115
+Senegal,SEN,1958,0.117
+Senegal,SEN,1959,0.119
+Senegal,SEN,1960,0.12
+Senegal,SEN,1961,0.122
+Senegal,SEN,1962,0.124
+Senegal,SEN,1963,0.125
+Senegal,SEN,1964,0.127
+Senegal,SEN,1965,0.128
+Senegal,SEN,1966,0.13
+Senegal,SEN,1967,0.132
+Senegal,SEN,1968,0.134
+Senegal,SEN,1969,0.136
+Senegal,SEN,1970,0.138
+Senegal,SEN,1971,0.14
+Senegal,SEN,1972,0.143
+Senegal,SEN,1973,0.145
+Senegal,SEN,1974,0.148
+Senegal,SEN,1975,0.15
+Senegal,SEN,1976,0.154
+Senegal,SEN,1977,0.157
+Senegal,SEN,1978,0.161
+Senegal,SEN,1979,0.165
+Senegal,SEN,1980,0.169
+Senegal,SEN,1981,0.173
+Senegal,SEN,1982,0.179
+Senegal,SEN,1983,0.184
+Senegal,SEN,1984,0.189
+Senegal,SEN,1985,0.195
+Senegal,SEN,1986,0.201
+Senegal,SEN,1987,0.207
+Senegal,SEN,1988,0.214
+Senegal,SEN,1989,0.22
+Senegal,SEN,1990,0.227
+Senegal,SEN,1991,0.233
+Senegal,SEN,1992,0.239
+Senegal,SEN,1993,0.245
+Senegal,SEN,1994,0.251
+Senegal,SEN,1995,0.257
+Senegal,SEN,1996,0.262
+Senegal,SEN,1997,0.267
+Senegal,SEN,1998,0.272
+Senegal,SEN,1999,0.277
+Senegal,SEN,2000,0.282
+Senegal,SEN,2001,0.286
+Senegal,SEN,2002,0.29
+Senegal,SEN,2003,0.295
+Senegal,SEN,2004,0.299
+Senegal,SEN,2005,0.304
+Senegal,SEN,2006,0.308
+Senegal,SEN,2007,0.313
+Senegal,SEN,2008,0.318
+Senegal,SEN,2009,0.324
+Senegal,SEN,2010,0.33
+Senegal,SEN,2011,0.336
+Senegal,SEN,2012,0.342
+Senegal,SEN,2013,0.348
+Senegal,SEN,2014,0.354
+Senegal,SEN,2015,0.361
+Senegal,SEN,2016,0.368
+Senegal,SEN,2017,0.375
+Senegal,SEN,2018,0.382
+Senegal,SEN,2019,0.389
+Sierra Leone,SLE,1950,0.109
+Sierra Leone,SLE,1951,0.111
+Sierra Leone,SLE,1952,0.113
+Sierra Leone,SLE,1953,0.115
+Sierra Leone,SLE,1954,0.117
+Sierra Leone,SLE,1955,0.12
+Sierra Leone,SLE,1956,0.122
+Sierra Leone,SLE,1957,0.124
+Sierra Leone,SLE,1958,0.126
+Sierra Leone,SLE,1959,0.129
+Sierra Leone,SLE,1960,0.131
+Sierra Leone,SLE,1961,0.134
+Sierra Leone,SLE,1962,0.136
+Sierra Leone,SLE,1963,0.138
+Sierra Leone,SLE,1964,0.141
+Sierra Leone,SLE,1965,0.144
+Sierra Leone,SLE,1966,0.147
+Sierra Leone,SLE,1967,0.149
+Sierra Leone,SLE,1968,0.152
+Sierra Leone,SLE,1969,0.154
+Sierra Leone,SLE,1970,0.158
+Sierra Leone,SLE,1971,0.161
+Sierra Leone,SLE,1972,0.164
+Sierra Leone,SLE,1973,0.167
+Sierra Leone,SLE,1974,0.17
+Sierra Leone,SLE,1975,0.172
+Sierra Leone,SLE,1976,0.175
+Sierra Leone,SLE,1977,0.177
+Sierra Leone,SLE,1978,0.179
+Sierra Leone,SLE,1979,0.181
+Sierra Leone,SLE,1980,0.184
+Sierra Leone,SLE,1981,0.186
+Sierra Leone,SLE,1982,0.188
+Sierra Leone,SLE,1983,0.19
+Sierra Leone,SLE,1984,0.193
+Sierra Leone,SLE,1985,0.195
+Sierra Leone,SLE,1986,0.197
+Sierra Leone,SLE,1987,0.2
+Sierra Leone,SLE,1988,0.202
+Sierra Leone,SLE,1989,0.205
+Sierra Leone,SLE,1990,0.207
+Sierra Leone,SLE,1991,0.209
+Sierra Leone,SLE,1992,0.21
+Sierra Leone,SLE,1993,0.212
+Sierra Leone,SLE,1994,0.215
+Sierra Leone,SLE,1995,0.218
+Sierra Leone,SLE,1996,0.218
+Sierra Leone,SLE,1997,0.218
+Sierra Leone,SLE,1998,0.219
+Sierra Leone,SLE,1999,0.218
+Sierra Leone,SLE,2000,0.219
+Sierra Leone,SLE,2001,0.221
+Sierra Leone,SLE,2002,0.224
+Sierra Leone,SLE,2003,0.229
+Sierra Leone,SLE,2004,0.234
+Sierra Leone,SLE,2005,0.239
+Sierra Leone,SLE,2006,0.245
+Sierra Leone,SLE,2007,0.252
+Sierra Leone,SLE,2008,0.26
+Sierra Leone,SLE,2009,0.267
+Sierra Leone,SLE,2010,0.275
+Sierra Leone,SLE,2011,0.283
+Sierra Leone,SLE,2012,0.292
+Sierra Leone,SLE,2013,0.304
+Sierra Leone,SLE,2014,0.314
+Sierra Leone,SLE,2015,0.321
+Sierra Leone,SLE,2016,0.328
+Sierra Leone,SLE,2017,0.335
+Sierra Leone,SLE,2018,0.342
+Sierra Leone,SLE,2019,0.347
+Togo,TGO,1950,0.109
+Togo,TGO,1951,0.111
+Togo,TGO,1952,0.113
+Togo,TGO,1953,0.115
+Togo,TGO,1954,0.117
+Togo,TGO,1955,0.119
+Togo,TGO,1956,0.121
+Togo,TGO,1957,0.123
+Togo,TGO,1958,0.126
+Togo,TGO,1959,0.128
+Togo,TGO,1960,0.131
+Togo,TGO,1961,0.134
+Togo,TGO,1962,0.136
+Togo,TGO,1963,0.139
+Togo,TGO,1964,0.142
+Togo,TGO,1965,0.147
+Togo,TGO,1966,0.151
+Togo,TGO,1967,0.155
+Togo,TGO,1968,0.159
+Togo,TGO,1969,0.164
+Togo,TGO,1970,0.168
+Togo,TGO,1971,0.172
+Togo,TGO,1972,0.176
+Togo,TGO,1973,0.18
+Togo,TGO,1974,0.185
+Togo,TGO,1975,0.19
+Togo,TGO,1976,0.194
+Togo,TGO,1977,0.199
+Togo,TGO,1978,0.205
+Togo,TGO,1979,0.211
+Togo,TGO,1980,0.217
+Togo,TGO,1981,0.222
+Togo,TGO,1982,0.227
+Togo,TGO,1983,0.232
+Togo,TGO,1984,0.236
+Togo,TGO,1985,0.241
+Togo,TGO,1986,0.246
+Togo,TGO,1987,0.25
+Togo,TGO,1988,0.255
+Togo,TGO,1989,0.261
+Togo,TGO,1990,0.266
+Togo,TGO,1991,0.272
+Togo,TGO,1992,0.278
+Togo,TGO,1993,0.281
+Togo,TGO,1994,0.286
+Togo,TGO,1995,0.291
+Togo,TGO,1996,0.296
+Togo,TGO,1997,0.302
+Togo,TGO,1998,0.306
+Togo,TGO,1999,0.31
+Togo,TGO,2000,0.313
+Togo,TGO,2001,0.317
+Togo,TGO,2002,0.32
+Togo,TGO,2003,0.323
+Togo,TGO,2004,0.327
+Togo,TGO,2005,0.33
+Togo,TGO,2006,0.334
+Togo,TGO,2007,0.338
+Togo,TGO,2008,0.342
+Togo,TGO,2009,0.347
+Togo,TGO,2010,0.352
+Togo,TGO,2011,0.358
+Togo,TGO,2012,0.364
+Togo,TGO,2013,0.371
+Togo,TGO,2014,0.379
+Togo,TGO,2015,0.386
+Togo,TGO,2016,0.394
+Togo,TGO,2017,0.402
+Togo,TGO,2018,0.411
+Togo,TGO,2019,0.417

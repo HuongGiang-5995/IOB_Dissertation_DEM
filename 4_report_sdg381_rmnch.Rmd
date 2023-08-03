@@ -1,0 +1,568 @@
+---
+title: "4_report"
+author: "Giang Pham"
+date: "2023-05-06"
+output: html_document
+---
+
+BEFORE:
+      1_data_process.R
+      2_data_explore.Rmd
+      3_data_analyze.R
+
+AFTER:
+      report folder
+      4_report.html
+      
+# 1. SETUP
+```{r message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)   # process dataframe
+library(effects)     # present effects
+library(patchwork)   # arrange plot
+library(broom.mixed) # summarize estimation
+library(RColorBrewer)# visualize
+library(writexl)     # write excel
+library(reactable)   # interactive table
+    
+
+# load function
+## centering function
+#c. <- function (x) {(x - mean(x, na.rm = T))} 
+## log, centering function
+#clog. <- function (x) {(log(x) - mean(log(x), na.rm = T))} 
+
+# load data
+dir_data <- "./data"
+dir_model <- "./model"
+dir_report <- "./report"
+```
+
+# 2. MODEL RESULTS
+
+## data
+```{r message=FALSE, warning=FALSE}
+# data
+sdg381 <- read_csv(file.path(dir_data, "@data_sdg381.csv"))
+sdg381_rmnch <- read_csv(file.path(dir_data, "@data_sdg381_rmnch.csv"))
+sdg382 <- read_csv(file.path(dir_data, "@data_sdg382.csv"))
+
+# transform data
+## note: prepaid.private.health.spending has 0 -> cannot log -> for 0 value, add 0.0001 
+## as the smallest value of total.aid.for.health 
+
+## sdg381
+sdg381 <- sdg381 %>% 
+  filter(year < 2019) %>%
+  mutate(#response variable
+         log_sdg381 = log(sdg381),
+         # explanatory variable
+         log_total.aid = log(total.aid), 
+         log_total.aid.volatility = log(total.aid.volatility),
+         log_total.aid.for.health = log(total.aid.for.health), 
+         log_total.aid.for.health.volatility = log(total.aid.for.health.volatility),
+         log_total.aid.for.health_rmnch = log(total.aid.for.health_rmnch), 
+         log_total.aid.for.health.volatility_rmnch = log(total.aid.for.health.volatility_rmnch),
+         institutional.index = institutional.index,
+         # control variable
+         log_gdp.per.capita = log(gdp.per.capita), 
+         log_government.health.spending = log(government.health.spending), 
+         log_prepaid.private.health.spending = if_else(prepaid.private.health.spending == 0,
+                                                       log(prepaid.private.health.spending + 0.0001),
+                                                       log(prepaid.private.health.spending)),
+         log_out.of.pocket.health.spending = log(out.of.pocket.health.spending), 
+         #log_health.worker = log(health.worker), 
+         log_sdi = log(sdi),
+         # random variables
+         fyear = factor(year))
+
+## sdg381_rmnch
+sdg381_rmnch <- sdg381_rmnch %>% 
+  #filter(year < 2019) %>%
+  mutate(#response variable
+    log_sdg381_rmnch = log(sdg381_rmnch),
+    # explanatory variable
+    log_total.aid = log(total.aid), 
+    log_total.aid.volatility = log(total.aid.volatility),
+    log_total.aid.for.health = log(total.aid.for.health), 
+    log_total.aid.for.health.volatility = log(total.aid.for.health.volatility),
+    log_total.aid.for.health_rmnch = log(total.aid.for.health_rmnch), 
+    log_total.aid.for.health.volatility_rmnch = log(total.aid.for.health.volatility_rmnch),
+    institutional.index = institutional.index,
+    # control variable
+    log_gdp.per.capita = log(gdp.per.capita), 
+    log_government.health.spending = log(government.health.spending), 
+    log_prepaid.private.health.spending = if_else(prepaid.private.health.spending == 0,
+                                                  log(prepaid.private.health.spending + 0.0001),
+                                                  log(prepaid.private.health.spending)),
+    log_out.of.pocket.health.spending = log(out.of.pocket.health.spending), 
+    #log_health.worker = log(health.worker), 
+    log_sdi = log(sdi),
+    # random variables
+    fyear = factor(year))
+
+## sdg382
+sdg382 <- sdg382 %>% 
+  #filter(year < 2019) %>%
+  mutate(#response variable
+    log_sdg382 = log(sdg382),
+    # explanatory variable
+    log_total.aid = log(total.aid), 
+    log_total.aid.volatility = log(total.aid.volatility),
+    log_total.aid.for.health = log(total.aid.for.health), 
+    log_total.aid.for.health.volatility = log(total.aid.for.health.volatility),
+    log_total.aid.for.health_rmnch = log(total.aid.for.health_rmnch), 
+    log_total.aid.for.health.volatility_rmnch = log(total.aid.for.health.volatility_rmnch),
+    institutional.index = institutional.index,
+    # control variable
+    log_gdp.per.capita = log(gdp.per.capita), 
+    log_government.health.spending = log(government.health.spending), 
+    log_prepaid.private.health.spending = if_else(prepaid.private.health.spending == 0,
+                                                  log(prepaid.private.health.spending + 0.0001),
+                                                  log(prepaid.private.health.spending)),
+    log_out.of.pocket.health.spending = log(out.of.pocket.health.spending), 
+    #log_health.worker = log(health.worker), 
+    log_sdi = log(sdi),
+    # random variables
+    fyear = factor(year))
+
+``` 
+
+## Plot lme results
+
+### sdg381 rmnch
+
+```{r}
+# model result
+sdg381_rmnch_dah <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health_rmnch.rds"))
+sdg381_rmnch_dah.vol <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health.vol_rmnch.rds"))
+```
+
+####  total aid for health ---------------
+##### setup
+```{r}
+# data
+data_total.aid.for.health_rmnch <- sdg381_rmnch %>% filter(is.na(log_sdg381_rmnch) == F,
+                                               is.na(log_total.aid.for.health) == F,
+                                               is.na(institutional.index) == F,
+                                               is.na(log_gdp.per.capita) == F, 
+                                               is.na(log_government.health.spending) == F, 
+                                               is.na(log_prepaid.private.health.spending) == F,
+                                               is.na(log_out.of.pocket.health.spending) == F, 
+                                               #is.na(log_health.worker) == F, 
+                                               is.na(log_sdi) == F)
+
+data <- data_total.aid.for.health_rmnch
+
+# model summary to select variables to plot
+summary(sdg381_rmnch_dah)
+
+# create empty plot list
+plot_list <- list()
+```
+##### log_total.aid.for.health:log_gdp.per.capita 
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("log_total.aid.for.health_rmnch", "log_gdp.per.capita"), 
+                      sdg381_rmnch_dah,
+                      xlevels = 21))
+
+df_gdp <- tibble(level = factor(c("low", "middle", "high"), levels = c("low", "middle", "high")),
+                 log_gdp.per.capita = unique(pred$log_gdp.per.capita)[c(1,11,21)])
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper)) %>%
+  filter(log_gdp.per.capita %in% df_gdp$log_gdp.per.capita) %>%
+  left_join(df_gdp)
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans,
+                             )) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "DAH per GDP (%)",
+       y = "SDG 3.8.1 RMNCH") +
+  facet_wrap(~ level)
+
+plot_list <- append(plot_list, list(last_plot())) 
+
+# summary
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  select(fit_trans, range, level) %>%
+  pivot_wider(names_from = range, values_from = fit_trans) %>%
+  mutate(fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>% 
+  mutate(fit_at.min = round(fit_at.min, 2),
+         fit_at.max = round(fit_at.max, 2),
+         fit_diff.percent = round(fit_diff.percent, 2))
+
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(level, range, fit_trans, CI95) 
+```
+
+##### log_total.aid.for.health:economic.group 
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("log_total.aid.for.health_rmnch", "economic.group"), 
+                      sdg381_rmnch_dah,
+                      xlevels = 21))
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper)) 
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans,
+                             color = economic.group)) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans,
+                              fill = economic.group),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "DAH per GDP (%)",
+       y = "SDG 3.8.1 RMNCH",
+       color = "Economic group",
+       fill = "Economic group") 
+
+plot_list <- append(plot_list, list(last_plot())) 
+
+# summary
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  select(fit_trans, range, economic.group) %>%
+  pivot_wider(names_from = range, values_from = fit_trans) %>%
+  mutate(fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>% 
+  mutate(fit_at.min = round(fit_at.min, 2),
+         fit_at.max = round(fit_at.max, 2),
+         fit_diff.percent = round(fit_diff.percent, 2))
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(economic.group, range, fit_trans, CI95) 
+
+```
+
+##### log_total.aid.for.health:institutional.index 
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("log_total.aid.for.health_rmnch", "institutional.index"), 
+                      sdg381_rmnch_dah,
+                      xlevels = 21))
+
+df_inst <- tibble(level = factor(c("low", "middle", "high"), levels = c("low", "middle", "high")),
+                 institutional.index = unique(pred$institutional.index)[c(1,11,21)])
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper)) %>%
+  filter(institutional.index %in% df_inst$institutional.index) %>%
+  left_join(df_inst)
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans,
+                             )) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "DAH per GDP (%)",
+       y = "SDG 3.8.1 RMNCH") +
+  facet_wrap(~ level)
+
+plot_list <- append(plot_list, list(last_plot())) 
+
+# summary
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  select(fit_trans, range, level) %>%
+  pivot_wider(names_from = range, values_from = fit_trans) %>%
+  mutate(fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>% 
+  mutate(fit_at.min = round(fit_at.min, 2),
+         fit_at.max = round(fit_at.max, 2),
+         fit_diff.percent = round(fit_diff.percent, 2))
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(level, range, fit_trans, CI95) 
+
+```
+
+##### institutional.index  
+
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("institutional.index"), 
+                      sdg381_rmnch_dah, 
+                      xlevels = 20)) 
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper))
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans )) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "Institutional quality",
+       y = "SDG 3.8.1 RMNCH")
+
+plot_list <- append(plot_list, list(last_plot()))
+
+# summary
+tibble(fit_at.min = mean(filter(pred, var == min(var))$fit),
+       fit_at.max = mean(filter(pred, var == max(var))$fit)) %>% 
+  mutate(fit_at.min = exp(fit_at.min),
+       fit_at.max = exp(fit_at.max),
+       fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>%
+  round(2)
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(range, fit_trans, CI95) 
+```
+
+##### save plot
+
+```{r}
+( plot_list[[1]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah_dah_gdp.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+
+( plot_list[[2]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah_dah_eco.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+
+( plot_list[[3]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah_dah_inst.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+
+( plot_list[[4]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah_inst.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+
+```
+
+####  total aid for health volatility ---------------
+##### setup
+```{r}
+# data
+data_total.aid.for.health.vol_rmnch <- sdg381_rmnch %>% filter(is.na(log_sdg381_rmnch) == F,
+                                                   is.na(log_total.aid.for.health.volatility) == F,
+                                                   is.na(log_total.aid.for.health) == F,
+                                                   is.na(institutional.index) == F,
+                                                   is.na(log_gdp.per.capita) == F, 
+                                                   is.na(log_government.health.spending) == F, 
+                                                   is.na(log_prepaid.private.health.spending) == F,
+                                                   is.na(log_out.of.pocket.health.spending) == F, 
+                                                   #is.na(log_health.worker) == F, 
+                                                   is.na(log_sdi) == F)
+
+data <- data_total.aid.for.health.vol_rmnch
+
+# model summary to select variables to plot
+summary(sdg381_rmnch_dah.vol)
+
+# create empty plot list
+plot_list <- list()
+```
+##### log_total.aid.for.health.volatility:economic.group 
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("log_total.aid.for.health.volatility_rmnch", "economic.group"), 
+                      sdg381_rmnch_dah.vol,
+                      xlevels = 21))
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper)) 
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans,
+                             color = economic.group)) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans,
+                              fill = economic.group),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "DAH volatility",
+       y = "SDG 3.8.1 RMNCH",
+       color = "Economic group",
+       fill = "Economic group")
+
+plot_list <- append(plot_list, list(last_plot())) 
+
+# summary
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  select(fit_trans, range, economic.group) %>%
+  pivot_wider(names_from = range, values_from = fit_trans) %>%
+  mutate(fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>% 
+  mutate(fit_at.min = round(fit_at.min, 2),
+         fit_at.max = round(fit_at.max, 2),
+         fit_diff.percent = round(fit_diff.percent, 2))
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(economic.group, range, fit_trans, CI95) 
+
+```
+
+##### log_total.aid.for.health.volatility:institutional.index  
+```{r}
+# setup
+pred <- as.data.frame(Effect(c("log_total.aid.for.health.volatility_rmnch", "institutional.index"), 
+                      sdg381_rmnch_dah.vol,
+                      xlevels = 21))
+
+df_inst <- tibble(level = factor(c("low", "middle", "high"), levels = c("low", "middle", "high")),
+                 institutional.index = unique(pred$institutional.index)[c(1,11,21)])
+
+pred <- pred %>%
+  mutate(var = exp(pred[,1]),
+         fit_trans = exp(fit),
+         lower_trans = exp(lower),
+         upper_trans = exp(upper)) %>%
+  filter(institutional.index %in% df_inst$institutional.index) %>%
+  left_join(df_inst)
+
+# plot
+ggplot() + 
+  geom_line(data = pred, aes(x = var, 
+                             y = fit_trans,
+                             )) +
+  geom_ribbon(data = pred, aes(x = var,
+                               ymin = lower_trans,
+                              ymax = upper_trans),
+              alpha = 0.3) +
+  theme_classic() +
+  labs(x = "DAH volatility",
+       y = "SDG 3.8.1 RMNCH") +
+  facet_wrap(~ level)
+
+plot_list <- append(plot_list, list(last_plot())) 
+
+# summary
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  select(fit_trans, range, level) %>%
+  pivot_wider(names_from = range, values_from = fit_trans) %>%
+  mutate(fit_diff.percent = (fit_at.max - fit_at.min)/fit_at.min*100) %>% 
+  mutate(fit_at.min = round(fit_at.min, 2),
+         fit_at.max = round(fit_at.max, 2),
+         fit_diff.percent = round(fit_diff.percent, 2))
+
+pred %>% 
+  filter(var %in% c(min(var), max(var))) %>%
+  mutate(range = if_else(var == min(var), "fit_at.min", "fit_at.max")) %>%
+  mutate(fit_trans = round(fit_trans, 2),
+         lower_trans = round(lower_trans, 2),
+         upper_trans = round(upper_trans, 2)) %>%
+  mutate(CI95 = paste0(lower_trans, "-", upper_trans)) %>%
+  select(level, range, fit_trans, CI95) 
+
+```
+
+##### save plot
+
+```{r}
+( plot_list[[1]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah.vol_dah.vol_eco.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+
+( plot_list[[2]] )
+# save plot
+ggsave(filename = "./report/sdg381_rmnch_dah.vol_dah.vol_inst.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+```
+

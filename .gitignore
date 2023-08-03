@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/IHME_global development assisstance for health/IHME_DAH_DATABASE_1990_2021.CSV
+data/OECD_foreign aid disbursement/OECD_TABLE2A_disbursement.csv
+data/sdg_3.8.1/GBD 2017/IHME_GBD_2017_HEALTH_SDG_1990_2030.CSV
+data/sdg_3.8.1/WHO RMNCH/WHO_RMNCH.xlsx
+model
+4_report.html
+4_report_sdg381.html
+4_report_sdg382.html
+4_report_sdg381_rmnch.html
+4_report_lme-vs-gmm.html

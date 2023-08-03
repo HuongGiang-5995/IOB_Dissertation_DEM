@@ -1,0 +1,690 @@
+---
+title: "4_report"
+author: "Giang Pham"
+date: "2023-05-06"
+output: html_document
+---
+
+BEFORE:
+      1_data_process.R
+      2_data_explore.Rmd
+      3_data_analyze.R
+
+AFTER:
+      report folder
+      4_report.html
+      
+# 1. SETUP
+```{r message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)   # process dataframe
+library(effects)     # present effects
+library(patchwork)   # arrange plot
+library(broom.mixed) # summarize estimation
+library(RColorBrewer)# visualize
+library(writexl)     # write excel
+library(reactable)   # interactive table
+    
+# load data
+dir_data <- "./data"
+dir_model <- "./model"
+dir_report <- "./report"
+```
+
+# 2. LME vs GMM 
+
+## 3.8.1
+### setup
+```{r message=FALSE, warning=FALSE}
+# Note: *p<0.1; **p<0.05; ***p<0.01
+
+# lme
+lme_base <- read_rds(file.path(dir_model, "sdg381_base.rds"))
+lme_dah <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health.rds"))
+lme_dah.vol <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health.vol.rds"))
+
+# gmm
+gmm_base <- read_rds(file.path(dir_model, "gmm_sdg381_base.rds"))
+gmm_dah <- read_rds(file.path(dir_model, "gmm_sdg381_total.aid.for.health.rds"))
+gmm_dah.vol <- read_rds(file.path(dir_model, "gmm_sdg381_total.aid.for.health.vol.rds"))
+```
+
+```{r}
+fixed_list <- tibble(term = c("(Intercept)",
+                              # baseline
+                              "log_gdp.per.capita", 
+                              "log_government.health.spending",
+                              "log_prepaid.private.health.spending", 
+                              "log_out.of.pocket.health.spending",
+                              "log_sdi",
+                              # dah
+                              "log_total.aid.for.health",
+                              "institutional.index",
+                              "log_total.aid.for.health:institutional.index",
+                              "log_total.aid.for.health:log_gdp.per.capita",
+                              # dah.vol
+                              "log_total.aid.for.health.volatility",
+                              "institutional.index:log_total.aid.for.health.volatility",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     ` ` = c("Constant",
+                              # baseline
+                              "GDP per capita", 
+                              "Government Health Spending",
+                              "Prepaid Private Health Spending", 
+                              "Out-of-pocket Health Spending",
+                              "Socio-Demographic Index",
+                              # dah
+                              "DAH",
+                              "Institutional quality",
+                              "DAH * Institutional quality",
+                              "DAH * GDP per capita",
+                              # dah.vol
+                              "DAH volatitliy",
+                              "DAH volatitliy * Institutional quality",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     order = c(4, rep(1,5), rep(2,4), rep(3,2), rep(5, 3)))
+```
+
+
+### lme
+#### base
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `Baseline (LME)` = c(nrow(lme_base@frame), 
+                                            n_distinct(lme_base@frame$country), 
+                                            n_distinct(lme_base@frame$fyear)))
+
+
+lme_base_df <- tidy(lme_base) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`Baseline (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `Baseline (LME)`) %>%
+  rbind(df_sum)
+  
+```
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH (LME)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+lme_dah_df <- tidy(lme_dah) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH (LME)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility (LME)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+lme_dah.vol_df <- tidy(lme_dah.vol) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility (LME)`) %>%
+  rbind(df_sum)
+```
+
+### gmm
+#### base
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `Baseline (GMM)` = c(nrow(lme_base@frame), 
+                                            n_distinct(lme_base@frame$country), 
+                                            n_distinct(lme_base@frame$fyear)))
+
+
+gmm_base_df <- tidy(gmm_base) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`Baseline (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `Baseline (GMM)`) %>%
+  rbind(df_sum)
+  
+```
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH (GMM)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+gmm_dah_df <- tidy(gmm_dah) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH (GMM)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility (GMM)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+gmm_dah.vol_df <- tidy(gmm_dah.vol) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility (GMM)`) %>%
+  rbind(df_sum)
+```
+
+### merge and save file
+```{r}
+sum_381 <- fixed_list %>%
+  left_join(lme_base_df) %>%
+  left_join(gmm_base_df)  %>% 
+  left_join(lme_dah_df) %>%
+  left_join(gmm_dah_df) %>%
+  left_join(lme_dah.vol_df) %>%
+  left_join(gmm_dah.vol_df) %>%
+  arrange(order) %>% 
+  select(-term, -order)
+
+sum_381
+writexl::write_xlsx(sum_381, "./report/model.summary_sdg381.xlsx")
+```
+
+## 3.8.1 - RMNCH
+### setup
+```{r message=FALSE, warning=FALSE}
+# Note: *p<0.1; **p<0.05; ***p<0.01
+
+# lme
+lme_dah <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health_rmnch.rds"))
+lme_dah.vol <- read_rds(file.path(dir_model, "sdg381_total.aid.for.health.vol_rmnch.rds"))
+
+# gmm
+gmm_dah <- read_rds(file.path(dir_model, "gmm_sdg381_total.aid.for.health_rmnch.rds"))
+gmm_dah.vol <- read_rds(file.path(dir_model, "gmm_sdg381_total.aid.for.health.vol_rmnch.rds"))
+```
+
+```{r}
+fixed_list <- tibble(term = c("(Intercept)",
+                              # baseline
+                              "log_gdp.per.capita", 
+                              "log_government.health.spending",
+                              "log_prepaid.private.health.spending", 
+                              "log_out.of.pocket.health.spending",
+                              "log_sdi",
+                              # dah
+                              "economic.groupQuintile 2",
+                              "economic.groupQuintile 3",
+                              "economic.groupQuintile 4",
+                              "economic.groupQuintile 5 (richest)",
+                              "log_total.aid.for.health_rmnch",
+                              "institutional.index",
+                              "log_total.aid.for.health_rmnch:institutional.index",
+                              "log_total.aid.for.health_rmnch:log_gdp.per.capita",
+                              "log_total.aid.for.health_rmnch:economic.groupQuintile 2",
+                              "log_total.aid.for.health_rmnch:economic.groupQuintile 3",
+                              "log_total.aid.for.health_rmnch:economic.groupQuintile 4",
+                              "log_total.aid.for.health_rmnch:economic.groupQuintile 5 (richest)",
+                              # dah.vol
+                              "log_total.aid.for.health.volatility_rmnch",
+                              "institutional.index:log_total.aid.for.health.volatility_rmnch",
+                              "economic.groupQuintile 2:log_total.aid.for.health.volatility_rmnch",
+                              "economic.groupQuintile 3:log_total.aid.for.health.volatility_rmnch",
+                              "economic.groupQuintile 4:log_total.aid.for.health.volatility_rmnch",
+                              "economic.groupQuintile 5 (richest):log_total.aid.for.health.volatility_rmnch",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     ` ` = c("Constant",
+                              # baseline
+                              "GDP per capita", 
+                              "Government Health Spending",
+                              "Prepaid Private Health Spending", 
+                              "Out-of-pocket Health Spending",
+                              "Socio-Demographic Index",
+                              # dah
+                              "Economic group [Q2]",
+                              "Economic group [Q3]",
+                              "Economic group [Q4]",
+                              "Economic group [Q5]",
+                              "DAH",
+                              "Institutional quality",
+                              "DAH * Institutional quality",
+                              "DAH * GDP per capita",
+                              "DAH * Economic group [Q2]",
+                              "DAH * Economic group [Q3]",
+                              "DAH * Economic group [Q4]",
+                              "DAH * Economic group [Q5]",
+                              # dah.vol
+                              "DAH volatitliy",
+                              "DAH volatitliy * Institutional quality",
+                              "DAH volatitliy * Economic group [Q2]",
+                              "DAH volatitliy * Economic group [Q3]",
+                              "DAH volatitliy * Economic group [Q4]",
+                              "DAH volatitliy * Economic group [Q5]",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     order = c(4, rep(1,5), rep(2,12), rep(3,6), rep(5, 3)))
+```
+
+
+### lme
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH - RMNCH (LME)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+lme_dah_df <- tidy(lme_dah) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH - RMNCH (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH - RMNCH (LME)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility - RMNCH (LME)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+lme_dah.vol_df <- tidy(lme_dah.vol) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility - RMNCH (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility - RMNCH (LME)`) %>%
+  rbind(df_sum)
+```
+
+### gmm
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH - RMNCH (GMM)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+gmm_dah_df <- tidy(gmm_dah) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH - RMNCH (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH - RMNCH (GMM)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility - RMNCH (GMM)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+gmm_dah.vol_df <- tidy(gmm_dah.vol) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility - RMNCH (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility - RMNCH (GMM)`) %>%
+  rbind(df_sum)
+```
+
+### merge and save file
+```{r}
+sum_381_rmnch <- fixed_list %>%
+  left_join(lme_dah_df) %>%
+  left_join(gmm_dah_df) %>%
+  left_join(lme_dah.vol_df) %>%
+  left_join(gmm_dah.vol_df) %>%
+  arrange(order) %>% 
+  select(-term, -order)
+
+sum_381_rmnch
+writexl::write_xlsx(sum_381_rmnch, "./report/model.summary_sdg381_rmnch.xlsx")
+```
+
+
+## 3.8.2
+### setup
+```{r message=FALSE, warning=FALSE}
+# Note: *p<0.1; **p<0.05; ***p<0.01
+
+# lme
+lme_base <- read_rds(file.path(dir_model, "sdg382_base.rds"))
+lme_dah <- read_rds(file.path(dir_model, "sdg382_total.aid.for.health.rds"))
+lme_dah.vol <- read_rds(file.path(dir_model, "sdg382_total.aid.for.health.vol.rds"))
+
+# gmm
+gmm_base <- read_rds(file.path(dir_model, "gmm_sdg382_base.rds"))
+gmm_dah <- read_rds(file.path(dir_model, "gmm_sdg382_total.aid.for.health.rds"))
+gmm_dah.vol <- read_rds(file.path(dir_model, "gmm_sdg382_total.aid.for.health.vol.rds"))
+```
+
+```{r}
+fixed_list <- tibble(term = c("(Intercept)",
+                              # baseline
+                              "log_gdp.per.capita", 
+                              "log_government.health.spending",
+                              "log_prepaid.private.health.spending", 
+                              "log_out.of.pocket.health.spending",
+                              "log_sdi",
+                              # dah
+                              "log_total.aid.for.health",
+                              "institutional.index",
+                              "log_total.aid.for.health:institutional.index",
+                              "log_total.aid.for.health:log_gdp.per.capita",
+                              # dah.vol
+                              "log_total.aid.for.health.volatility",
+                              "institutional.index:log_total.aid.for.health.volatility",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     ` ` = c("Constant",
+                              # baseline
+                              "GDP per capita", 
+                              "Government Health Spending",
+                              "Prepaid Private Health Spending", 
+                              "Out-of-pocket Health Spending",
+                              "Socio-Demographic Index",
+                              # dah
+                              "DAH",
+                              "Institutional quality",
+                              "DAH * Institutional quality",
+                              "DAH * GDP per capita",
+                              # dah.vol
+                              "DAH volatitliy",
+                              "DAH volatitliy * Institutional quality",
+                              # summary
+                              "No. Observation", 
+                              "No. Country", 
+                              "No. Year"),
+                     order = c(4, rep(1,5), rep(2,4), rep(3,2), rep(5, 3)))
+```
+
+
+### lme
+#### base
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `Baseline (LME)` = c(nrow(lme_base@frame), 
+                                            n_distinct(lme_base@frame$country), 
+                                            n_distinct(lme_base@frame$fyear)))
+
+
+lme_base_df <- tidy(lme_base) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`Baseline (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `Baseline (LME)`) %>%
+  rbind(df_sum)
+  
+```
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH (LME)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+lme_dah_df <- tidy(lme_dah) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH (LME)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility (LME)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+lme_dah.vol_df <- tidy(lme_dah.vol) %>% 
+  filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility (LME)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility (LME)`) %>%
+  rbind(df_sum)
+```
+
+### gmm
+#### base
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `Baseline (GMM)` = c(nrow(lme_base@frame), 
+                                            n_distinct(lme_base@frame$country), 
+                                            n_distinct(lme_base@frame$fyear)))
+
+
+gmm_base_df <- tidy(gmm_base) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`Baseline (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `Baseline (GMM)`) %>%
+  rbind(df_sum)
+  
+```
+#### dah
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH (GMM)` = c(nrow(lme_dah@frame), 
+                                            n_distinct(lme_dah@frame$country), 
+                                            n_distinct(lme_dah@frame$fyear)))
+gmm_dah_df <- tidy(gmm_dah) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH (GMM)`) %>%
+  rbind(df_sum)
+```
+
+#### dah.vol
+
+```{r}
+df_sum <- tibble(term = c("No. Observation", 
+                                "No. Country", 
+                                "No. Year"),
+                       `DAH volatility (GMM)` = c(nrow(lme_dah.vol@frame), 
+                                            n_distinct(lme_dah.vol@frame$country), 
+                                            n_distinct(lme_dah.vol@frame$fyear)))
+gmm_dah.vol_df <- tidy(gmm_dah.vol) %>% 
+  #filter(effect == "fixed") %>%
+  mutate(estimate = round(estimate, 2),
+         std.error = round(std.error, 2),
+         p.value.note = if_else(p.value < 0.01, "***", # add p.value note
+                                                       if_else(p.value < 0.05, "**",
+                                                               if_else(p.value < 0.1, "*", "")))
+         ) %>% 
+  mutate(`DAH volatility (GMM)` = paste0(estimate, 
+                               p.value.note,
+                               "\n", 
+                               "(",std.error,")")) %>%
+  select(term, `DAH volatility (GMM)`) %>%
+  rbind(df_sum)
+```
+
+### merge and save file
+```{r}
+sum_382 <- fixed_list %>%
+  left_join(lme_base_df) %>%
+  left_join(gmm_base_df)  %>% 
+  left_join(lme_dah_df) %>%
+  left_join(gmm_dah_df) %>%
+  left_join(lme_dah.vol_df) %>%
+  left_join(gmm_dah.vol_df) %>%
+  arrange(order) %>% 
+  select(-term, -order)
+
+sum_382
+writexl::write_xlsx(sum_382, "./report/model.summary_sdg382.xlsx")
+```

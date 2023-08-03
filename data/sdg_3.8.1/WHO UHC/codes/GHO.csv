@@ -1,0 +1,7 @@
+Dimension,Code,Title,ParentDimension,ParentCode,ParentTitle
+GHO,UHC_AVAILABILITY_SCORE,Primary data availability for UHC Service Coverage Index (SDG 3.8.1) (%),,,
+GHO,UHC_INDEX_REPORTED,UHC Service Coverage Index (SDG 3.8.1),,,
+GHO,UHC_SCI_CAPACITY,UHC Service Coverage sub-index on service capacity and access,,,
+GHO,UHC_SCI_INFECT,UHC Service Coverage sub-index on infectious diseases,,,
+GHO,UHC_SCI_NCD,UHC Service Coverage sub-index on noncommunicable diseases,,,
+GHO,UHC_SCI_RMNCH,"UHC Service Coverage sub-index on reproductive, maternal, newborn and child health",,,

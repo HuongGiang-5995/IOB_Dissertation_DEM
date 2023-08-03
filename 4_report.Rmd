@@ -1,0 +1,542 @@
+---
+title: "4_report"
+author: "Giang Pham"
+date: "2023-05-06"
+output: html_document
+---
+
+BEFORE:
+      1_data_process.R
+      2_data_explore.Rmd
+      3_data_analyze.R
+
+AFTER:
+      report folder
+      4_report.html
+      
+# 1. SETUP
+```{r message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)   # process dataframe
+library(effects)     # present effects
+library(patchwork)   # arrange plot
+library(broom.mixed) # summarize estimation
+library(RColorBrewer)# visualize
+library(writexl)     # write excel
+library(reactable)   # interactive table
+    
+
+# load function
+## centering function
+#c. <- function (x) {(x - mean(x, na.rm = T))} 
+## log, centering function
+#clog. <- function (x) {(log(x) - mean(log(x), na.rm = T))} 
+
+# load data
+dir_data <- "./data"
+dir_model <- "./model"
+dir_report <- "./report"
+```
+
+# 2. DESCRIPTIVE RESULTS
+
+load data
+```{r message=FALSE, warning=FALSE}
+sdg381 <- read_csv(file.path(dir_data, "@data_sdg381.csv")) %>% filter(year <= 2017)
+sdg381_rmnch <- read_csv(file.path(dir_data, "@data_sdg381_rmnch.csv"))
+sdg382 <- read_csv(file.path(dir_data, "@data_sdg382.csv")) 
+data_explanatory <- read_csv(file.path(dir_data, "@data_explanatory.csv"))
+```
+
+
+## 2.1. descriptive results all variables
+```{r}
+# note: summarize mean, sd all vars
+
+# data
+## response vars
+sum_res <- tibble(variable = c("sdg381", "sdg381_rmnch", "sdg382"),
+       mean = c(mean(sdg381$sdg381, na.rm = T),
+                mean(sdg381_rmnch$sdg381_rmnch, na.rm = T),
+                mean(sdg382$sdg382, na.rm = T)),
+       sd = c(sd(sdg381$sdg381, na.rm = T),
+              sd(sdg381_rmnch$sdg381_rmnch, na.rm = T),
+              sd(sdg382$sdg382, na.rm = T))) %>% 
+  mutate(mean = round(mean, 2),
+         sd = round(sd, 2))
+
+## explanatory vars
+sum_exp <- select(sdg381, 
+                  health.worker:total.aid.for.health,
+                 total.aid.for.health.volatility:institutional.index)
+sum_exp <- tibble(variable = names(sum_exp), 
+                  mean = apply(sum_exp, 2, mean, na.rm = T),
+                  sd = apply(sum_exp, 2, sd, na.rm = T)) %>% 
+  mutate(mean = round(mean, 2),
+         sd = round(sd, 2))
+
+## merge descriptive results
+descriptive_results <- bind_rows(sum_res, sum_exp) 
+write_xlsx(descriptive_results, file.path(dir_report, "descriptive_results.xlsx"))
+```
+
+```{r}
+# table
+reactable(descriptive_results, filterable = TRUE)
+```
+
+## 2.2. trend sdg381, sdg381_rmnch, sdg382
+### sdg381
+
+```{r}
+# note: plot the change of value over time
+
+# data 
+## workflow
+## 1. group_by country, income.group, region
+## 2. summarize range year, value
+## 3. mutate value diff, max
+## 4. round values
+
+trend_sdg381 <- sdg381 %>% 
+  group_by(country, income.group_wb, region_un) %>%
+  summarize(range_year = range(year),
+            range_value = range(sdg381)) %>%
+  mutate(value_diff = diff(range_value),
+         value_max = max(range_value)) %>%
+  mutate(range_value = round(range_value, 2),
+         value_diff = round(value_diff, 2),
+         value_max = round(value_max, 2))
+```
+
+```{r}
+# table
+reactable(trend_sdg381, filterable = TRUE)
+
+# plot value + diff 
+## setup
+quantile(trend_sdg381$value_diff, probs = seq(0, 1, 0.1)) #check quantile
+break_diff <- c(0, 10, 27, 32) #quantile 0, 10, 90, 100
+
+ggplot(data = trend_sdg381, 
+       aes(x = reorder(country, -value_max), 
+           y = range_value)) + 
+  geom_line(aes(color = cut(value_diff, breaks = break_diff)),
+            linewidth = 1) +
+  geom_point(aes(fill = factor(range_year)), shape = 21) +
+  scale_color_brewer(palette = "BrBG") + #"Spectral"  
+  scale_fill_brewer(palette = "BrBG", direction = -1) + #PuRd
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.1",
+       color = "Index difference",
+       fill = "Year")
+
+# save plot
+ggsave(filename = "./report/desc_sdg381_trend.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 24,
+       units = "cm",
+       dpi = 600)
+````
+
+```{r}
+# plot diff
+ggplot(data = trend_sdg381, 
+       aes(x = reorder(country, -value_diff), 
+           y = value_diff)) + 
+  geom_point() +
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.1 - Index difference")
+```
+
+### sdg381_rmnch
+```{r}
+# note: plot the difference between poorest and richest group in the most recent year
+
+# data
+## workflow
+## 1. filter non-NA values
+## 2. filter only poorest and richest groups
+## 3. group_by 
+## 4. summarize year, value
+## 5. mutate value diff, max
+## 6. round values
+## 7. mutate country.year - showing year with available data
+
+trend_sdg381_rmnch <- sdg381_rmnch %>% 
+  filter(is.na(sdg381_rmnch) == F) %>%
+  filter(economic.group %in% c("Quintile 1 (poorest)", "Quintile 5 (richest)")) %>%
+  group_by(country, income.group_wb, region_un, economic.group) %>%
+  summarize(year = max(year),
+            value = max(sdg381_rmnch)) %>%
+  mutate(value_diff = diff(value),
+         value_max = max(value)) %>%
+  mutate(value = round(value, 2),
+         value_diff = round(value_diff, 2),
+         value_max = round(value_max, 2)) %>%
+  mutate(country.year = paste0(country, " ", year))
+
+```
+
+```{r}
+# table
+reactable(trend_sdg381_rmnch, filterable = TRUE)
+
+# plot value + diff 
+## setup
+quantile(trend_sdg381_rmnch$value_diff, probs = seq(0, 1, 0.1)) #check quantile
+break_diff <- c(0, 10, 35, 50) #quantile 10, 90, 100
+
+ggplot(data = trend_sdg381_rmnch, 
+       aes(x = reorder(country.year, -value_max), 
+           y = value)) + 
+  geom_line(aes(color = cut(value_diff, breaks = break_diff)),
+            linewidth = 1) +
+  geom_point(aes(fill = economic.group), shape = 21) +
+  scale_color_brewer(palette = "BrBG") + #"Spectral"
+  scale_fill_brewer(palette = "BrBG", direction = -1) + #PuRd
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.1 RMNCH",
+       color = "Index difference",
+       fill = "Economic group")
+
+# save plot
+ggsave(filename = "./report/desc_sdg381_rmnch_trend.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 24,
+       units = "cm",
+       dpi = 600)
+
+```
+
+```{r}
+# plot diff
+ggplot(data = trend_sdg381_rmnch, 
+       aes(x = reorder(country, -value_diff), 
+           y = value_diff)) + 
+  geom_point() +
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.1 RMNCH - Index difference")
+
+```
+
+### sdg382
+
+```{r}
+# note: plot the change of value over time
+
+# data 
+## workflow
+## 1. group_by country, income.group, region
+## 2. summarize range year, value
+## 3. mutate range_year_cat because of different min, max year
+## 4. mutate country.year - showing range_year
+## 5. mutate value diff, max
+## 6. round values
+## 7. remove data without diff
+
+trend_sdg382 <- sdg382 %>% 
+  group_by(country, income.group_wb, region_un) %>%
+  filter(year %in% c(min(year), max(year))) %>%
+  summarize(range_year = range(year),
+            range_value = range(sdg382)) %>%
+  mutate(range_year_cat = if_else(range_year == min(range_year), "Year (first)", "Year (last)")) %>%
+  mutate(country.year = paste0(country, " ", min(range_year), "-", max(range_year))) %>%
+  mutate(value_diff = diff(range_value),
+         value_max = max(range_value)) %>%
+  mutate(range_value = round(range_value, 2),
+         value_diff = round(value_diff, 2),
+         value_max = round(value_max, 2)) %>%
+  filter(value_diff != 0)
+```
+
+```{r}
+# table
+reactable(trend_sdg382, filterable = TRUE)
+
+# plot value + diff 
+## setup
+quantile(trend_sdg382$value_diff, probs = seq(0, 1, 0.1)) #check quantile
+break_diff <- c(0, 1, 10, 25) #quantile 0, 10, 90, 100
+
+ggplot(data = trend_sdg382, 
+       aes(x = reorder(country.year, -value_max), 
+           y = range_value)) + 
+  geom_line(aes(color = cut(value_diff, breaks = break_diff)),
+            linewidth = 1) +
+  geom_point(aes(fill = range_year_cat), shape = 21) +
+  scale_color_brewer(palette = "BrBG") + #"Spectral"  
+  scale_fill_brewer(palette = "BrBG", direction = -1) + #PuRd
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.2",
+       color = "Index difference",
+       fill = "Year") 
+
+# save plot
+ggsave(filename = "./report/desc_sdg382_trend.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 24,
+       units = "cm",
+       dpi = 600)
+```
+
+```{r}
+# plot diff
+ggplot(data = trend_sdg382, 
+       aes(x = reorder(country.year, -value_diff), 
+           y = value_diff)) + 
+  geom_point() +
+  coord_flip() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "SDG 3.8.2 - Index difference") 
+```
+
+## 2.3. health spending composition per total health spending
+
+```{r}
+# note: plot health spending composition per total health spending
+
+# data 
+## workflow
+## 1. filter year 1995, 2017
+## 2. select country, year, the vars
+## 3. filter non NA values
+## 4. rename
+## 5. pivot longer
+
+the <- data_explanatory %>% 
+  filter(year %in% c(1995, 2019)) %>%
+  select(country, year, gdp.per.capita, gdp, ghes_per_the:dah_per_the) %>%
+  filter(is.na(gdp.per.capita) == F) %>%
+  rename(`Government` = ghes_per_the,
+         `Prepaid private` = ppp_per_the,
+         `Out-of-pocket` = oop_per_the,
+         `DAH` = dah_per_the) %>%
+  pivot_longer(cols = `Government`:`DAH`)
+```
+
+```{r}
+# table
+reactable(the, filterable = TRUE)
+
+# plot
+ggplot(data = the, 
+       aes(x = gdp.per.capita, y = value)) + 
+  geom_point() + 
+  geom_smooth(method = "gam") + 
+  facet_grid(year ~ name) +
+  theme_classic() +
+  labs(x = "GDP per capita (2015 USD)",
+       y = "Proportion of total health spending (%)") +
+  ylim(0, 92)
+
+summary(the$value)
+
+ggplot(data = the, 
+       aes(x = gdp.per.capita, y = value, color = factor(year))) + 
+  geom_point() + 
+  geom_smooth(method = "gam") + 
+  facet_grid(~ name) +
+  theme_classic() +
+  scale_fill_brewer(palette = "BrBG") + #"Spectral"  
+  labs(x = "GDP per capita (2015 USD)",
+       y = "Proportion of total health spending (%)",
+       color = "Year") +
+  ylim(0, 92)
+
+# save plot
+ggsave(filename = "./report/desc_health spending.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+```
+
+## 2.4. trend health spending: government, out-of-pocket, health aid
+```{r}
+# note: plot trend health spending: by components and dah
+
+# data
+## workflow
+## 1. select country, year, the vars
+## 2. filter non NA values
+## 3. group_by year
+## 4. summarize - convert to bilions 2021 USD
+## 5. rename
+## 6. pivot longer
+
+trend_the <- data_explanatory %>% 
+  select(country, year, gdp.per.capita, gdp, the_total:dah_total) %>%
+  filter(is.na(the_total) == F, is.na(gdp.per.capita) == F) %>%
+  group_by(year) %>%
+  summarize(the_total = sum(the_total, na.rm = T)*1000/1000000000,
+            ghes_total = sum(ghes_total, na.rm = T)*1000/1000000000,
+            ppp_total = sum(ppp_total, na.rm = T)*1000/1000000000,
+            oop_total = sum(oop_total, na.rm = T)*1000/1000000000,
+            dah_total = sum(dah_total, na.rm = T)*1000/1000000000) %>%
+  rename(`Total health spending` = the_total,
+         `Government` = ghes_total,
+         `Prepaid private` = ppp_total,
+         `Out-of-pocket` = oop_total,
+         `DAH` = dah_total) %>%
+  pivot_longer(cols = `Total health spending`:`DAH`) %>%
+  group_by(year) %>%
+  mutate(ratio_the = round(value/max(value)*100, 1))
+```
+
+```{r}
+# table
+reactable(trend_the, filterable = TRUE)
+
+# plot trend health spending: by components 
+ggplot() + 
+  geom_area(data = trend_the %>% filter(name != "Total health spending"), 
+       aes(x = year, y = value, fill = factor(name))) +
+  theme_classic() +
+  labs(x = "Year",
+       y = "Health spending (billions 2021 USD)",
+       fill = "Spending source") +
+  scale_fill_brewer(palette = "BrBG") #Set2, #Pastel1
+
+# save plot
+ggsave(filename = "./report/desc_health spending_trend.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+```
+
+```{r}
+
+# plot trend health spending: dah
+ggplot(data = trend_the %>% filter(name == "DAH"), 
+       aes(x = year, y = value)) + 
+  geom_line() +
+  theme_classic() +
+  labs(x = "Year",
+       y = "DAH (billions 2021 USD)") 
+
+# save plot
+ggsave(filename = "./report/desc_DAH_trend.png", 
+       plot = last_plot(),
+       width = 18,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+```
+
+## 2.5. Additional 
+
+### DAH by country
+```{r}
+# dah - scaled (mean 0, sd 1)
+dah <- data_explanatory %>% 
+  filter(is.na(total.aid.for.health) == F) %>%
+  group_by(country) %>% 
+  mutate(dah = scale(total.aid.for.health, scale = T)) %>%
+  select(country, year, dah, total.aid.for.health)
+
+ggplot(data = dah, 
+       aes(x = year, y =  dah)) + 
+  geom_line() +
+  facet_wrap(~ country) +
+  theme_classic() +
+  labs(x = NULL,
+       y = "DAH per GDP (scaled)") +
+  scale_x_continuous(guide = guide_axis(angle = 45))
+
+
+ggsave(filename = "./report/desc_DAH scaled_by country.png", 
+       plot = last_plot(),
+       width = 40,
+       height = 20,
+       units = "cm",
+       dpi = 600)
+```
+
+### DAH volatility by country
+```{r}
+# dah.vol - scaled (mean 0, sd 1)
+dah.vol <- data_explanatory %>% 
+  filter(is.na(total.aid.for.health.volatility) == F) %>%
+  group_by(country) %>% 
+  mutate(dah.vol = scale(total.aid.for.health.volatility, scale = T)) %>%
+  select(country, year, dah.vol, total.aid.for.health.volatility)
+
+ggplot(data = dah.vol, 
+       aes(x = year, y =  dah.vol)) + 
+  geom_line() +
+  facet_wrap(~ country) +
+  theme_classic() +
+  labs(x = NULL,
+       y = "DAH volatility (scaled)") +
+  scale_x_continuous(guide = guide_axis(angle = 45))
+
+ggsave(filename = "./report/desc_DAH volatility scaled_by country.png", 
+       plot = last_plot(),
+       width = 20,
+       height = 10,
+       units = "cm",
+       dpi = 600)
+  
+
+```
+
+### health spending per the by country
+```{r}
+trend_the <- data_explanatory %>% 
+  select(country, year, gdp.per.capita, gdp, the_total:dah_total) %>%
+  filter(is.na(the_total) == F, is.na(gdp.per.capita) == F) %>%
+  group_by(year, country) %>%
+  summarize(the_total = sum(the_total, na.rm = T)*1000/1000000000,
+            ghes_total = sum(ghes_total, na.rm = T)*1000/1000000000,
+            ppp_total = sum(ppp_total, na.rm = T)*1000/1000000000,
+            oop_total = sum(oop_total, na.rm = T)*1000/1000000000,
+            dah_total = sum(dah_total, na.rm = T)*1000/1000000000) %>%
+  rename(`Total health spending` = the_total,
+         `Government` = ghes_total,
+         `Prepaid private` = ppp_total,
+         `Out-of-pocket` = oop_total,
+         `DAH` = dah_total) %>%
+  pivot_longer(cols = `Total health spending`:`DAH`) %>%
+  group_by(year, country) %>%
+  mutate(ratio_the = round(value/max(value)*100, 1))
+```
+
+```{r}
+# plot trend health spending: dah
+ggplot(data = trend_the %>% filter(name != "Total health spending"), 
+       aes(x = year, y = ratio_the, color = name)) + 
+  geom_line() +
+  theme_classic() +
+  labs(x = NULL,
+       y = "Proportion of total health spending (%)",
+       color = "Spending source") +
+  facet_wrap(~ country) +
+  scale_x_continuous(guide = guide_axis(angle = 45))
+
+# save plot
+ggsave(filename = "./report/desc_health spending per the_trend.png", 
+       plot = last_plot(),
+       width = 40,
+       height = 20,
+       units = "cm",
+       dpi = 600)
+```
+

@@ -1,0 +1,347 @@
+country,country.code,year,sdg382
+Afghanistan,AFG,2007,4.84
+Afghanistan,AFG,2013,14.63
+Afghanistan,AFG,2016,23.84
+Afghanistan,AFG,2020,26.08
+Angola,AGO,2008,12.26
+Angola,AGO,2018,35.53
+Bangladesh,BGD,2000,14.85
+Bangladesh,BGD,2005,12.34
+Bangladesh,BGD,2010,14.22
+Bangladesh,BGD,2016,24.42
+Benin,BEN,2003,11.11
+Benin,BEN,2011,6.67
+Benin,BEN,2015,5.55
+Benin,BEN,2018,14.29
+Bhutan,BTN,2003,5.38
+Bhutan,BTN,2007,3.43
+Bhutan,BTN,2012,4.01
+Bhutan,BTN,2017,3.98
+Bolivia,BOL,1999,11.83
+Bolivia,BOL,2000,11.06
+Bolivia,BOL,2001,7.9
+Bolivia,BOL,2002,8.23
+Bolivia,BOL,2013,10.08
+Bolivia,BOL,2014,6.25
+Bolivia,BOL,2015,6.02
+Bolivia,BOL,2018,4.26
+Bolivia,BOL,2019,4.55
+Bolivia,BOL,2021,5.69
+Burkina Faso,BFA,1998,10.98
+Burkina Faso,BFA,2003,8.46
+Burkina Faso,BFA,2009,3.52
+Burkina Faso,BFA,2014,3.13
+Burkina Faso,BFA,2018,8.37
+Burundi,BDI,1998,2.36
+Burundi,BDI,2006,12.46
+Burundi,BDI,2013,3.29
+Burundi,BDI,2020,4.77
+Cabo Verde,CPV,2001,2.81
+Cabo Verde,CPV,2007,2.05
+Cambodia,KHM,2009,18.77
+Cambodia,KHM,2014,13.16
+Cambodia,KHM,2019,17.86
+Cameroon,CMR,1996,23.82
+Cameroon,CMR,2001,20.58
+Cameroon,CMR,2007,8.01
+Cameroon,CMR,2014,10.71
+Central African Republic,CAF,2008,6.75
+Chad,TCD,2003,6.28
+Chad,TCD,2011,8.69
+Chad,TCD,2018,9.3
+Comoros,COM,2014,8.81
+"Congo, Dem. Rep.",COD,2004,5.81
+"Congo, Dem. Rep.",COD,2012,4.82
+"Congo, Rep.",COG,2011,4.58
+Côte d’Ivoire,CIV,1985,17.77
+Côte d’Ivoire,CIV,1986,16.77
+Côte d’Ivoire,CIV,1987,11.29
+Côte d’Ivoire,CIV,1988,12.31
+Côte d’Ivoire,CIV,1992,13.24
+Côte d’Ivoire,CIV,1998,19.77
+Côte d’Ivoire,CIV,2002,18.47
+Côte d’Ivoire,CIV,2008,17.44
+Côte d’Ivoire,CIV,2014,12.43
+Côte d’Ivoire,CIV,2018,8.33
+Djibouti,DJI,2002,1.14
+Djibouti,DJI,2012,2.25
+Djibouti,DJI,2017,1.47
+"Egypt, Arab Rep.",EGY,1997,7.66
+"Egypt, Arab Rep.",EGY,2008,12.57
+"Egypt, Arab Rep.",EGY,2012,26.2
+"Egypt, Arab Rep.",EGY,2015,31.22
+"Egypt, Arab Rep.",EGY,2017,31.14
+El Salvador,SLV,2015,2.3
+El Salvador,SLV,2016,4.9
+El Salvador,SLV,2017,3.9
+El Salvador,SLV,2018,3.41
+El Salvador,SLV,2019,4.06
+Eswatini,SWZ,2000,8.76
+Eswatini,SWZ,2016,5
+Ethiopia,ETH,1999,1.58
+Ethiopia,ETH,2004,0.82
+Ethiopia,ETH,2011,1.88
+Ethiopia,ETH,2015,2.12
+Ethiopia,ETH,2018,3.48
+"Gambia, The",GMB,2010,0.61
+"Gambia, The",GMB,2015,0.2
+Ghana,GHA,1991,4.73
+Ghana,GHA,1998,5.97
+Ghana,GHA,2005,3.11
+Ghana,GHA,2012,1.48
+Ghana,GHA,2016,1.33
+Guinea,GIN,2002,9.67
+Guinea,GIN,2012,6.97
+Guinea,GIN,2018,1.5
+Guinea-Bissau,GNB,2002,5.49
+Guinea-Bissau,GNB,2010,6.26
+Guinea-Bissau,GNB,2018,5.05
+Haiti,HTI,2012,9.43
+Haiti,HTI,2013,11.54
+Honduras,HND,2004,1.14
+India,IND,1995,7.3
+India,IND,2000,15.41
+India,IND,2001,14.86
+India,IND,2003,15.41
+India,IND,2006,16.84
+India,IND,2007,12.98
+India,IND,2009,13.97
+India,IND,2011,17.91
+India,IND,2017,17.46
+Indonesia,IDN,1999,3.9
+Indonesia,IDN,2001,2.56
+Indonesia,IDN,2002,2.29
+Indonesia,IDN,2004,2.06
+Indonesia,IDN,2005,2.14
+Indonesia,IDN,2006,1.82
+Indonesia,IDN,2007,2.54
+Indonesia,IDN,2009,3.5
+Indonesia,IDN,2010,3.45
+Indonesia,IDN,2011,3.87
+Indonesia,IDN,2012,3.45
+Indonesia,IDN,2013,3.74
+Indonesia,IDN,2014,4.38
+Indonesia,IDN,2015,3.61
+Indonesia,IDN,2016,4.31
+Indonesia,IDN,2017,4.52
+Indonesia,IDN,2018,4.74
+Indonesia,IDN,2019,2.53
+Indonesia,IDN,2020,2.23
+Indonesia,IDN,2021,1.97
+"Iran, Islamic Rep.",IRN,2005,11.31
+"Iran, Islamic Rep.",IRN,2007,11.41
+"Iran, Islamic Rep.",IRN,2008,12.6
+"Iran, Islamic Rep.",IRN,2009,13.72
+"Iran, Islamic Rep.",IRN,2010,13.72
+"Iran, Islamic Rep.",IRN,2011,14.12
+"Iran, Islamic Rep.",IRN,2012,13.87
+"Iran, Islamic Rep.",IRN,2013,15.81
+"Iran, Islamic Rep.",IRN,2014,15.96
+"Iran, Islamic Rep.",IRN,2015,17.03
+"Iran, Islamic Rep.",IRN,2016,15.78
+"Iran, Islamic Rep.",IRN,2017,16.86
+"Iran, Islamic Rep.",IRN,2018,17
+"Iran, Islamic Rep.",IRN,2019,15.35
+"Iran, Islamic Rep.",IRN,2020,13.82
+"Iran, Islamic Rep.",IRN,2021,15.36
+Kenya,KEN,2005,5.55
+Kenya,KEN,2015,5.19
+Kiribati,KIR,2006,0
+Kyrgyz Republic,KGZ,2000,2.36
+Kyrgyz Republic,KGZ,2001,2.68
+Kyrgyz Republic,KGZ,2002,2.4
+Kyrgyz Republic,KGZ,2003,1.28
+Kyrgyz Republic,KGZ,2004,8.62
+Kyrgyz Republic,KGZ,2005,4.61
+Kyrgyz Republic,KGZ,2006,3.96
+Kyrgyz Republic,KGZ,2007,2.64
+Kyrgyz Republic,KGZ,2008,3.67
+Kyrgyz Republic,KGZ,2009,3.97
+Kyrgyz Republic,KGZ,2016,3.47
+Kyrgyz Republic,KGZ,2019,4.29
+Kyrgyz Republic,KGZ,2020,4.91
+Lao PDR,LAO,2002,3.07
+Lao PDR,LAO,2007,10.12
+Lao PDR,LAO,2013,13.49
+Lao PDR,LAO,2019,6.75
+Lebanon,LBN,1999,44.82
+Lebanon,LBN,2012,26.6
+Lesotho,LSO,2010,4.51
+Liberia,LBR,2007,7.86
+Liberia,LBR,2014,22.33
+Liberia,LBR,2016,6.75
+Madagascar,MDG,2005,0.21
+Madagascar,MDG,2010,1.64
+Madagascar,MDG,2012,2.87
+Malawi,MWI,2004,0.31
+Malawi,MWI,2010,1.64
+Malawi,MWI,2013,6.62
+Malawi,MWI,2019,2.91
+Mali,MLI,1994,7.02
+Mali,MLI,2006,3.38
+Mali,MLI,2009,4.41
+Mali,MLI,2011,2.56
+Mali,MLI,2014,3.46
+Mali,MLI,2015,2.13
+Mali,MLI,2016,1.95
+Mali,MLI,2017,1.51
+Mali,MLI,2018,2.06
+Mali,MLI,2019,1.8
+Mali,MLI,2021,1.7
+Mauritania,MRT,2004,10.54
+Mauritania,MRT,2014,11.66
+Mongolia,MNG,2002,1.28
+Mongolia,MNG,2009,1.84
+Mongolia,MNG,2010,1.33
+Mongolia,MNG,2011,1.75
+Mongolia,MNG,2012,2.16
+Mongolia,MNG,2014,3.04
+Mongolia,MNG,2016,4.49
+Mongolia,MNG,2018,7.18
+Mongolia,MNG,2020,14.71
+Mongolia,MNG,2021,14.03
+Morocco,MAR,1998,4.15
+Morocco,MAR,2000,11.5
+Morocco,MAR,2006,22
+Morocco,MAR,2013,13.4
+Morocco,MAR,2019,8.2
+Mozambique,MOZ,2002,0.83
+Mozambique,MOZ,2008,1.19
+Mozambique,MOZ,2014,1.61
+Mozambique,MOZ,2019,3.58
+Myanmar,MMR,2015,13.82
+Myanmar,MMR,2017,12.71
+Nepal,NPL,2003,9.97
+Nepal,NPL,2013,10.31
+Nepal,NPL,2014,10.2
+Nepal,NPL,2015,9.84
+Nepal,NPL,2016,10.66
+Nicaragua,NIC,1993,9.27
+Nicaragua,NIC,1998,12.35
+Nicaragua,NIC,2001,15.95
+Nicaragua,NIC,2009,16.18
+Nicaragua,NIC,2014,24.73
+Niger,NER,2005,3.74
+Niger,NER,2011,6.63
+Niger,NER,2018,6.52
+Nigeria,NGA,2003,22.53
+Nigeria,NGA,2009,24.77
+Nigeria,NGA,2010,18.87
+Nigeria,NGA,2012,16.88
+Nigeria,NGA,2015,18.53
+Nigeria,NGA,2018,15.79
+Pakistan,PAK,2001,5.96
+Pakistan,PAK,2004,3.37
+Pakistan,PAK,2007,2.71
+Pakistan,PAK,2010,3.04
+Pakistan,PAK,2011,3.76
+Pakistan,PAK,2013,5.61
+Pakistan,PAK,2015,4.47
+Pakistan,PAK,2018,5.39
+Philippines,PHL,1997,3.17
+Philippines,PHL,2000,2.83
+Philippines,PHL,2003,2.94
+Philippines,PHL,2006,4.39
+Philippines,PHL,2009,4.5
+Philippines,PHL,2012,6.13
+Philippines,PHL,2015,6.31
+Rwanda,RWA,2000,8.44
+Rwanda,RWA,2005,2.35
+Rwanda,RWA,2013,1.63
+Rwanda,RWA,2016,1.15
+Senegal,SEN,2001,1.6
+Senegal,SEN,2005,1.38
+Senegal,SEN,2011,3.33
+Senegal,SEN,2018,6.86
+Sierra Leone,SLE,2003,35.93
+Sierra Leone,SLE,2011,37.09
+Sierra Leone,SLE,2018,16.4
+Somalia,SOM,2016,0.55
+Somalia,SOM,2017,0.13
+South Sudan,SSD,2009,9.21
+South Sudan,SSD,2016,11.71
+Sri Lanka,LKA,1995,4.91
+Sri Lanka,LKA,2005,6.28
+Sri Lanka,LKA,2006,5.55
+Sri Lanka,LKA,2009,4.69
+Sri Lanka,LKA,2012,5.78
+Sri Lanka,LKA,2016,5.44
+Sudan,SDN,2009,18.36
+Sudan,SDN,2014,12.46
+Syrian Arab Republic,SYR,2003,5.54
+Syrian Arab Republic,SYR,2007,6.88
+São Tomé and Príncipe,STP,2010,0.86
+São Tomé and Príncipe,STP,2017,4.83
+Tajikistan,TJK,1999,11.89
+Tajikistan,TJK,2007,6.46
+Tajikistan,TJK,2009,15.38
+Tajikistan,TJK,2013,7.57
+Tajikistan,TJK,2014,8.42
+Tajikistan,TJK,2016,9.15
+Tajikistan,TJK,2017,8.85
+Tajikistan,TJK,2018,9.8
+Tanzania,TZA,2000,5.01
+Tanzania,TZA,2007,2.24
+Tanzania,TZA,2011,5.64
+Tanzania,TZA,2018,4.3
+Timor-Leste,TLS,2007,2.36
+Timor-Leste,TLS,2014,2.61
+Togo,TGO,2006,10.65
+Togo,TGO,2011,11.12
+Togo,TGO,2015,26.45
+Togo,TGO,2018,13.68
+Tunisia,TUN,1995,16.33
+Tunisia,TUN,2000,22.54
+Tunisia,TUN,2005,21.91
+Tunisia,TUN,2010,16.69
+Tunisia,TUN,2015,16.74
+Uganda,UGA,1996,14.62
+Uganda,UGA,1999,9.43
+Uganda,UGA,2002,9.57
+Uganda,UGA,2005,20.3
+Uganda,UGA,2009,16.77
+Uganda,UGA,2012,15.74
+Uganda,UGA,2016,15.27
+Ukraine,UKR,2002,12.41
+Ukraine,UKR,2003,10.22
+Ukraine,UKR,2004,10.33
+Ukraine,UKR,2005,8.2
+Ukraine,UKR,2006,8.36
+Ukraine,UKR,2007,9.07
+Ukraine,UKR,2008,5.83
+Ukraine,UKR,2009,6.83
+Ukraine,UKR,2010,6.91
+Ukraine,UKR,2011,7.01
+Ukraine,UKR,2012,7.69
+Ukraine,UKR,2013,7.21
+Ukraine,UKR,2014,7.76
+Ukraine,UKR,2015,7.13
+Ukraine,UKR,2016,8.93
+Ukraine,UKR,2017,7.3
+Ukraine,UKR,2018,7.78
+Ukraine,UKR,2019,8.32
+Uzbekistan,UZB,2000,8.14
+Uzbekistan,UZB,2002,6.2
+Uzbekistan,UZB,2003,6.66
+Vietnam,VNM,1992,19.8
+Vietnam,VNM,1997,14.2
+Vietnam,VNM,1998,14.2
+Vietnam,VNM,2002,12.72
+Vietnam,VNM,2004,15.91
+Vietnam,VNM,2006,14.41
+Vietnam,VNM,2008,14.55
+Vietnam,VNM,2010,11.32
+Vietnam,VNM,2012,9.14
+Vietnam,VNM,2014,9.82
+Vietnam,VNM,2016,9.39
+Vietnam,VNM,2018,10.03
+Vietnam,VNM,2020,8.46
+"Yemen, Rep.",YEM,1998,6.09
+"Yemen, Rep.",YEM,2005,15.4
+"Yemen, Rep.",YEM,2014,15.83
+Zambia,ZMB,1996,4.96
+Zambia,ZMB,2004,2.79
+Zambia,ZMB,2006,1.85
+Zambia,ZMB,2010,0.29
+Zambia,ZMB,2015,0.28
+Zimbabwe,ZWE,2017,11.82

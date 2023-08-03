@@ -1,0 +1,82 @@
+country,country.code,income.group_wb,region_un,country.id_gbd
+Afghanistan,AFG,Low income,Central and Southern Asia,160
+Algeria,DZA,Lower middle income,Northern Africa and Western Asia,139
+Angola,AGO,Lower middle income,Sub-Saharan Africa,168
+Bangladesh,BGD,Lower middle income,Central and Southern Asia,161
+Benin,BEN,Lower middle income,Sub-Saharan Africa,200
+Bhutan,BTN,Lower middle income,Central and Southern Asia,162
+Bolivia,BOL,Lower middle income,Latin America and the Caribbean,121
+Burkina Faso,BFA,Low income,Sub-Saharan Africa,201
+Burundi,BDI,Low income,Sub-Saharan Africa,175
+Cabo Verde,CPV,Lower middle income,Sub-Saharan Africa,203
+Cambodia,KHM,Lower middle income,Eastern and South-eastern Asia,10
+Cameroon,CMR,Lower middle income,Sub-Saharan Africa,202
+Central African Republic,CAF,Low income,Sub-Saharan Africa,169
+Chad,TCD,Low income,Sub-Saharan Africa,204
+Comoros,COM,Lower middle income,Sub-Saharan Africa,176
+"Congo, Dem. Rep.",COD,Low income,Sub-Saharan Africa,171
+"Congo, Rep.",COG,Lower middle income,Sub-Saharan Africa,170
+Côte d’Ivoire,CIV,Lower middle income,Sub-Saharan Africa,205
+Djibouti,DJI,Lower middle income,Sub-Saharan Africa,177
+"Egypt, Arab Rep.",EGY,Lower middle income,Northern Africa and Western Asia,141
+El Salvador,SLV,Lower middle income,Latin America and the Caribbean,127
+Eritrea,ERI,Low income,Sub-Saharan Africa,178
+Eswatini,SWZ,Lower middle income,Sub-Saharan Africa,197
+Ethiopia,ETH,Low income,Sub-Saharan Africa,179
+"Gambia, The",GMB,Low income,Sub-Saharan Africa,206
+Ghana,GHA,Lower middle income,Sub-Saharan Africa,207
+Guinea,GIN,Low income,Sub-Saharan Africa,208
+Guinea-Bissau,GNB,Low income,Sub-Saharan Africa,209
+Haiti,HTI,Lower middle income,Latin America and the Caribbean,114
+Honduras,HND,Lower middle income,Latin America and the Caribbean,129
+India,IND,Lower middle income,Central and Southern Asia,163
+Indonesia,IDN,Lower middle income,Eastern and South-eastern Asia,11
+"Iran, Islamic Rep.",IRN,Lower middle income,Central and Southern Asia,142
+Kenya,KEN,Lower middle income,Sub-Saharan Africa,180
+Kiribati,KIR,Lower middle income,Oceania,23
+"Korea, Dem. People's Rep.",PRK,Low income,Eastern and South-eastern Asia,7
+Kyrgyz Republic,KGZ,Lower middle income,Central and Southern Asia,37
+Lao PDR,LAO,Lower middle income,Eastern and South-eastern Asia,12
+Lebanon,LBN,Lower middle income,Northern Africa and Western Asia,146
+Lesotho,LSO,Lower middle income,Sub-Saharan Africa,194
+Liberia,LBR,Low income,Sub-Saharan Africa,210
+Madagascar,MDG,Low income,Sub-Saharan Africa,181
+Malawi,MWI,Low income,Sub-Saharan Africa,182
+Mali,MLI,Low income,Sub-Saharan Africa,211
+Mauritania,MRT,Lower middle income,Sub-Saharan Africa,212
+"Micronesia, Fed. Sts.",FSM,Lower middle income,Oceania,25
+Mongolia,MNG,Lower middle income,Eastern and South-eastern Asia,38
+Morocco,MAR,Lower middle income,Northern Africa and Western Asia,148
+Mozambique,MOZ,Low income,Sub-Saharan Africa,184
+Myanmar,MMR,Lower middle income,Eastern and South-eastern Asia,15
+Nepal,NPL,Lower middle income,Central and Southern Asia,164
+Nicaragua,NIC,Lower middle income,Latin America and the Caribbean,131
+Niger,NER,Low income,Sub-Saharan Africa,213
+Nigeria,NGA,Lower middle income,Sub-Saharan Africa,214
+Pakistan,PAK,Lower middle income,Central and Southern Asia,165
+Papua New Guinea,PNG,Lower middle income,Oceania,26
+Philippines,PHL,Lower middle income,Eastern and South-eastern Asia,16
+Rwanda,RWA,Low income,Sub-Saharan Africa,185
+Samoa,WSM,Lower middle income,Oceania,27
+Senegal,SEN,Lower middle income,Sub-Saharan Africa,216
+Sierra Leone,SLE,Low income,Sub-Saharan Africa,217
+Solomon Islands,SLB,Lower middle income,Oceania,28
+Somalia,SOM,Low income,Sub-Saharan Africa,187
+South Sudan,SSD,Low income,Sub-Saharan Africa,435
+Sri Lanka,LKA,Lower middle income,Central and Southern Asia,17
+Sudan,SDN,Low income,Northern Africa and Western Asia,522
+Syrian Arab Republic,SYR,Low income,Northern Africa and Western Asia,153
+São Tomé and Príncipe,STP,Lower middle income,Sub-Saharan Africa,215
+Tajikistan,TJK,Lower middle income,Central and Southern Asia,39
+Tanzania,TZA,Lower middle income,Sub-Saharan Africa,189
+Timor-Leste,TLS,Lower middle income,Eastern and South-eastern Asia,19
+Togo,TGO,Low income,Sub-Saharan Africa,218
+Tunisia,TUN,Lower middle income,Northern Africa and Western Asia,154
+Uganda,UGA,Low income,Sub-Saharan Africa,190
+Ukraine,UKR,Lower middle income,Europe and Northern America,63
+Uzbekistan,UZB,Lower middle income,Central and Southern Asia,41
+Vanuatu,VUT,Lower middle income,Oceania,30
+Vietnam,VNM,Lower middle income,Eastern and South-eastern Asia,20
+"Yemen, Rep.",YEM,Low income,Northern Africa and Western Asia,157
+Zambia,ZMB,Low income,Sub-Saharan Africa,191
+Zimbabwe,ZWE,Lower middle income,Sub-Saharan Africa,198
