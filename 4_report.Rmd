@@ -540,3 +540,27 @@ ggsave(filename = "./report/desc_health spending per the_trend.png",
        dpi = 600)
 ```
 
+### Map
+```{r}
+library(sf)
+library("rnaturalearth")
+library("rnaturalearthdata")
+
+# load data
+data_list <- list.files(path = dir_data, pattern = "^[^@]*.csv")
+country_list <- read_csv(file.path(dir_data, data_list[1]))
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+country_sf <- world %>% 
+  left_join(country_list, by = c("iso_a3" = "country.code")) %>%
+  filter(is.na(country) == F)
+
+ggplot() +
+  geom_sf(data = world, fill = "white") +
+  geom_sf(data = country_sf, aes(fill = income.group_wb)) +
+  coord_sf() + 
+  theme_bw() +
+  labs(fill = "Income group (WB)")
+```
+
