@@ -2,7 +2,7 @@
 
 ### Assessing the impact of aid on universal health coverage in low and lower middle-income countries in the 1990-2019 period
 
-**Student:** Pham Huong Giang \| 20220676 \| contact email: [s0220676\@ad.ua.ac.be](mailto:s0220676@ad.ua.ac.be)
+**Student:** Pham Huong Giang \| 20220676 (contact email: [s0220676\@ad.ua.ac.be](mailto:s0220676@ad.ua.ac.be)
 
 **Supervisor:** Prof. George Mavrotas (IOB -- University of Antwerp)
 
